@@ -1,0 +1,6 @@
+* text=auto
+*.ps1 text eol=crlf
+*.sql text
+*.csv text
+*.gs  text
+*.md  text

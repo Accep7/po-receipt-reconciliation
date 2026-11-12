@@ -1,0 +1,9 @@
+# Database backups never go in the repo
+*.bak
+
+# Local tooling / OS clutter
+.clasp.json
+.vscode/
+Thumbs.db
+desktop.ini
+~$*

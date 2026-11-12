@@ -1,0 +1,1070 @@
+product_id,sku,product_name,location_id,location_name,shelf,bin,on_hand_qty
+1,AR-5381,Adjustable Race,1,Tool Crib,A,1,408
+1,AR-5381,Adjustable Race,6,Miscellaneous Storage,B,5,324
+1,AR-5381,Adjustable Race,50,Subassembly,A,5,353
+2,BA-8327,Bearing Ball,1,Tool Crib,A,2,427
+2,BA-8327,Bearing Ball,6,Miscellaneous Storage,B,1,318
+2,BA-8327,Bearing Ball,50,Subassembly,A,6,364
+994,BB-7421,LL Bottom Bracket,1,Tool Crib,A,3,244
+994,BB-7421,LL Bottom Bracket,6,Miscellaneous Storage,B,6,358
+994,BB-7421,LL Bottom Bracket,50,Subassembly,A,7,212
+995,BB-8107,ML Bottom Bracket,1,Tool Crib,A,4,230
+995,BB-8107,ML Bottom Bracket,6,Miscellaneous Storage,B,7,321
+995,BB-8107,ML Bottom Bracket,50,Subassembly,A,8,265
+996,BB-9108,HL Bottom Bracket,1,Tool Crib,A,5,321
+996,BB-9108,HL Bottom Bracket,6,Miscellaneous Storage,B,8,475
+996,BB-9108,HL Bottom Bracket,50,Subassembly,A,9,174
+871,BC-M005,Mountain Bottle Cage,7,Finished Goods Storage,N/A,0,288
+872,BC-R205,Road Bottle Cage,7,Finished Goods Storage,N/A,0,324
+3,BE-2349,BB Ball Bearing,1,Tool Crib,A,7,585
+3,BE-2349,BB Ball Bearing,6,Miscellaneous Storage,B,9,443
+3,BE-2349,BB Ball Bearing,50,Subassembly,A,10,324
+4,BE-2908,Headset Ball Bearings,1,Tool Crib,A,6,512
+4,BE-2908,Headset Ball Bearings,6,Miscellaneous Storage,B,10,422
+4,BE-2908,Headset Ball Bearings,50,Subassembly,A,11,388
+989,BK-M18B-40,"Mountain-500 Black, 40",7,Finished Goods Storage,N/A,0,51
+989,BK-M18B-40,"Mountain-500 Black, 40",60,Final Assembly,N/A,0,99
+990,BK-M18B-42,"Mountain-500 Black, 42",7,Finished Goods Storage,N/A,0,86
+990,BK-M18B-42,"Mountain-500 Black, 42",60,Final Assembly,N/A,0,67
+991,BK-M18B-44,"Mountain-500 Black, 44",7,Finished Goods Storage,N/A,0,81
+991,BK-M18B-44,"Mountain-500 Black, 44",60,Final Assembly,N/A,0,73
+992,BK-M18B-48,"Mountain-500 Black, 48",7,Finished Goods Storage,N/A,0,60
+992,BK-M18B-48,"Mountain-500 Black, 48",60,Final Assembly,N/A,0,104
+993,BK-M18B-52,"Mountain-500 Black, 52",7,Finished Goods Storage,N/A,0,123
+993,BK-M18B-52,"Mountain-500 Black, 52",60,Final Assembly,N/A,0,30
+984,BK-M18S-40,"Mountain-500 Silver, 40",7,Finished Goods Storage,N/A,0,81
+984,BK-M18S-40,"Mountain-500 Silver, 40",60,Final Assembly,N/A,0,73
+985,BK-M18S-42,"Mountain-500 Silver, 42",7,Finished Goods Storage,N/A,0,60
+985,BK-M18S-42,"Mountain-500 Silver, 42",60,Final Assembly,N/A,0,104
+986,BK-M18S-44,"Mountain-500 Silver, 44",7,Finished Goods Storage,N/A,0,123
+986,BK-M18S-44,"Mountain-500 Silver, 44",60,Final Assembly,N/A,0,30
+987,BK-M18S-48,"Mountain-500 Silver, 48",7,Finished Goods Storage,N/A,0,99
+987,BK-M18S-48,"Mountain-500 Silver, 48",60,Final Assembly,N/A,0,56
+988,BK-M18S-52,"Mountain-500 Silver, 52",7,Finished Goods Storage,N/A,0,78
+988,BK-M18S-52,"Mountain-500 Silver, 52",60,Final Assembly,N/A,0,116
+980,BK-M38S-38,"Mountain-400-W Silver, 38",7,Finished Goods Storage,N/A,0,51
+980,BK-M38S-38,"Mountain-400-W Silver, 38",60,Final Assembly,N/A,0,99
+981,BK-M38S-40,"Mountain-400-W Silver, 40",7,Finished Goods Storage,N/A,0,86
+981,BK-M38S-40,"Mountain-400-W Silver, 40",60,Final Assembly,N/A,0,67
+982,BK-M38S-42,"Mountain-400-W Silver, 42",7,Finished Goods Storage,N/A,0,81
+982,BK-M38S-42,"Mountain-400-W Silver, 42",60,Final Assembly,N/A,0,73
+983,BK-M38S-46,"Mountain-400-W Silver, 46",7,Finished Goods Storage,N/A,0,60
+983,BK-M38S-46,"Mountain-400-W Silver, 46",60,Final Assembly,N/A,0,104
+785,BK-M47B-38,"Mountain-300 Black, 38",7,Finished Goods Storage,N/A,0,75
+785,BK-M47B-38,"Mountain-300 Black, 38",60,Final Assembly,N/A,0,62
+786,BK-M47B-40,"Mountain-300 Black, 40",7,Finished Goods Storage,N/A,0,102
+786,BK-M47B-40,"Mountain-300 Black, 40",60,Final Assembly,N/A,0,121
+787,BK-M47B-44,"Mountain-300 Black, 44",7,Finished Goods Storage,N/A,0,32
+787,BK-M47B-44,"Mountain-300 Black, 44",60,Final Assembly,N/A,0,108
+788,BK-M47B-48,"Mountain-300 Black, 48",7,Finished Goods Storage,N/A,0,52
+788,BK-M47B-48,"Mountain-300 Black, 48",60,Final Assembly,N/A,0,76
+782,BK-M68B-38,"Mountain-200 Black, 38",7,Finished Goods Storage,N/A,0,100
+782,BK-M68B-38,"Mountain-200 Black, 38",60,Final Assembly,N/A,0,88
+783,BK-M68B-42,"Mountain-200 Black, 42",7,Finished Goods Storage,N/A,0,65
+783,BK-M68B-42,"Mountain-200 Black, 42",60,Final Assembly,N/A,0,83
+784,BK-M68B-46,"Mountain-200 Black, 46",7,Finished Goods Storage,N/A,0,75
+784,BK-M68B-46,"Mountain-200 Black, 46",60,Final Assembly,N/A,0,62
+779,BK-M68S-38,"Mountain-200 Silver, 38",7,Finished Goods Storage,N/A,0,75
+779,BK-M68S-38,"Mountain-200 Silver, 38",60,Final Assembly,N/A,0,62
+780,BK-M68S-42,"Mountain-200 Silver, 42",7,Finished Goods Storage,N/A,0,102
+780,BK-M68S-42,"Mountain-200 Silver, 42",60,Final Assembly,N/A,0,121
+781,BK-M68S-46,"Mountain-200 Silver, 46",7,Finished Goods Storage,N/A,0,32
+781,BK-M68S-46,"Mountain-200 Silver, 46",60,Final Assembly,N/A,0,108
+775,BK-M82B-38,"Mountain-100 Black, 38",7,Finished Goods Storage,N/A,0,99
+775,BK-M82B-38,"Mountain-100 Black, 38",60,Final Assembly,N/A,0,56
+776,BK-M82B-42,"Mountain-100 Black, 42",7,Finished Goods Storage,N/A,0,78
+776,BK-M82B-42,"Mountain-100 Black, 42",60,Final Assembly,N/A,0,116
+777,BK-M82B-44,"Mountain-100 Black, 44",7,Finished Goods Storage,N/A,0,49
+777,BK-M82B-44,"Mountain-100 Black, 44",60,Final Assembly,N/A,0,100
+778,BK-M82B-48,"Mountain-100 Black, 48",7,Finished Goods Storage,N/A,0,88
+778,BK-M82B-48,"Mountain-100 Black, 48",60,Final Assembly,N/A,0,65
+771,BK-M82S-38,"Mountain-100 Silver, 38",7,Finished Goods Storage,N/A,0,49
+771,BK-M82S-38,"Mountain-100 Silver, 38",60,Final Assembly,N/A,0,100
+772,BK-M82S-42,"Mountain-100 Silver, 42",7,Finished Goods Storage,N/A,0,88
+772,BK-M82S-42,"Mountain-100 Silver, 42",60,Final Assembly,N/A,0,65
+773,BK-M82S-44,"Mountain-100 Silver, 44",7,Finished Goods Storage,N/A,0,83
+773,BK-M82S-44,"Mountain-100 Silver, 44",60,Final Assembly,N/A,0,75
+774,BK-M82S-48,"Mountain-100 Silver, 48",7,Finished Goods Storage,N/A,0,62
+774,BK-M82S-48,"Mountain-100 Silver, 48",60,Final Assembly,N/A,0,102
+997,BK-R19B-44,"Road-750 Black, 44",7,Finished Goods Storage,N/A,0,123
+997,BK-R19B-44,"Road-750 Black, 44",60,Final Assembly,N/A,0,30
+998,BK-R19B-48,"Road-750 Black, 48",7,Finished Goods Storage,N/A,0,99
+998,BK-R19B-48,"Road-750 Black, 48",60,Final Assembly,N/A,0,56
+999,BK-R19B-52,"Road-750 Black, 52",7,Finished Goods Storage,N/A,0,78
+999,BK-R19B-52,"Road-750 Black, 52",60,Final Assembly,N/A,0,116
+977,BK-R19B-58,"Road-750 Black, 58",7,Finished Goods Storage,N/A,0,88
+977,BK-R19B-58,"Road-750 Black, 58",60,Final Assembly,N/A,0,65
+768,BK-R50B-44,"Road-650 Black, 44",7,Finished Goods Storage,N/A,0,67
+768,BK-R50B-44,"Road-650 Black, 44",60,Final Assembly,N/A,0,81
+769,BK-R50B-48,"Road-650 Black, 48",7,Finished Goods Storage,N/A,0,73
+769,BK-R50B-48,"Road-650 Black, 48",60,Final Assembly,N/A,0,60
+770,BK-R50B-52,"Road-650 Black, 52",7,Finished Goods Storage,N/A,0,104
+770,BK-R50B-52,"Road-650 Black, 52",60,Final Assembly,N/A,0,123
+765,BK-R50B-58,"Road-650 Black, 58",7,Finished Goods Storage,N/A,0,56
+765,BK-R50B-58,"Road-650 Black, 58",60,Final Assembly,N/A,0,78
+766,BK-R50B-60,"Road-650 Black, 60",7,Finished Goods Storage,N/A,0,116
+766,BK-R50B-60,"Road-650 Black, 60",60,Final Assembly,N/A,0,49
+767,BK-R50B-62,"Road-650 Black, 62",7,Finished Goods Storage,N/A,0,100
+767,BK-R50B-62,"Road-650 Black, 62",60,Final Assembly,N/A,0,88
+762,BK-R50R-44,"Road-650 Red, 44",7,Finished Goods Storage,N/A,0,75
+762,BK-R50R-44,"Road-650 Red, 44",60,Final Assembly,N/A,0,62
+763,BK-R50R-48,"Road-650 Red, 48",7,Finished Goods Storage,N/A,0,102
+763,BK-R50R-48,"Road-650 Red, 48",60,Final Assembly,N/A,0,121
+764,BK-R50R-52,"Road-650 Red, 52",7,Finished Goods Storage,N/A,0,32
+764,BK-R50R-52,"Road-650 Red, 52",60,Final Assembly,N/A,0,108
+759,BK-R50R-58,"Road-650 Red, 58",7,Finished Goods Storage,N/A,0,112
+759,BK-R50R-58,"Road-650 Red, 58",60,Final Assembly,N/A,0,51
+760,BK-R50R-60,"Road-650 Red, 60",7,Finished Goods Storage,N/A,0,99
+760,BK-R50R-60,"Road-650 Red, 60",60,Final Assembly,N/A,0,86
+761,BK-R50R-62,"Road-650 Red, 62",7,Finished Goods Storage,N/A,0,67
+761,BK-R50R-62,"Road-650 Red, 62",60,Final Assembly,N/A,0,81
+797,BK-R64Y-38,"Road-550-W Yellow, 38",7,Finished Goods Storage,N/A,0,67
+797,BK-R64Y-38,"Road-550-W Yellow, 38",60,Final Assembly,N/A,0,81
+798,BK-R64Y-40,"Road-550-W Yellow, 40",7,Finished Goods Storage,N/A,0,73
+798,BK-R64Y-40,"Road-550-W Yellow, 40",60,Final Assembly,N/A,0,60
+799,BK-R64Y-42,"Road-550-W Yellow, 42",7,Finished Goods Storage,N/A,0,104
+799,BK-R64Y-42,"Road-550-W Yellow, 42",60,Final Assembly,N/A,0,123
+800,BK-R64Y-44,"Road-550-W Yellow, 44",7,Finished Goods Storage,N/A,0,30
+800,BK-R64Y-44,"Road-550-W Yellow, 44",60,Final Assembly,N/A,0,99
+801,BK-R64Y-48,"Road-550-W Yellow, 48",7,Finished Goods Storage,N/A,0,56
+801,BK-R64Y-48,"Road-550-W Yellow, 48",60,Final Assembly,N/A,0,78
+756,BK-R68R-44,"Road-450 Red, 44",7,Finished Goods Storage,N/A,0,30
+756,BK-R68R-44,"Road-450 Red, 44",60,Final Assembly,N/A,0,99
+757,BK-R68R-48,"Road-450 Red, 48",7,Finished Goods Storage,N/A,0,56
+757,BK-R68R-48,"Road-450 Red, 48",60,Final Assembly,N/A,0,78
+758,BK-R68R-52,"Road-450 Red, 52",7,Finished Goods Storage,N/A,0,116
+758,BK-R68R-52,"Road-450 Red, 52",60,Final Assembly,N/A,0,49
+754,BK-R68R-58,"Road-450 Red, 58",7,Finished Goods Storage,N/A,0,65
+754,BK-R68R-58,"Road-450 Red, 58",60,Final Assembly,N/A,0,83
+755,BK-R68R-60,"Road-450 Red, 60",7,Finished Goods Storage,N/A,0,75
+755,BK-R68R-60,"Road-450 Red, 60",60,Final Assembly,N/A,0,62
+973,BK-R79Y-40,"Road-350-W Yellow, 40",7,Finished Goods Storage,N/A,0,99
+973,BK-R79Y-40,"Road-350-W Yellow, 40",60,Final Assembly,N/A,0,86
+974,BK-R79Y-42,"Road-350-W Yellow, 42",7,Finished Goods Storage,N/A,0,67
+974,BK-R79Y-42,"Road-350-W Yellow, 42",60,Final Assembly,N/A,0,81
+975,BK-R79Y-44,"Road-350-W Yellow, 44",7,Finished Goods Storage,N/A,0,73
+975,BK-R79Y-44,"Road-350-W Yellow, 44",60,Final Assembly,N/A,0,60
+976,BK-R79Y-48,"Road-350-W Yellow, 48",7,Finished Goods Storage,N/A,0,104
+976,BK-R79Y-48,"Road-350-W Yellow, 48",60,Final Assembly,N/A,0,123
+793,BK-R89B-44,"Road-250 Black, 44",7,Finished Goods Storage,N/A,0,56
+793,BK-R89B-44,"Road-250 Black, 44",60,Final Assembly,N/A,0,78
+794,BK-R89B-48,"Road-250 Black, 48",7,Finished Goods Storage,N/A,0,116
+794,BK-R89B-48,"Road-250 Black, 48",60,Final Assembly,N/A,0,49
+795,BK-R89B-52,"Road-250 Black, 52",7,Finished Goods Storage,N/A,0,100
+795,BK-R89B-52,"Road-250 Black, 52",60,Final Assembly,N/A,0,88
+796,BK-R89B-58,"Road-250 Black, 58",7,Finished Goods Storage,N/A,0,65
+796,BK-R89B-58,"Road-250 Black, 58",60,Final Assembly,N/A,0,83
+789,BK-R89R-44,"Road-250 Red, 44",7,Finished Goods Storage,N/A,0,112
+789,BK-R89R-44,"Road-250 Red, 44",60,Final Assembly,N/A,0,51
+790,BK-R89R-48,"Road-250 Red, 48",7,Finished Goods Storage,N/A,0,99
+790,BK-R89R-48,"Road-250 Red, 48",60,Final Assembly,N/A,0,86
+791,BK-R89R-52,"Road-250 Red, 52",7,Finished Goods Storage,N/A,0,67
+791,BK-R89R-52,"Road-250 Red, 52",60,Final Assembly,N/A,0,81
+792,BK-R89R-58,"Road-250 Red, 58",7,Finished Goods Storage,N/A,0,104
+792,BK-R89R-58,"Road-250 Red, 58",60,Final Assembly,N/A,0,123
+750,BK-R93R-44,"Road-150 Red, 44",7,Finished Goods Storage,N/A,0,102
+750,BK-R93R-44,"Road-150 Red, 44",60,Final Assembly,N/A,0,121
+751,BK-R93R-48,"Road-150 Red, 48",7,Finished Goods Storage,N/A,0,32
+751,BK-R93R-48,"Road-150 Red, 48",60,Final Assembly,N/A,0,108
+752,BK-R93R-52,"Road-150 Red, 52",7,Finished Goods Storage,N/A,0,52
+752,BK-R93R-52,"Road-150 Red, 52",60,Final Assembly,N/A,0,76
+753,BK-R93R-56,"Road-150 Red, 56",7,Finished Goods Storage,N/A,0,112
+753,BK-R93R-56,"Road-150 Red, 56",60,Final Assembly,N/A,0,51
+749,BK-R93R-62,"Road-150 Red, 62",7,Finished Goods Storage,N/A,0,73
+749,BK-R93R-62,"Road-150 Red, 62",60,Final Assembly,N/A,0,60
+978,BK-T18U-44,"Touring-3000 Blue, 44",7,Finished Goods Storage,N/A,0,91
+978,BK-T18U-44,"Touring-3000 Blue, 44",60,Final Assembly,N/A,0,72
+979,BK-T18U-50,"Touring-3000 Blue, 50",7,Finished Goods Storage,N/A,0,86
+979,BK-T18U-50,"Touring-3000 Blue, 50",60,Final Assembly,N/A,0,78
+958,BK-T18U-54,"Touring-3000 Blue, 54",7,Finished Goods Storage,N/A,0,128
+958,BK-T18U-54,"Touring-3000 Blue, 54",60,Final Assembly,N/A,0,35
+959,BK-T18U-58,"Touring-3000 Blue, 58",7,Finished Goods Storage,N/A,0,83
+959,BK-T18U-58,"Touring-3000 Blue, 58",60,Final Assembly,N/A,0,121
+960,BK-T18U-62,"Touring-3000 Blue, 62",7,Finished Goods Storage,N/A,0,54
+960,BK-T18U-62,"Touring-3000 Blue, 62",60,Final Assembly,N/A,0,105
+961,BK-T18Y-44,"Touring-3000 Yellow, 44",7,Finished Goods Storage,N/A,0,88
+961,BK-T18Y-44,"Touring-3000 Yellow, 44",60,Final Assembly,N/A,0,80
+962,BK-T18Y-50,"Touring-3000 Yellow, 50",7,Finished Goods Storage,N/A,0,67
+962,BK-T18Y-50,"Touring-3000 Yellow, 50",60,Final Assembly,N/A,0,107
+963,BK-T18Y-54,"Touring-3000 Yellow, 54",7,Finished Goods Storage,N/A,0,126
+963,BK-T18Y-54,"Touring-3000 Yellow, 54",60,Final Assembly,N/A,0,36
+964,BK-T18Y-58,"Touring-3000 Yellow, 58",7,Finished Goods Storage,N/A,0,81
+964,BK-T18Y-58,"Touring-3000 Yellow, 58",60,Final Assembly,N/A,0,116
+965,BK-T18Y-62,"Touring-3000 Yellow, 62",7,Finished Goods Storage,N/A,0,91
+965,BK-T18Y-62,"Touring-3000 Yellow, 62",60,Final Assembly,N/A,0,72
+970,BK-T44U-46,"Touring-2000 Blue, 46",7,Finished Goods Storage,N/A,0,73
+970,BK-T44U-46,"Touring-2000 Blue, 46",60,Final Assembly,N/A,0,60
+971,BK-T44U-50,"Touring-2000 Blue, 50",7,Finished Goods Storage,N/A,0,104
+971,BK-T44U-50,"Touring-2000 Blue, 50",60,Final Assembly,N/A,0,123
+972,BK-T44U-54,"Touring-2000 Blue, 54",7,Finished Goods Storage,N/A,0,30
+972,BK-T44U-54,"Touring-2000 Blue, 54",60,Final Assembly,N/A,0,99
+953,BK-T44U-60,"Touring-2000 Blue, 60",7,Finished Goods Storage,N/A,0,116
+953,BK-T44U-60,"Touring-2000 Blue, 60",60,Final Assembly,N/A,0,49
+966,BK-T79U-46,"Touring-1000 Blue, 46",7,Finished Goods Storage,N/A,0,99
+966,BK-T79U-46,"Touring-1000 Blue, 46",60,Final Assembly,N/A,0,86
+967,BK-T79U-50,"Touring-1000 Blue, 50",7,Finished Goods Storage,N/A,0,67
+967,BK-T79U-50,"Touring-1000 Blue, 50",60,Final Assembly,N/A,0,81
+968,BK-T79U-54,"Touring-1000 Blue, 54",7,Finished Goods Storage,N/A,0,73
+968,BK-T79U-54,"Touring-1000 Blue, 54",60,Final Assembly,N/A,0,60
+969,BK-T79U-60,"Touring-1000 Blue, 60",7,Finished Goods Storage,N/A,0,30
+969,BK-T79U-60,"Touring-1000 Blue, 60",60,Final Assembly,N/A,0,99
+954,BK-T79Y-46,"Touring-1000 Yellow, 46",7,Finished Goods Storage,N/A,0,65
+954,BK-T79Y-46,"Touring-1000 Yellow, 46",60,Final Assembly,N/A,0,83
+955,BK-T79Y-50,"Touring-1000 Yellow, 50",7,Finished Goods Storage,N/A,0,75
+955,BK-T79Y-50,"Touring-1000 Yellow, 50",60,Final Assembly,N/A,0,62
+956,BK-T79Y-54,"Touring-1000 Yellow, 54",7,Finished Goods Storage,N/A,0,35
+956,BK-T79Y-54,"Touring-1000 Yellow, 54",60,Final Assembly,N/A,0,40
+957,BK-T79Y-60,"Touring-1000 Yellow, 60",7,Finished Goods Storage,N/A,0,51
+957,BK-T79Y-60,"Touring-1000 Yellow, 60",60,Final Assembly,N/A,0,100
+316,BL-2036,Blade,5,Metal Storage,A,11,532
+316,BL-2036,Blade,10,Frame Forming,B,1,388
+316,BL-2036,Blade,50,Subassembly,B,8,441
+712,CA-1098,AWC Logo Cap,7,Finished Goods Storage,N/A,0,288
+317,CA-5965,LL Crankarm,1,Tool Crib,C,1,283
+317,CA-5965,LL Crankarm,5,Metal Storage,A,1,158
+317,CA-5965,LL Crankarm,50,Subassembly,A,21,152
+318,CA-6738,ML Crankarm,1,Tool Crib,C,2,136
+318,CA-6738,ML Crankarm,5,Metal Storage,A,2,171
+318,CA-6738,ML Crankarm,50,Subassembly,A,22,132
+319,CA-7457,HL Crankarm,1,Tool Crib,C,3,308
+319,CA-7457,HL Crankarm,5,Metal Storage,A,3,184
+319,CA-7457,HL Crankarm,50,Subassembly,A,23,305
+320,CB-2903,Chainring Bolts,1,Tool Crib,C,4,481
+320,CB-2903,Chainring Bolts,5,Metal Storage,A,4,372
+320,CB-2903,Chainring Bolts,50,Subassembly,A,24,283
+952,CH-0234,Chain,1,Tool Crib,C,5,236
+952,CH-0234,Chain,5,Metal Storage,A,5,192
+952,CH-0234,Chain,50,Subassembly,A,25,161
+877,CL-9009,Bike Wash - Dissolver,7,Finished Goods Storage,N/A,0,36
+321,CN-6137,Chainring Nut,1,Tool Crib,C,6,569
+321,CN-6137,Chainring Nut,5,Metal Storage,A,6,540
+321,CN-6137,Chainring Nut,50,Subassembly,A,26,641
+322,CR-7833,Chainring,1,Tool Crib,C,7,622
+322,CR-7833,Chainring,5,Metal Storage,A,7,587
+322,CR-7833,Chainring,50,Subassembly,A,27,475
+323,CR-9981,Crown Race,1,Tool Crib,C,35,603
+323,CR-9981,Crown Race,5,Metal Storage,A,12,568
+323,CR-9981,Crown Race,50,Subassembly,A,28,513
+324,CS-2812,Chain Stays,1,Tool Crib,C,36,585
+324,CS-2812,Chain Stays,5,Metal Storage,A,13,568
+324,CS-2812,Chain Stays,50,Subassembly,A,29,476
+949,CS-4759,LL Crankset,1,Tool Crib,E,1,265
+949,CS-4759,LL Crankset,5,Metal Storage,A,14,336
+949,CS-4759,LL Crankset,50,Subassembly,A,30,284
+950,CS-6583,ML Crankset,1,Tool Crib,E,2,272
+950,CS-6583,ML Crankset,5,Metal Storage,A,15,342
+950,CS-6583,ML Crankset,50,Subassembly,A,31,291
+951,CS-9183,HL Crankset,1,Tool Crib,E,3,278
+951,CS-9183,HL Crankset,5,Metal Storage,A,16,348
+951,CS-9183,HL Crankset,50,Subassembly,A,32,297
+325,DC-8732,Decal 1,1,Tool Crib,H,1,569
+325,DC-8732,Decal 1,6,Miscellaneous Storage,G,1,540
+325,DC-8732,Decal 1,60,Final Assembly,A,1,641
+326,DC-9824,Decal 2,1,Tool Crib,H,2,622
+326,DC-9824,Decal 2,6,Miscellaneous Storage,G,2,587
+326,DC-9824,Decal 2,60,Final Assembly,A,2,475
+327,DT-2377,Down Tube,5,Metal Storage,K,1,408
+327,DT-2377,Down Tube,10,Frame Forming,F,1,443
+327,DT-2377,Down Tube,50,Subassembly,B,9,513
+328,EC-M092,Mountain End Caps,5,Metal Storage,A,8,568
+328,EC-M092,Mountain End Caps,10,Frame Forming,D,1,585
+328,EC-M092,Mountain End Caps,50,Subassembly,A,14,476
+329,EC-R098,Road End Caps,5,Metal Storage,A,9,558
+329,EC-R098,Road End Caps,10,Frame Forming,D,2,576
+329,EC-R098,Road End Caps,50,Subassembly,A,15,467
+330,EC-T209,Touring End Caps,5,Metal Storage,A,10,548
+330,EC-T209,Touring End Caps,10,Frame Forming,D,3,566
+330,EC-T209,Touring End Caps,50,Subassembly,A,16,457
+948,FB-9873,Front Brakes,5,Metal Storage,J,1,347
+948,FB-9873,Front Brakes,50,Subassembly,A,1,420
+350,FC-3654,Fork Crown,5,Metal Storage,J,2,622
+350,FC-3654,Fork Crown,10,Frame Forming,C,3,406
+350,FC-3654,Fork Crown,50,Subassembly,A,2,313
+351,FC-3982,Front Derailleur Cage,5,Metal Storage,J,3,179
+351,FC-3982,Front Derailleur Cage,10,Frame Forming,C,4,281
+351,FC-3982,Front Derailleur Cage,50,Subassembly,A,3,145
+945,FD-2342,Front Derailleur,5,Metal Storage,J,4,347
+945,FD-2342,Front Derailleur,10,Frame Forming,C,5,236
+945,FD-2342,Front Derailleur,50,Subassembly,A,4,270
+331,FE-3760,Fork End,5,Metal Storage,J,5,574
+331,FE-3760,Fork End,10,Frame Forming,C,6,441
+331,FE-3760,Fork End,50,Subassembly,A,12,390
+878,FE-6654,Fender Set - Mountain,7,Finished Goods Storage,N/A,0,108
+332,FH-2981,Freewheel,5,Metal Storage,J,6,344
+332,FH-2981,Freewheel,10,Frame Forming,C,7,233
+332,FH-2981,Freewheel,50,Subassembly,A,13,267
+802,FK-1639,LL Fork,5,Metal Storage,J,7,350
+802,FK-1639,LL Fork,10,Frame Forming,C,8,240
+802,FK-1639,LL Fork,50,Subassembly,A,17,273
+803,FK-5136,ML Fork,5,Metal Storage,J,8,356
+803,FK-5136,ML Fork,10,Frame Forming,C,9,246
+803,FK-5136,ML Fork,50,Subassembly,A,18,280
+804,FK-9939,HL Fork,5,Metal Storage,J,9,363
+804,FK-9939,HL Fork,10,Frame Forming,C,10,252
+804,FK-9939,HL Fork,50,Subassembly,A,19,286
+352,FL-2301,Front Derailleur Linkage,5,Metal Storage,J,10,300
+352,FL-2301,Front Derailleur Linkage,10,Frame Forming,C,1,278
+352,FL-2301,Front Derailleur Linkage,50,Subassembly,A,20,195
+943,FR-M21B-40,"LL Mountain Frame - Black, 40",10,Frame Forming,N/A,0,102
+943,FR-M21B-40,"LL Mountain Frame - Black, 40",20,Frame Welding,N/A,0,142
+943,FR-M21B-40,"LL Mountain Frame - Black, 40",30,Debur and Polish,N/A,0,129
+943,FR-M21B-40,"LL Mountain Frame - Black, 40",40,Paint,N/A,0,88
+943,FR-M21B-40,"LL Mountain Frame - Black, 40",50,Subassembly,N/A,0,140
+943,FR-M21B-40,"LL Mountain Frame - Black, 40",60,Final Assembly,N/A,0,118
+944,FR-M21S-40,"LL Mountain Frame - Silver, 40",10,Frame Forming,N/A,0,112
+944,FR-M21S-40,"LL Mountain Frame - Silver, 40",20,Frame Welding,N/A,0,96
+944,FR-M21S-40,"LL Mountain Frame - Silver, 40",30,Debur and Polish,N/A,0,123
+944,FR-M21S-40,"LL Mountain Frame - Silver, 40",45,Specialized Paint,N/A,0,136
+944,FR-M21S-40,"LL Mountain Frame - Silver, 40",50,Subassembly,N/A,0,81
+944,FR-M21S-40,"LL Mountain Frame - Silver, 40",60,Final Assembly,N/A,0,134
+814,FR-M63B-38,"ML Mountain Frame - Black, 38",10,Frame Forming,N/A,0,110
+814,FR-M63B-38,"ML Mountain Frame - Black, 38",20,Frame Welding,N/A,0,150
+814,FR-M63B-38,"ML Mountain Frame - Black, 38",30,Debur and Polish,N/A,0,137
+814,FR-M63B-38,"ML Mountain Frame - Black, 38",40,Paint,N/A,0,96
+814,FR-M63B-38,"ML Mountain Frame - Black, 38",50,Subassembly,N/A,0,148
+814,FR-M63B-38,"ML Mountain Frame - Black, 38",60,Final Assembly,N/A,0,126
+942,FR-M63S-38,"ML Mountain Frame-W - Silver, 38",10,Frame Forming,N/A,0,120
+942,FR-M63S-38,"ML Mountain Frame-W - Silver, 38",20,Frame Welding,N/A,0,160
+942,FR-M63S-38,"ML Mountain Frame-W - Silver, 38",30,Debur and Polish,N/A,0,147
+942,FR-M63S-38,"ML Mountain Frame-W - Silver, 38",45,Specialized Paint,N/A,0,105
+942,FR-M63S-38,"ML Mountain Frame-W - Silver, 38",50,Subassembly,N/A,0,158
+942,FR-M63S-38,"ML Mountain Frame-W - Silver, 38",60,Final Assembly,N/A,0,136
+747,FR-M94B-38,"HL Mountain Frame - Black, 38",10,Frame Forming,N/A,0,121
+747,FR-M94B-38,"HL Mountain Frame - Black, 38",20,Frame Welding,N/A,0,161
+747,FR-M94B-38,"HL Mountain Frame - Black, 38",30,Debur and Polish,N/A,0,148
+747,FR-M94B-38,"HL Mountain Frame - Black, 38",40,Paint,N/A,0,107
+747,FR-M94B-38,"HL Mountain Frame - Black, 38",50,Subassembly,N/A,0,160
+747,FR-M94B-38,"HL Mountain Frame - Black, 38",60,Final Assembly,N/A,0,137
+748,FR-M94S-38,"HL Mountain Frame - Silver, 38",10,Frame Forming,N/A,0,105
+748,FR-M94S-38,"HL Mountain Frame - Silver, 38",20,Frame Welding,N/A,0,145
+748,FR-M94S-38,"HL Mountain Frame - Silver, 38",30,Debur and Polish,N/A,0,132
+748,FR-M94S-38,"HL Mountain Frame - Silver, 38",45,Specialized Paint,N/A,0,91
+748,FR-M94S-38,"HL Mountain Frame - Silver, 38",50,Subassembly,N/A,0,144
+748,FR-M94S-38,"HL Mountain Frame - Silver, 38",60,Final Assembly,N/A,0,121
+822,FR-R72Y-38,"ML Road Frame-W - Yellow, 38",10,Frame Forming,N/A,0,115
+822,FR-R72Y-38,"ML Road Frame-W - Yellow, 38",20,Frame Welding,N/A,0,155
+822,FR-R72Y-38,"ML Road Frame-W - Yellow, 38",30,Debur and Polish,N/A,0,142
+822,FR-R72Y-38,"ML Road Frame-W - Yellow, 38",40,Paint,N/A,0,100
+822,FR-R72Y-38,"ML Road Frame-W - Yellow, 38",50,Subassembly,N/A,0,153
+822,FR-R72Y-38,"ML Road Frame-W - Yellow, 38",60,Final Assembly,N/A,0,131
+341,FW-1000,Flat Washer 1,1,Tool Crib,E,4,372
+341,FW-1000,Flat Washer 1,50,Subassembly,G,10,392
+341,FW-1000,Flat Washer 1,60,Final Assembly,S,1,339
+342,FW-1200,Flat Washer 6,1,Tool Crib,E,5,369
+342,FW-1200,Flat Washer 6,50,Subassembly,G,12,388
+342,FW-1200,Flat Washer 6,60,Final Assembly,G,11,336
+343,FW-1400,Flat Washer 2,1,Tool Crib,E,6,568
+343,FW-1400,Flat Washer 2,50,Subassembly,S,3,606
+343,FW-1400,Flat Washer 2,60,Final Assembly,S,2,499
+344,FW-3400,Flat Washer 9,1,Tool Crib,E,7,358
+344,FW-3400,Flat Washer 9,50,Subassembly,G,14,332
+344,FW-3400,Flat Washer 9,60,Final Assembly,G,13,382
+345,FW-3800,Flat Washer 4,1,Tool Crib,E,8,321
+345,FW-3800,Flat Washer 4,50,Subassembly,G,15,315
+345,FW-3800,Flat Washer 4,60,Final Assembly,S,4,300
+346,FW-5160,Flat Washer 3,1,Tool Crib,E,9,585
+346,FW-5160,Flat Washer 3,50,Subassembly,S,6,476
+346,FW-5160,Flat Washer 3,60,Final Assembly,S,5,641
+347,FW-5800,Flat Washer 8,1,Tool Crib,E,10,318
+347,FW-5800,Flat Washer 8,50,Subassembly,G,17,246
+347,FW-5800,Flat Washer 8,60,Final Assembly,G,16,332
+348,FW-7160,Flat Washer 5,1,Tool Crib,E,11,323
+348,FW-7160,Flat Washer 5,50,Subassembly,S,8,251
+348,FW-7160,Flat Washer 5,60,Final Assembly,S,7,337
+349,FW-9160,Flat Washer 7,1,Tool Crib,E,12,328
+349,FW-9160,Flat Washer 7,50,Subassembly,G,18,256
+349,FW-9160,Flat Washer 7,60,Final Assembly,S,9,342
+815,FW-M423,LL Mountain Front Wheel,5,Metal Storage,T,1,265
+815,FW-M423,LL Mountain Front Wheel,50,Subassembly,B,1,457
+816,FW-M762,ML Mountain Front Wheel,5,Metal Storage,T,2,406
+816,FW-M762,ML Mountain Front Wheel,50,Subassembly,B,2,412
+817,FW-M928,HL Mountain Front Wheel,5,Metal Storage,T,3,443
+817,FW-M928,HL Mountain Front Wheel,50,Subassembly,B,3,388
+818,FW-R623,LL Road Front Wheel,5,Metal Storage,T,4,428
+818,FW-R623,LL Road Front Wheel,50,Subassembly,B,4,460
+819,FW-R762,ML Road Front Wheel,5,Metal Storage,T,5,409
+819,FW-R762,ML Road Front Wheel,50,Subassembly,B,5,384
+820,FW-R820,HL Road Front Wheel,5,Metal Storage,T,6,446
+820,FW-R820,HL Road Front Wheel,50,Subassembly,B,6,232
+821,FW-T905,Touring Front Wheel,5,Metal Storage,T,7,432
+821,FW-T905,Touring Front Wheel,50,Subassembly,B,7,304
+863,GL-F110-L,"Full-Finger Gloves, L",7,Finished Goods Storage,N/A,0,144
+862,GL-F110-M,"Full-Finger Gloves, M",7,Finished Goods Storage,N/A,0,108
+861,GL-F110-S,"Full-Finger Gloves, S",7,Finished Goods Storage,N/A,0,72
+860,GL-H102-L,"Half-Finger Gloves, L",7,Finished Goods Storage,N/A,0,36
+859,GL-H102-M,"Half-Finger Gloves, M",7,Finished Goods Storage,N/A,0,0
+858,GL-H102-S,"Half-Finger Gloves, S",7,Finished Goods Storage,N/A,0,324
+355,GP-0982,Guide Pulley,1,Tool Crib,D,16,276
+355,GP-0982,Guide Pulley,6,Miscellaneous Storage,H,16,257
+355,GP-0982,Guide Pulley,50,Subassembly,C,1,289
+356,GT-0820,LL Grip Tape,1,Tool Crib,D,17,262
+356,GT-0820,LL Grip Tape,6,Miscellaneous Storage,H,17,243
+356,GT-0820,LL Grip Tape,50,Subassembly,C,2,275
+357,GT-1209,ML Grip Tape,1,Tool Crib,D,18,248
+357,GT-1209,ML Grip Tape,6,Miscellaneous Storage,H,18,228
+357,GT-1209,ML Grip Tape,50,Subassembly,C,3,260
+358,GT-2908,HL Grip Tape,1,Tool Crib,D,19,233
+358,GT-2908,HL Grip Tape,6,Miscellaneous Storage,H,19,214
+358,GT-2908,HL Grip Tape,50,Subassembly,C,4,246
+808,HB-M243,LL Mountain Handlebars,10,Frame Forming,E,4,267
+808,HB-M243,LL Mountain Handlebars,20,Frame Welding,S,1,276
+808,HB-M243,LL Mountain Handlebars,50,Subassembly,F,2,316
+809,HB-M763,ML Mountain Handlebars,10,Frame Forming,E,5,264
+809,HB-M763,ML Mountain Handlebars,20,Frame Welding,S,2,273
+809,HB-M763,ML Mountain Handlebars,50,Subassembly,F,3,313
+810,HB-M918,HL Mountain Handlebars,10,Frame Forming,E,6,260
+810,HB-M918,HL Mountain Handlebars,20,Frame Welding,S,3,270
+810,HB-M918,HL Mountain Handlebars,50,Subassembly,F,4,310
+811,HB-R504,LL Road Handlebars,10,Frame Forming,E,7,257
+811,HB-R504,LL Road Handlebars,20,Frame Welding,S,4,267
+811,HB-R504,LL Road Handlebars,50,Subassembly,F,6,307
+812,HB-R720,ML Road Handlebars,10,Frame Forming,E,8,254
+812,HB-R720,ML Road Handlebars,20,Frame Welding,S,5,264
+812,HB-R720,ML Road Handlebars,50,Subassembly,F,7,304
+813,HB-R956,HL Road Handlebars,10,Frame Forming,E,9,251
+813,HB-R956,HL Road Handlebars,20,Frame Welding,S,6,260
+813,HB-R956,HL Road Handlebars,50,Subassembly,F,8,300
+946,HB-T721,LL Touring Handlebars,10,Frame Forming,E,10,248
+946,HB-T721,LL Touring Handlebars,20,Frame Welding,S,7,257
+946,HB-T721,LL Touring Handlebars,50,Subassembly,F,9,297
+947,HB-T928,HL Touring Handlebars,10,Frame Forming,E,11,244
+947,HB-T928,HL Touring Handlebars,20,Frame Welding,S,8,254
+947,HB-T928,HL Touring Handlebars,50,Subassembly,F,10,294
+359,HJ-1213,Thin-Jam Hex Nut 9,1,Tool Crib,C,8,369
+359,HJ-1213,Thin-Jam Hex Nut 9,6,Miscellaneous Storage,R,1,360
+359,HJ-1213,Thin-Jam Hex Nut 9,50,Subassembly,E,1,374
+360,HJ-1220,Thin-Jam Hex Nut 10,1,Tool Crib,C,9,363
+360,HJ-1220,Thin-Jam Hex Nut 10,6,Miscellaneous Storage,R,2,353
+360,HJ-1220,Thin-Jam Hex Nut 10,50,Subassembly,E,2,368
+361,HJ-1420,Thin-Jam Hex Nut 1,1,Tool Crib,C,10,499
+361,HJ-1420,Thin-Jam Hex Nut 1,6,Miscellaneous Storage,R,3,601
+361,HJ-1420,Thin-Jam Hex Nut 1,50,Subassembly,E,3,531
+362,HJ-1428,Thin-Jam Hex Nut 2,1,Tool Crib,C,11,377
+362,HJ-1428,Thin-Jam Hex Nut 2,6,Miscellaneous Storage,R,4,315
+362,HJ-1428,Thin-Jam Hex Nut 2,50,Subassembly,E,4,334
+363,HJ-3410,Thin-Jam Hex Nut 15,1,Tool Crib,C,12,499
+363,HJ-3410,Thin-Jam Hex Nut 15,6,Miscellaneous Storage,R,5,643
+363,HJ-3410,Thin-Jam Hex Nut 15,50,Subassembly,E,5,619
+364,HJ-3416,Thin-Jam Hex Nut 16,1,Tool Crib,C,13,368
+364,HJ-3416,Thin-Jam Hex Nut 16,6,Miscellaneous Storage,R,6,358
+364,HJ-3416,Thin-Jam Hex Nut 16,50,Subassembly,E,6,326
+365,HJ-3816,Thin-Jam Hex Nut 5,1,Tool Crib,C,14,411
+365,HJ-3816,Thin-Jam Hex Nut 5,6,Miscellaneous Storage,R,7,691
+365,HJ-3816,Thin-Jam Hex Nut 5,50,Subassembly,E,7,619
+366,HJ-3824,Thin-Jam Hex Nut 6,1,Tool Crib,C,15,318
+366,HJ-3824,Thin-Jam Hex Nut 6,6,Miscellaneous Storage,R,8,299
+366,HJ-3824,Thin-Jam Hex Nut 6,50,Subassembly,E,8,412
+367,HJ-5161,Thin-Jam Hex Nut 3,1,Tool Crib,C,16,643
+367,HJ-5161,Thin-Jam Hex Nut 3,6,Miscellaneous Storage,R,9,689
+367,HJ-5161,Thin-Jam Hex Nut 3,50,Subassembly,E,9,569
+368,HJ-5162,Thin-Jam Hex Nut 4,1,Tool Crib,C,17,369
+368,HJ-5162,Thin-Jam Hex Nut 4,6,Miscellaneous Storage,R,10,360
+368,HJ-5162,Thin-Jam Hex Nut 4,50,Subassembly,E,10,374
+369,HJ-5811,Thin-Jam Hex Nut 13,1,Tool Crib,C,18,363
+369,HJ-5811,Thin-Jam Hex Nut 13,6,Miscellaneous Storage,R,11,353
+369,HJ-5811,Thin-Jam Hex Nut 13,50,Subassembly,E,11,368
+370,HJ-5818,Thin-Jam Hex Nut 14,1,Tool Crib,C,19,252
+370,HJ-5818,Thin-Jam Hex Nut 14,6,Miscellaneous Storage,R,12,155
+370,HJ-5818,Thin-Jam Hex Nut 14,50,Subassembly,E,12,476
+371,HJ-7161,Thin-Jam Hex Nut 7,1,Tool Crib,C,20,585
+371,HJ-7161,Thin-Jam Hex Nut 7,6,Miscellaneous Storage,R,13,649
+371,HJ-7161,Thin-Jam Hex Nut 7,50,Subassembly,E,13,547
+372,HJ-7162,Thin-Jam Hex Nut 8,1,Tool Crib,C,21,281
+372,HJ-7162,Thin-Jam Hex Nut 8,6,Miscellaneous Storage,R,14,344
+372,HJ-7162,Thin-Jam Hex Nut 8,50,Subassembly,E,14,272
+373,HJ-9080,Thin-Jam Hex Nut 12,1,Tool Crib,C,22,284
+373,HJ-9080,Thin-Jam Hex Nut 12,6,Miscellaneous Storage,R,15,347
+373,HJ-9080,Thin-Jam Hex Nut 12,50,Subassembly,E,15,275
+374,HJ-9161,Thin-Jam Hex Nut 11,1,Tool Crib,C,23,288
+374,HJ-9161,Thin-Jam Hex Nut 11,6,Miscellaneous Storage,R,16,350
+374,HJ-9161,Thin-Jam Hex Nut 11,50,Subassembly,E,16,278
+708,HL-U509,"Sport-100 Helmet, Black",7,Finished Goods Storage,N/A,0,324
+711,HL-U509-B,"Sport-100 Helmet, Blue",7,Finished Goods Storage,N/A,0,216
+707,HL-U509-R,"Sport-100 Helmet, Red",7,Finished Goods Storage,N/A,0,288
+375,HN-1024,Hex Nut 5,1,Tool Crib,C,24,291
+375,HN-1024,Hex Nut 5,6,Miscellaneous Storage,R,17,353
+375,HN-1024,Hex Nut 5,50,Subassembly,E,17,281
+376,HN-1032,Hex Nut 6,1,Tool Crib,C,25,585
+376,HN-1032,Hex Nut 6,6,Miscellaneous Storage,R,18,649
+376,HN-1032,Hex Nut 6,50,Subassembly,E,18,547
+377,HN-1213,Hex Nut 16,1,Tool Crib,C,26,249
+377,HN-1213,Hex Nut 16,6,Miscellaneous Storage,R,19,299
+377,HN-1213,Hex Nut 16,50,Subassembly,E,19,393
+378,HN-1220,Hex Nut 17,1,Tool Crib,C,27,244
+378,HN-1220,Hex Nut 17,6,Miscellaneous Storage,R,20,294
+378,HN-1220,Hex Nut 17,50,Subassembly,E,20,388
+379,HN-1224,Hex Nut 7,1,Tool Crib,C,28,323
+379,HN-1224,Hex Nut 7,6,Miscellaneous Storage,R,21,897
+379,HN-1224,Hex Nut 7,50,Subassembly,E,21,691
+380,HN-1420,Hex Nut 8,1,Tool Crib,C,29,156
+380,HN-1420,Hex Nut 8,6,Miscellaneous Storage,R,22,264
+380,HN-1420,Hex Nut 8,50,Subassembly,E,22,350
+381,HN-1428,Hex Nut 9,1,Tool Crib,C,30,163
+381,HN-1428,Hex Nut 9,6,Miscellaneous Storage,R,23,270
+381,HN-1428,Hex Nut 9,50,Subassembly,E,23,356
+382,HN-3410,Hex Nut 22,1,Tool Crib,C,31,169
+382,HN-3410,Hex Nut 22,6,Miscellaneous Storage,R,24,276
+382,HN-3410,Hex Nut 22,50,Subassembly,E,24,363
+383,HN-3416,Hex Nut 23,1,Tool Crib,C,32,587
+383,HN-3416,Hex Nut 23,6,Miscellaneous Storage,R,25,676
+383,HN-3416,Hex Nut 23,50,Subassembly,E,25,638
+384,HN-3816,Hex Nut 12,1,Tool Crib,C,33,299
+384,HN-3816,Hex Nut 12,6,Miscellaneous Storage,R,26,217
+384,HN-3816,Hex Nut 12,50,Subassembly,E,26,304
+385,HN-3824,Hex Nut 13,1,Tool Crib,C,34,619
+385,HN-3824,Hex Nut 13,6,Miscellaneous Storage,R,27,526
+385,HN-3824,Hex Nut 13,50,Subassembly,E,27,633
+386,HN-4402,Hex Nut 1,1,Tool Crib,D,1,148
+386,HN-4402,Hex Nut 1,6,Miscellaneous Storage,R,28,192
+386,HN-4402,Hex Nut 1,50,Subassembly,E,28,385
+387,HN-5161,Hex Nut 10,1,Tool Crib,D,2,524
+387,HN-5161,Hex Nut 10,6,Miscellaneous Storage,R,29,710
+387,HN-5161,Hex Nut 10,50,Subassembly,E,29,654
+388,HN-5162,Hex Nut 11,1,Tool Crib,D,3,292
+388,HN-5162,Hex Nut 11,6,Miscellaneous Storage,R,30,140
+388,HN-5162,Hex Nut 11,50,Subassembly,E,30,366
+389,HN-5400,Hex Nut 2,1,Tool Crib,D,4,657
+389,HN-5400,Hex Nut 2,6,Miscellaneous Storage,R,31,691
+389,HN-5400,Hex Nut 2,50,Subassembly,E,31,460
+390,HN-5811,Hex Nut 20,1,Tool Crib,D,5,292
+390,HN-5811,Hex Nut 20,6,Miscellaneous Storage,R,32,140
+390,HN-5811,Hex Nut 20,50,Subassembly,E,32,366
+391,HN-5818,Hex Nut 21,1,Tool Crib,D,6,296
+391,HN-5818,Hex Nut 21,6,Miscellaneous Storage,R,33,144
+391,HN-5818,Hex Nut 21,50,Subassembly,E,33,369
+392,HN-6320,Hex Nut 3,1,Tool Crib,D,7,299
+392,HN-6320,Hex Nut 3,6,Miscellaneous Storage,R,34,147
+392,HN-6320,Hex Nut 3,50,Subassembly,E,34,372
+393,HN-7161,Hex Nut 14,1,Tool Crib,D,8,603
+393,HN-7161,Hex Nut 14,6,Miscellaneous Storage,R,35,780
+393,HN-7161,Hex Nut 14,50,Subassembly,E,35,497
+394,HN-7162,Hex Nut 15,1,Tool Crib,D,9,302
+394,HN-7162,Hex Nut 15,6,Miscellaneous Storage,R,36,150
+394,HN-7162,Hex Nut 15,50,Subassembly,E,36,459
+395,HN-8320,Hex Nut 4,1,Tool Crib,D,10,281
+395,HN-8320,Hex Nut 4,6,Miscellaneous Storage,R,37,355
+395,HN-8320,Hex Nut 4,50,Subassembly,E,37,148
+396,HN-9161,Hex Nut 18,1,Tool Crib,D,11,636
+396,HN-9161,Hex Nut 18,6,Miscellaneous Storage,R,38,585
+396,HN-9161,Hex Nut 18,50,Subassembly,E,38,603
+397,HN-9168,Hex Nut 19,1,Tool Crib,D,12,339
+397,HN-9168,Hex Nut 19,6,Miscellaneous Storage,R,39,550
+397,HN-9168,Hex Nut 19,50,Subassembly,E,39,763
+805,HS-0296,LL Headset,1,Tool Crib,D,13,284
+805,HS-0296,LL Headset,6,Miscellaneous Storage,R,40,265
+805,HS-0296,LL Headset,50,Subassembly,E,40,212
+806,HS-2451,ML Headset,1,Tool Crib,D,14,288
+806,HS-2451,ML Headset,6,Miscellaneous Storage,R,41,268
+806,HS-2451,ML Headset,50,Subassembly,E,41,216
+807,HS-3479,HL Headset,1,Tool Crib,D,15,291
+807,HS-3479,HL Headset,6,Miscellaneous Storage,R,42,272
+807,HS-3479,HL Headset,50,Subassembly,E,42,219
+398,HT-2981,Handlebar Tube,5,Metal Storage,B,1,372
+398,HT-2981,Handlebar Tube,10,Frame Forming,B,4,404
+398,HT-2981,Handlebar Tube,20,Frame Welding,A,3,550
+399,HT-8019,Head Tube,5,Metal Storage,B,2,366
+399,HT-8019,Head Tube,10,Frame Forming,B,5,398
+399,HT-8019,Head Tube,20,Frame Welding,A,4,544
+400,HU-6280,LL Hub,5,Metal Storage,B,3,260
+400,HU-6280,LL Hub,10,Frame Forming,B,2,246
+400,HU-6280,LL Hub,20,Frame Welding,A,1,284
+401,HU-8998,HL Hub,5,Metal Storage,B,4,283
+401,HU-8998,HL Hub,10,Frame Forming,B,3,212
+401,HU-8998,HL Hub,20,Frame Welding,A,2,302
+880,HY-1023-70,Hydration Pack - 70 oz.,7,Finished Goods Storage,N/A,0,108
+402,KW-4091,Keyed Washer,1,Tool Crib,F,1,316
+402,KW-4091,Keyed Washer,6,Miscellaneous Storage,G,3,353
+402,KW-4091,Keyed Washer,50,Subassembly,T,1,321
+403,LE-1000,External Lock Washer 3,1,Tool Crib,F,2,313
+403,LE-1000,External Lock Washer 3,6,Miscellaneous Storage,G,4,350
+403,LE-1000,External Lock Washer 3,50,Subassembly,T,2,318
+404,LE-1200,External Lock Washer 4,1,Tool Crib,F,3,310
+404,LE-1200,External Lock Washer 4,6,Miscellaneous Storage,G,5,347
+404,LE-1200,External Lock Washer 4,50,Subassembly,T,3,315
+405,LE-1201,External Lock Washer 9,1,Tool Crib,F,4,307
+405,LE-1201,External Lock Washer 9,6,Miscellaneous Storage,G,6,344
+405,LE-1201,External Lock Washer 9,50,Subassembly,T,4,312
+406,LE-1400,External Lock Washer 5,1,Tool Crib,F,5,304
+406,LE-1400,External Lock Washer 5,6,Miscellaneous Storage,G,7,340
+406,LE-1400,External Lock Washer 5,50,Subassembly,T,5,308
+407,LE-3800,External Lock Washer 7,1,Tool Crib,F,6,460
+407,LE-3800,External Lock Washer 7,6,Miscellaneous Storage,G,8,587
+407,LE-3800,External Lock Washer 7,50,Subassembly,T,6,625
+408,LE-5160,External Lock Washer 6,1,Tool Crib,F,7,417
+408,LE-5160,External Lock Washer 6,6,Miscellaneous Storage,G,9,344
+408,LE-5160,External Lock Washer 6,50,Subassembly,T,7,296
+409,LE-6000,External Lock Washer 1,1,Tool Crib,F,8,414
+409,LE-6000,External Lock Washer 1,6,Miscellaneous Storage,G,10,340
+409,LE-6000,External Lock Washer 1,50,Subassembly,T,8,292
+410,LE-7160,External Lock Washer 8,1,Tool Crib,F,9,411
+410,LE-7160,External Lock Washer 8,6,Miscellaneous Storage,G,11,337
+410,LE-7160,External Lock Washer 8,50,Subassembly,T,9,289
+411,LE-8000,External Lock Washer 2,1,Tool Crib,F,10,603
+411,LE-8000,External Lock Washer 2,6,Miscellaneous Storage,G,12,552
+411,LE-8000,External Lock Washer 2,50,Subassembly,T,10,459
+412,LI-1000,Internal Lock Washer 3,1,Tool Crib,F,11,299
+412,LI-1000,Internal Lock Washer 3,6,Miscellaneous Storage,G,13,321
+412,LI-1000,Internal Lock Washer 3,50,Subassembly,T,11,156
+413,LI-1200,Internal Lock Washer 4,1,Tool Crib,F,12,641
+413,LI-1200,Internal Lock Washer 4,6,Miscellaneous Storage,G,14,603
+413,LI-1200,Internal Lock Washer 4,50,Subassembly,T,12,459
+414,LI-1201,Internal Lock Washer 9,1,Tool Crib,F,13,427
+414,LI-1201,Internal Lock Washer 9,6,Miscellaneous Storage,G,15,321
+414,LI-1201,Internal Lock Washer 9,50,Subassembly,T,13,371
+415,LI-1400,Internal Lock Washer 5,1,Tool Crib,F,14,422
+415,LI-1400,Internal Lock Washer 5,6,Miscellaneous Storage,G,16,316
+415,LI-1400,Internal Lock Washer 5,50,Subassembly,T,14,366
+416,LI-3800,Internal Lock Washer 7,1,Tool Crib,F,15,417
+416,LI-3800,Internal Lock Washer 7,6,Miscellaneous Storage,G,17,312
+416,LI-3800,Internal Lock Washer 7,50,Subassembly,T,15,361
+417,LI-5160,Internal Lock Washer 6,1,Tool Crib,F,16,572
+417,LI-5160,Internal Lock Washer 6,6,Miscellaneous Storage,G,18,627
+417,LI-5160,Internal Lock Washer 6,50,Subassembly,T,16,516
+418,LI-5800,Internal Lock Washer 10,1,Tool Crib,F,17,248
+418,LI-5800,Internal Lock Washer 10,6,Miscellaneous Storage,G,19,283
+418,LI-5800,Internal Lock Washer 10,50,Subassembly,T,17,388
+419,LI-6000,Internal Lock Washer 1,1,Tool Crib,F,18,246
+419,LI-6000,Internal Lock Washer 1,6,Miscellaneous Storage,G,20,281
+419,LI-6000,Internal Lock Washer 1,50,Subassembly,T,18,387
+420,LI-7160,Internal Lock Washer 8,1,Tool Crib,F,19,244
+420,LI-7160,Internal Lock Washer 8,6,Miscellaneous Storage,G,21,280
+420,LI-7160,Internal Lock Washer 8,50,Subassembly,T,19,385
+421,LI-8000,Internal Lock Washer 2,1,Tool Crib,F,20,243
+421,LI-8000,Internal Lock Washer 2,6,Miscellaneous Storage,G,22,278
+421,LI-8000,Internal Lock Washer 2,50,Subassembly,T,20,384
+715,LJ-0192-L,"Long-Sleeve Logo Jersey, L",7,Finished Goods Storage,N/A,0,216
+714,LJ-0192-M,"Long-Sleeve Logo Jersey, M",7,Finished Goods Storage,N/A,0,180
+713,LJ-0192-S,"Long-Sleeve Logo Jersey, S",7,Finished Goods Storage,N/A,0,144
+716,LJ-0192-X,"Long-Sleeve Logo Jersey, XL",7,Finished Goods Storage,N/A,0,252
+422,LJ-1213,Thin-Jam Lock Nut 9,1,Tool Crib,K,1,620
+422,LJ-1213,Thin-Jam Lock Nut 9,6,Miscellaneous Storage,G,23,515
+422,LJ-1213,Thin-Jam Lock Nut 9,50,Subassembly,T,21,497
+423,LJ-1220,Thin-Jam Lock Nut 10,1,Tool Crib,K,2,619
+423,LJ-1220,Thin-Jam Lock Nut 10,6,Miscellaneous Storage,G,24,513
+423,LJ-1220,Thin-Jam Lock Nut 10,50,Subassembly,U,1,496
+424,LJ-1420,Thin-Jam Lock Nut 1,1,Tool Crib,K,3,617
+424,LJ-1420,Thin-Jam Lock Nut 1,6,Miscellaneous Storage,G,25,512
+424,LJ-1420,Thin-Jam Lock Nut 1,50,Subassembly,U,2,494
+425,LJ-1428,Thin-Jam Lock Nut 2,1,Tool Crib,K,4,616
+425,LJ-1428,Thin-Jam Lock Nut 2,6,Miscellaneous Storage,G,26,510
+425,LJ-1428,Thin-Jam Lock Nut 2,50,Subassembly,U,3,492
+426,LJ-3410,Thin-Jam Lock Nut 15,1,Tool Crib,K,5,614
+426,LJ-3410,Thin-Jam Lock Nut 15,6,Miscellaneous Storage,G,27,508
+426,LJ-3410,Thin-Jam Lock Nut 15,50,Subassembly,U,4,491
+427,LJ-3416,Thin-Jam Lock Nut 16,1,Tool Crib,K,6,612
+427,LJ-3416,Thin-Jam Lock Nut 16,6,Miscellaneous Storage,G,28,507
+427,LJ-3416,Thin-Jam Lock Nut 16,50,Subassembly,U,5,489
+428,LJ-3816,Thin-Jam Lock Nut 5,1,Tool Crib,K,7,611
+428,LJ-3816,Thin-Jam Lock Nut 5,6,Miscellaneous Storage,G,29,505
+428,LJ-3816,Thin-Jam Lock Nut 5,50,Subassembly,U,6,488
+429,LJ-3824,Thin-Jam Lock Nut 6,1,Tool Crib,K,8,609
+429,LJ-3824,Thin-Jam Lock Nut 6,6,Miscellaneous Storage,G,30,504
+429,LJ-3824,Thin-Jam Lock Nut 6,50,Subassembly,U,7,486
+430,LJ-5161,Thin-Jam Lock Nut 3,1,Tool Crib,K,9,608
+430,LJ-5161,Thin-Jam Lock Nut 3,6,Miscellaneous Storage,G,31,502
+430,LJ-5161,Thin-Jam Lock Nut 3,50,Subassembly,U,8,484
+431,LJ-5162,Thin-Jam Lock Nut 4,1,Tool Crib,K,10,611
+431,LJ-5162,Thin-Jam Lock Nut 4,6,Miscellaneous Storage,G,32,505
+431,LJ-5162,Thin-Jam Lock Nut 4,50,Subassembly,U,9,488
+432,LJ-5811,Thin-Jam Lock Nut 13,1,Tool Crib,K,11,614
+432,LJ-5811,Thin-Jam Lock Nut 13,6,Miscellaneous Storage,G,33,508
+432,LJ-5811,Thin-Jam Lock Nut 13,50,Subassembly,U,10,491
+433,LJ-5818,Thin-Jam Lock Nut 14,1,Tool Crib,L,1,617
+433,LJ-5818,Thin-Jam Lock Nut 14,6,Miscellaneous Storage,G,34,512
+433,LJ-5818,Thin-Jam Lock Nut 14,50,Subassembly,U,11,494
+434,LJ-7161,Thin-Jam Lock Nut 7,1,Tool Crib,L,2,620
+434,LJ-7161,Thin-Jam Lock Nut 7,6,Miscellaneous Storage,G,35,515
+434,LJ-7161,Thin-Jam Lock Nut 7,50,Subassembly,U,12,497
+435,LJ-7162,Thin-Jam Lock Nut 8,1,Tool Crib,L,3,624
+435,LJ-7162,Thin-Jam Lock Nut 8,6,Miscellaneous Storage,G,36,518
+435,LJ-7162,Thin-Jam Lock Nut 8,50,Subassembly,U,13,500
+436,LJ-9080,Thin-Jam Lock Nut 12,1,Tool Crib,L,4,627
+436,LJ-9080,Thin-Jam Lock Nut 12,6,Miscellaneous Storage,G,37,521
+436,LJ-9080,Thin-Jam Lock Nut 12,50,Subassembly,U,14,504
+437,LJ-9161,Thin-Jam Lock Nut 11,1,Tool Crib,L,5,630
+437,LJ-9161,Thin-Jam Lock Nut 11,6,Miscellaneous Storage,G,38,524
+437,LJ-9161,Thin-Jam Lock Nut 11,50,Subassembly,U,15,507
+438,LN-1024,Lock Nut 5,1,Tool Crib,L,6,633
+438,LN-1024,Lock Nut 5,6,Miscellaneous Storage,G,39,528
+438,LN-1024,Lock Nut 5,50,Subassembly,U,16,510
+439,LN-1032,Lock Nut 6,1,Tool Crib,L,7,636
+439,LN-1032,Lock Nut 6,6,Miscellaneous Storage,G,40,531
+439,LN-1032,Lock Nut 6,50,Subassembly,U,17,513
+440,LN-1213,Lock Nut 16,1,Tool Crib,L,8,640
+440,LN-1213,Lock Nut 16,6,Miscellaneous Storage,G,41,534
+440,LN-1213,Lock Nut 16,50,Subassembly,U,18,516
+441,LN-1220,Lock Nut 17,1,Tool Crib,L,9,635
+441,LN-1220,Lock Nut 17,6,Miscellaneous Storage,G,42,529
+441,LN-1220,Lock Nut 17,50,Subassembly,U,19,512
+442,LN-1224,Lock Nut 7,1,Tool Crib,L,10,630
+442,LN-1224,Lock Nut 7,6,Miscellaneous Storage,G,43,524
+442,LN-1224,Lock Nut 7,50,Subassembly,U,20,507
+443,LN-1420,Lock Nut 8,1,Tool Crib,L,11,625
+443,LN-1420,Lock Nut 8,6,Miscellaneous Storage,G,44,520
+443,LN-1420,Lock Nut 8,50,Subassembly,U,21,502
+444,LN-1428,Lock Nut 9,1,Tool Crib,L,12,620
+444,LN-1428,Lock Nut 9,6,Miscellaneous Storage,G,45,515
+444,LN-1428,Lock Nut 9,50,Subassembly,U,22,497
+445,LN-3410,Lock Nut 22,1,Tool Crib,H,3,616
+445,LN-3410,Lock Nut 22,6,Miscellaneous Storage,G,46,510
+445,LN-3410,Lock Nut 22,50,Subassembly,U,23,492
+446,LN-3416,Lock Nut 23,1,Tool Crib,H,4,611
+446,LN-3416,Lock Nut 23,6,Miscellaneous Storage,G,47,505
+446,LN-3416,Lock Nut 23,50,Subassembly,U,24,488
+447,LN-3816,Lock Nut 12,1,Tool Crib,H,5,606
+447,LN-3816,Lock Nut 12,6,Miscellaneous Storage,G,48,500
+447,LN-3816,Lock Nut 12,50,Subassembly,U,25,483
+448,LN-3824,Lock Nut 13,1,Tool Crib,H,6,601
+448,LN-3824,Lock Nut 13,6,Miscellaneous Storage,G,49,496
+448,LN-3824,Lock Nut 13,50,Subassembly,U,26,478
+449,LN-4400,Lock Nut 1,1,Tool Crib,H,7,596
+449,LN-4400,Lock Nut 1,6,Miscellaneous Storage,G,50,491
+449,LN-4400,Lock Nut 1,50,Subassembly,U,27,473
+450,LN-5161,Lock Nut 10,1,Tool Crib,H,8,592
+450,LN-5161,Lock Nut 10,6,Miscellaneous Storage,G,51,486
+450,LN-5161,Lock Nut 10,50,Subassembly,U,28,468
+451,LN-5162,Lock Nut 11,1,Tool Crib,H,9,595
+451,LN-5162,Lock Nut 11,6,Miscellaneous Storage,G,52,489
+451,LN-5162,Lock Nut 11,50,Subassembly,U,29,472
+452,LN-5400,Lock Nut 2,1,Tool Crib,H,10,598
+452,LN-5400,Lock Nut 2,6,Miscellaneous Storage,G,53,492
+452,LN-5400,Lock Nut 2,50,Subassembly,U,30,475
+453,LN-5811,Lock Nut 20,1,Tool Crib,H,11,601
+453,LN-5811,Lock Nut 20,6,Miscellaneous Storage,G,54,496
+453,LN-5811,Lock Nut 20,50,Subassembly,U,31,478
+454,LN-5818,Lock Nut 21,1,Tool Crib,H,12,604
+454,LN-5818,Lock Nut 21,6,Miscellaneous Storage,G,55,499
+454,LN-5818,Lock Nut 21,50,Subassembly,U,32,481
+455,LN-6320,Lock Nut 3,1,Tool Crib,H,13,608
+455,LN-6320,Lock Nut 3,6,Miscellaneous Storage,G,56,502
+455,LN-6320,Lock Nut 3,50,Subassembly,U,33,484
+456,LN-7161,Lock Nut 14,1,Tool Crib,H,14,611
+456,LN-7161,Lock Nut 14,6,Miscellaneous Storage,G,57,505
+456,LN-7161,Lock Nut 14,50,Subassembly,U,34,488
+457,LN-7162,Lock Nut 15,1,Tool Crib,H,15,614
+457,LN-7162,Lock Nut 15,6,Miscellaneous Storage,G,58,508
+457,LN-7162,Lock Nut 15,50,Subassembly,U,35,491
+458,LN-8320,Lock Nut 4,1,Tool Crib,H,16,617
+458,LN-8320,Lock Nut 4,6,Miscellaneous Storage,G,59,512
+458,LN-8320,Lock Nut 4,50,Subassembly,U,36,494
+459,LN-9080,Lock Nut 19,1,Tool Crib,H,17,620
+459,LN-9080,Lock Nut 19,6,Miscellaneous Storage,G,60,515
+459,LN-9080,Lock Nut 19,50,Subassembly,U,37,497
+460,LN-9161,Lock Nut 18,1,Tool Crib,H,18,624
+460,LN-9161,Lock Nut 18,6,Miscellaneous Storage,G,61,518
+460,LN-9161,Lock Nut 18,50,Subassembly,U,38,500
+843,LO-C100,Cable Lock,7,Finished Goods Storage,N/A,0,252
+461,LR-2398,Lock Ring,1,Tool Crib,G,19,627
+461,LR-2398,Lock Ring,6,Miscellaneous Storage,H,1,521
+461,LR-2398,Lock Ring,50,Subassembly,K,1,504
+462,LR-8520,Lower Head Race,1,Tool Crib,G,2,310
+462,LR-8520,Lower Head Race,6,Miscellaneous Storage,H,2,204
+462,LR-8520,Lower Head Race,50,Subassembly,K,2,187
+847,LT-H902,Headlights - Dual-Beam,7,Finished Goods Storage,N/A,0,180
+848,LT-H903,Headlights - Weatherproof,7,Finished Goods Storage,N/A,0,216
+846,LT-T990,Taillights - Battery-Powered,7,Finished Goods Storage,N/A,0,144
+463,LW-1000,Lock Washer 4,1,Tool Crib,G,3,499
+463,LW-1000,Lock Washer 4,6,Miscellaneous Storage,H,3,566
+463,LW-1000,Lock Washer 4,50,Subassembly,K,3,620
+464,LW-1200,Lock Washer 5,1,Tool Crib,G,4,500
+464,LW-1200,Lock Washer 5,6,Miscellaneous Storage,H,4,568
+464,LW-1200,Lock Washer 5,50,Subassembly,K,4,622
+465,LW-1201,Lock Washer 10,1,Tool Crib,G,5,502
+465,LW-1201,Lock Washer 10,6,Miscellaneous Storage,H,5,569
+465,LW-1201,Lock Washer 10,50,Subassembly,K,5,624
+466,LW-1400,Lock Washer 6,1,Tool Crib,G,8,504
+466,LW-1400,Lock Washer 6,6,Miscellaneous Storage,H,6,571
+466,LW-1400,Lock Washer 6,50,Subassembly,K,6,625
+467,LW-3400,Lock Washer 13,1,Tool Crib,G,7,505
+467,LW-3400,Lock Washer 13,6,Miscellaneous Storage,H,7,572
+467,LW-3400,Lock Washer 13,50,Subassembly,K,7,627
+468,LW-3800,Lock Washer 8,1,Tool Crib,G,3,507
+468,LW-3800,Lock Washer 8,6,Miscellaneous Storage,H,8,574
+468,LW-3800,Lock Washer 8,50,Subassembly,K,8,628
+469,LW-4000,Lock Washer 1,1,Tool Crib,J,4,508
+469,LW-4000,Lock Washer 1,6,Miscellaneous Storage,H,9,576
+469,LW-4000,Lock Washer 1,50,Subassembly,K,9,630
+470,LW-5160,Lock Washer 7,1,Tool Crib,J,5,510
+470,LW-5160,Lock Washer 7,6,Miscellaneous Storage,H,10,577
+470,LW-5160,Lock Washer 7,50,Subassembly,K,10,632
+471,LW-5800,Lock Washer 12,1,Tool Crib,J,6,512
+471,LW-5800,Lock Washer 12,6,Miscellaneous Storage,H,11,579
+471,LW-5800,Lock Washer 12,50,Subassembly,K,11,633
+472,LW-6000,Lock Washer 2,1,Tool Crib,J,7,513
+472,LW-6000,Lock Washer 2,6,Miscellaneous Storage,H,12,580
+472,LW-6000,Lock Washer 2,50,Subassembly,K,12,635
+473,LW-7160,Lock Washer 9,1,Tool Crib,J,8,515
+473,LW-7160,Lock Washer 9,6,Miscellaneous Storage,H,13,582
+473,LW-7160,Lock Washer 9,50,Subassembly,K,13,636
+474,LW-8000,Lock Washer 3,1,Tool Crib,J,9,516
+474,LW-8000,Lock Washer 3,6,Miscellaneous Storage,H,14,584
+474,LW-8000,Lock Washer 3,50,Subassembly,K,14,638
+475,LW-9160,Lock Washer 11,1,Tool Crib,J,10,518
+475,LW-9160,Lock Washer 11,6,Miscellaneous Storage,H,15,585
+475,LW-9160,Lock Washer 11,50,Subassembly,K,15,640
+476,MA-7075,Metal Angle,5,Metal Storage,D,0,324
+476,MA-7075,Metal Angle,10,Frame Forming,A,0,404
+476,MA-7075,Metal Angle,20,Frame Welding,B,0,355
+477,MB-2024,Metal Bar 1,2,Sheet Metal Racks,B,0,403
+477,MB-2024,Metal Bar 1,5,Metal Storage,D,0,323
+477,MB-2024,Metal Bar 1,10,Frame Forming,A,0,353
+478,MB-6061,Metal Bar 2,2,Sheet Metal Racks,B,0,497
+478,MB-6061,Metal Bar 2,5,Metal Storage,D,0,568
+478,MB-6061,Metal Bar 2,10,Frame Forming,A,0,622
+479,MP-2066,Metal Plate 2,2,Sheet Metal Racks,C,0,441
+479,MP-2066,Metal Plate 2,5,Metal Storage,E,0,390
+479,MP-2066,Metal Plate 2,10,Frame Forming,C,0,198
+480,MP-2503,Metal Plate 1,2,Sheet Metal Racks,C,0,689
+480,MP-2503,Metal Plate 1,5,Metal Storage,E,0,515
+480,MP-2503,Metal Plate 1,10,Frame Forming,C,0,457
+481,MP-4960,Metal Plate 3,2,Sheet Metal Racks,C,0,427
+481,MP-4960,Metal Plate 3,5,Metal Storage,E,0,374
+481,MP-4960,Metal Plate 3,10,Frame Forming,C,0,196
+482,MS-0253,Metal Sheet 2,2,Sheet Metal Racks,D,0,321
+482,MS-0253,Metal Sheet 2,5,Metal Storage,R,10,427
+482,MS-0253,Metal Sheet 2,10,Frame Forming,L,0,176
+483,MS-1256,Metal Sheet 3,2,Sheet Metal Racks,D,0,691
+483,MS-1256,Metal Sheet 3,5,Metal Storage,R,0,531
+483,MS-1256,Metal Sheet 3,10,Frame Forming,L,0,459
+484,MS-1981,Metal Sheet 7,2,Sheet Metal Racks,D,0,427
+484,MS-1981,Metal Sheet 7,5,Metal Storage,R,0,374
+484,MS-1981,Metal Sheet 7,10,Frame Forming,L,0,196
+485,MS-2259,Metal Sheet 4,2,Sheet Metal Racks,D,0,321
+485,MS-2259,Metal Sheet 4,5,Metal Storage,R,0,427
+485,MS-2259,Metal Sheet 4,10,Frame Forming,L,0,176
+486,MS-2341,Metal Sheet 5,2,Sheet Metal Racks,D,0,689
+486,MS-2341,Metal Sheet 5,5,Metal Storage,R,0,515
+486,MS-2341,Metal Sheet 5,10,Frame Forming,L,0,457
+487,MS-2348,Metal Sheet 6,2,Sheet Metal Racks,D,0,331
+487,MS-2348,Metal Sheet 6,5,Metal Storage,R,0,337
+487,MS-2348,Metal Sheet 6,10,Frame Forming,L,0,324
+488,MS-6061,Metal Sheet 1,2,Sheet Metal Racks,D,0,312
+488,MS-6061,Metal Sheet 1,5,Metal Storage,R,0,318
+488,MS-6061,Metal Sheet 1,10,Frame Forming,L,0,305
+489,MT-1000,Metal Tread Plate,1,Tool Crib,J,1,612
+489,MT-1000,Metal Tread Plate,6,Miscellaneous Storage,F,9,619
+489,MT-1000,Metal Tread Plate,50,Subassembly,N,1,606
+490,NI-4127,LL Nipple,1,Tool Crib,J,2,593
+490,NI-4127,LL Nipple,6,Miscellaneous Storage,F,2,600
+490,NI-4127,LL Nipple,50,Subassembly,N,2,587
+491,NI-9522,HL Nipple,1,Tool Crib,J,3,254
+491,NI-9522,HL Nipple,6,Miscellaneous Storage,F,3,420
+491,NI-9522,HL Nipple,50,Subassembly,N,3,248
+492,PA-187B,Paint - Black,3,Paint Shop,A,3,17
+492,PA-187B,Paint - Black,4,Paint Storage,A,6,14
+492,PA-187B,Paint - Black,40,Paint,B,2,16
+493,PA-361R,Paint - Red,3,Paint Shop,A,2,41
+493,PA-361R,Paint - Red,4,Paint Storage,A,8,24
+493,PA-361R,Paint - Red,40,Paint,B,1,28
+494,PA-529S,Paint - Silver,3,Paint Shop,A,1,49
+494,PA-529S,Paint - Silver,4,Paint Storage,A,7,12
+494,PA-529S,Paint - Silver,40,Paint,B,3,4
+495,PA-632U,Paint - Blue,3,Paint Shop,A,5,49
+495,PA-632U,Paint - Blue,4,Paint Storage,A,9,35
+495,PA-632U,Paint - Blue,40,Paint,B,6,25
+496,PA-823Y,Paint - Yellow,3,Paint Shop,A,4,30
+496,PA-823Y,Paint - Yellow,4,Paint Storage,A,10,25
+496,PA-823Y,Paint - Yellow,40,Paint,B,7,44
+842,PA-T100,"Touring-Panniers, Large",7,Finished Goods Storage,N/A,0,72
+497,PB-6109,Pinch Bolt,1,Tool Crib,E,26,336
+497,PB-6109,Pinch Bolt,6,Miscellaneous Storage,M,8,364
+497,PB-6109,Pinch Bolt,50,Subassembly,W,6,273
+935,PD-M282,LL Mountain Pedal,1,Tool Crib,E,24,174
+935,PD-M282,LL Mountain Pedal,6,Miscellaneous Storage,M,1,182
+935,PD-M282,LL Mountain Pedal,50,Subassembly,W,1,156
+936,PD-M340,ML Mountain Pedal,1,Tool Crib,E,25,172
+936,PD-M340,ML Mountain Pedal,6,Miscellaneous Storage,M,2,180
+936,PD-M340,ML Mountain Pedal,50,Subassembly,W,2,155
+937,PD-M562,HL Mountain Pedal,1,Tool Crib,E,20,171
+937,PD-M562,HL Mountain Pedal,6,Miscellaneous Storage,M,9,179
+937,PD-M562,HL Mountain Pedal,50,Subassembly,W,9,153
+938,PD-R347,LL Road Pedal,1,Tool Crib,E,21,169
+938,PD-R347,LL Road Pedal,6,Miscellaneous Storage,M,10,177
+938,PD-R347,LL Road Pedal,50,Subassembly,W,10,152
+939,PD-R563,ML Road Pedal,1,Tool Crib,E,16,168
+939,PD-R563,ML Road Pedal,6,Miscellaneous Storage,M,3,176
+939,PD-R563,ML Road Pedal,50,Subassembly,W,7,150
+940,PD-R853,HL Road Pedal,1,Tool Crib,E,17,316
+940,PD-R853,HL Road Pedal,6,Miscellaneous Storage,M,4,267
+940,PD-R853,HL Road Pedal,50,Subassembly,W,8,323
+941,PD-T852,Touring Pedal,1,Tool Crib,E,14,235
+941,PD-T852,Touring Pedal,6,Miscellaneous Storage,M,5,262
+941,PD-T852,Touring Pedal,50,Subassembly,W,3,388
+873,PK-7098,Patch Kit/8 Patches,7,Finished Goods Storage,N/A,0,180
+844,PU-0452,Minipump,7,Finished Goods Storage,N/A,0,288
+845,PU-M044,Mountain Pump,7,Finished Goods Storage,N/A,0,324
+504,RA-2345,Cup-Shaped Race,1,Tool Crib,E,15,392
+504,RA-2345,Cup-Shaped Race,6,Miscellaneous Storage,M,6,372
+504,RA-2345,Cup-Shaped Race,50,Subassembly,W,4,320
+505,RA-7490,Cone-Shaped Race,1,Tool Crib,E,18,388
+505,RA-7490,Cone-Shaped Race,6,Miscellaneous Storage,M,11,299
+505,RA-7490,Cone-Shaped Race,50,Subassembly,W,11,283
+876,RA-H123,Hitch Rack - 4-Bike,7,Finished Goods Storage,N/A,0,0
+907,RB-9231,Rear Brakes,1,Tool Crib,E,19,337
+907,RB-9231,Rear Brakes,6,Miscellaneous Storage,M,12,228
+907,RB-9231,Rear Brakes,50,Subassembly,W,12,158
+679,RC-0291,Rear Derailleur Cage,1,Tool Crib,E,22,164
+679,RC-0291,Rear Derailleur Cage,6,Miscellaneous Storage,M,13,136
+679,RC-0291,Rear Derailleur Cage,50,Subassembly,W,13,121
+894,RD-2308,Rear Derailleur,1,Tool Crib,E,23,337
+894,RD-2308,Rear Derailleur,6,Miscellaneous Storage,M,14,355
+894,RD-2308,Rear Derailleur,50,Subassembly,W,14,155
+506,RF-9198,Reflector,1,Tool Crib,E,13,316
+506,RF-9198,Reflector,6,Miscellaneous Storage,M,7,390
+506,RF-9198,Reflector,50,Subassembly,W,5,121
+507,RM-M464,LL Mountain Rim,6,Miscellaneous Storage,N,2,673
+507,RM-M464,LL Mountain Rim,50,Subassembly,J,1,542
+508,RM-M692,ML Mountain Rim,6,Miscellaneous Storage,N,1,681
+508,RM-M692,ML Mountain Rim,50,Subassembly,J,2,550
+509,RM-M823,HL Mountain Rim,6,Miscellaneous Storage,N,3,689
+509,RM-M823,HL Mountain Rim,50,Subassembly,J,7,558
+510,RM-R436,LL Road Rim,6,Miscellaneous Storage,N,4,406
+510,RM-R436,LL Road Rim,50,Subassembly,J,6,316
+511,RM-R600,ML Road Rim,6,Miscellaneous Storage,N,5,390
+511,RM-R600,ML Road Rim,50,Subassembly,J,5,350
+512,RM-R800,HL Road Rim,6,Miscellaneous Storage,N,5,334
+512,RM-R800,HL Road Rim,50,Subassembly,J,4,281
+513,RM-T801,Touring Rim,6,Miscellaneous Storage,N,9,640
+513,RM-T801,Touring Rim,50,Subassembly,J,3,724
+823,RW-M423,LL Mountain Rear Wheel,6,Miscellaneous Storage,A,10,425
+823,RW-M423,LL Mountain Rear Wheel,50,Subassembly,V,1,256
+824,RW-M762,ML Mountain Rear Wheel,6,Miscellaneous Storage,A,10,411
+824,RW-M762,ML Mountain Rear Wheel,50,Subassembly,V,2,401
+825,RW-M928,HL Mountain Rear Wheel,6,Miscellaneous Storage,A,11,396
+825,RW-M928,HL Mountain Rear Wheel,50,Subassembly,V,3,387
+826,RW-R623,LL Road Rear Wheel,6,Miscellaneous Storage,A,11,393
+826,RW-R623,LL Road Rear Wheel,50,Subassembly,V,4,406
+827,RW-R762,ML Road Rear Wheel,6,Miscellaneous Storage,A,12,412
+827,RW-R762,ML Road Rear Wheel,50,Subassembly,V,5,425
+828,RW-R820,HL Road Rear Wheel,6,Miscellaneous Storage,A,12,432
+828,RW-R820,HL Road Rear Wheel,50,Subassembly,V,6,284
+829,RW-T905,Touring Rear Wheel,6,Miscellaneous Storage,A,12,265
+829,RW-T905,Touring Rear Wheel,50,Subassembly,V,7,476
+514,SA-M198,LL Mountain Seat Assembly,6,Miscellaneous Storage,D,10,267
+514,SA-M198,LL Mountain Seat Assembly,50,Subassembly,G,4,318
+514,SA-M198,LL Mountain Seat Assembly,60,Final Assembly,F,2,212
+515,SA-M237,ML Mountain Seat Assembly,6,Miscellaneous Storage,D,2,268
+515,SA-M237,ML Mountain Seat Assembly,50,Subassembly,G,22,320
+515,SA-M237,ML Mountain Seat Assembly,60,Final Assembly,F,1,214
+516,SA-M687,HL Mountain Seat Assembly,6,Miscellaneous Storage,D,3,270
+516,SA-M687,HL Mountain Seat Assembly,50,Subassembly,G,23,321
+516,SA-M687,HL Mountain Seat Assembly,60,Final Assembly,F,3,216
+517,SA-R127,LL Road Seat Assembly,6,Miscellaneous Storage,D,16,272
+517,SA-R127,LL Road Seat Assembly,50,Subassembly,G,5,323
+517,SA-R127,LL Road Seat Assembly,60,Final Assembly,F,5,217
+518,SA-R430,ML Road Seat Assembly,6,Miscellaneous Storage,D,17,273
+518,SA-R430,ML Road Seat Assembly,50,Subassembly,G,6,324
+518,SA-R430,ML Road Seat Assembly,60,Final Assembly,F,6,219
+519,SA-R522,HL Road Seat Assembly,6,Miscellaneous Storage,D,15,275
+519,SA-R522,HL Road Seat Assembly,50,Subassembly,G,7,326
+519,SA-R522,HL Road Seat Assembly,60,Final Assembly,F,13,220
+520,SA-T467,LL Touring Seat Assembly,6,Miscellaneous Storage,D,14,276
+520,SA-T467,LL Touring Seat Assembly,50,Subassembly,G,2,328
+520,SA-T467,LL Touring Seat Assembly,60,Final Assembly,F,14,222
+521,SA-T612,ML Touring Seat Assembly,6,Miscellaneous Storage,D,11,278
+521,SA-T612,ML Touring Seat Assembly,50,Subassembly,G,1,329
+521,SA-T612,ML Touring Seat Assembly,60,Final Assembly,F,18,224
+522,SA-T872,HL Touring Seat Assembly,6,Miscellaneous Storage,D,1,280
+522,SA-T872,HL Touring Seat Assembly,50,Subassembly,G,3,331
+522,SA-T872,HL Touring Seat Assembly,60,Final Assembly,F,7,225
+857,SB-M891-L,"Men's Bib-Shorts, L",7,Finished Goods Storage,N/A,0,144
+856,SB-M891-M,"Men's Bib-Shorts, M",7,Finished Goods Storage,N/A,0,108
+855,SB-M891-S,"Men's Bib-Shorts, S",7,Finished Goods Storage,N/A,0,72
+523,SD-2342,LL Spindle/Axle,6,Miscellaneous Storage,K,1,164
+523,SD-2342,LL Spindle/Axle,50,Subassembly,Y,1,209
+523,SD-2342,LL Spindle/Axle,60,Final Assembly,L,6,139
+524,SD-9872,HL Spindle/Axle,6,Miscellaneous Storage,L,1,124
+524,SD-9872,HL Spindle/Axle,50,Subassembly,Y,2,228
+524,SD-9872,HL Spindle/Axle,60,Final Assembly,K,1,107
+908,SE-M236,LL Mountain Seat/Saddle,6,Miscellaneous Storage,D,4,400
+908,SE-M236,LL Mountain Seat/Saddle,50,Subassembly,G,8,214
+908,SE-M236,LL Mountain Seat/Saddle,60,Final Assembly,F,11,195
+909,SE-M798,ML Mountain Seat/Saddle,6,Miscellaneous Storage,D,5,230
+909,SE-M798,ML Mountain Seat/Saddle,50,Subassembly,G,9,72
+909,SE-M798,ML Mountain Seat/Saddle,60,Final Assembly,F,12,120
+910,SE-M940,HL Mountain Seat/Saddle,6,Miscellaneous Storage,D,7,91
+910,SE-M940,HL Mountain Seat/Saddle,50,Subassembly,G,19,168
+910,SE-M940,HL Mountain Seat/Saddle,60,Final Assembly,F,8,96
+911,SE-R581,LL Road Seat/Saddle,6,Miscellaneous Storage,D,8,283
+911,SE-R581,LL Road Seat/Saddle,50,Subassembly,G,20,321
+911,SE-R581,LL Road Seat/Saddle,60,Final Assembly,F,9,302
+912,SE-R908,ML Road Seat/Saddle,6,Miscellaneous Storage,D,9,302
+912,SE-R908,ML Road Seat/Saddle,50,Subassembly,G,21,353
+912,SE-R908,ML Road Seat/Saddle,60,Final Assembly,F,10,246
+913,SE-R995,HL Road Seat/Saddle,6,Miscellaneous Storage,D,12,169
+913,SE-R995,HL Road Seat/Saddle,50,Subassembly,G,24,145
+913,SE-R995,HL Road Seat/Saddle,60,Final Assembly,F,15,153
+914,SE-T312,LL Touring Seat/Saddle,6,Miscellaneous Storage,D,13,248
+914,SE-T312,LL Touring Seat/Saddle,50,Subassembly,G,25,171
+914,SE-T312,LL Touring Seat/Saddle,60,Final Assembly,F,16,382
+915,SE-T762,ML Touring Seat/Saddle,6,Miscellaneous Storage,D,18,161
+915,SE-T762,ML Touring Seat/Saddle,50,Subassembly,G,26,83
+915,SE-T762,ML Touring Seat/Saddle,60,Final Assembly,F,17,158
+916,SE-T924,HL Touring Seat/Saddle,6,Miscellaneous Storage,D,6,425
+916,SE-T924,HL Touring Seat/Saddle,50,Subassembly,G,27,288
+916,SE-T924,HL Touring Seat/Saddle,60,Final Assembly,F,4,276
+525,SH-4562,LL Shell,6,Miscellaneous Storage,B,2,644
+525,SH-4562,LL Shell,50,Subassembly,F,1,619
+526,SH-9312,HL Shell,6,Miscellaneous Storage,B,3,587
+526,SH-9312,HL Shell,50,Subassembly,F,5,624
+850,SH-M897-L,"Men's Sports Shorts, L",7,Finished Goods Storage,N/A,0,144
+849,SH-M897-M,"Men's Sports Shorts, M",7,Finished Goods Storage,N/A,0,108
+841,SH-M897-S,"Men's Sports Shorts, S",7,Finished Goods Storage,N/A,0,288
+851,SH-M897-X,"Men's Sports Shorts, XL",7,Finished Goods Storage,N/A,0,180
+869,SH-W890-L,"Women's Mountain Shorts, L",7,Finished Goods Storage,N/A,0,288
+868,SH-W890-M,"Women's Mountain Shorts, M",7,Finished Goods Storage,N/A,0,252
+867,SH-W890-S,"Women's Mountain Shorts, S",7,Finished Goods Storage,N/A,0,216
+883,SJ-0194-L,"Short-Sleeve Classic Jersey, L",7,Finished Goods Storage,N/A,0,36
+882,SJ-0194-M,"Short-Sleeve Classic Jersey, M",7,Finished Goods Storage,N/A,0,0
+881,SJ-0194-S,"Short-Sleeve Classic Jersey, S",7,Finished Goods Storage,N/A,0,324
+884,SJ-0194-X,"Short-Sleeve Classic Jersey, XL",7,Finished Goods Storage,N/A,0,72
+527,SK-9283,Spokes,6,Miscellaneous Storage,B,4,888
+527,SK-9283,Spokes,50,Subassembly,F,11,702
+528,SL-0931,Seat Lug,6,Miscellaneous Storage,F,5,924
+528,SL-0931,Seat Lug,60,Final Assembly,E,3,729
+529,SM-9087,Stem,6,Miscellaneous Storage,F,6,425
+529,SM-9087,Stem,60,Final Assembly,E,4,371
+710,SO-B909-L,"Mountain Bike Socks, L",7,Finished Goods Storage,N/A,0,216
+709,SO-B909-M,"Mountain Bike Socks, M",7,Finished Goods Storage,N/A,0,180
+875,SO-R809-L,"Racing Socks, L",7,Finished Goods Storage,N/A,0,288
+874,SO-R809-M,"Racing Socks, M",7,Finished Goods Storage,N/A,0,252
+530,SP-2981,Seat Post,6,Miscellaneous Storage,F,7,336
+530,SP-2981,Seat Post,60,Final Assembly,E,5,444
+531,SR-2098,Steerer,6,Miscellaneous Storage,F,8,427
+531,SR-2098,Steerer,60,Final Assembly,E,6,374
+532,SS-2985,Seat Stays,6,Miscellaneous Storage,F,4,715
+532,SS-2985,Seat Stays,60,Final Assembly,E,7,542
+879,ST-1401,All-Purpose Bike Stand,7,Finished Goods Storage,N/A,0,144
+533,ST-9828,Seat Tube,6,Miscellaneous Storage,F,1,443
+533,ST-9828,Seat Tube,60,Final Assembly,E,1,388
+854,TG-W091-L,"Women's Tights, L",7,Finished Goods Storage,N/A,0,36
+853,TG-W091-M,"Women's Tights, M",7,Finished Goods Storage,N/A,0,0
+852,TG-W091-S,"Women's Tights, S",7,Finished Goods Storage,N/A,0,324
+928,TI-M267,LL Mountain Tire,6,Miscellaneous Storage,L,2,240
+928,TI-M267,LL Mountain Tire,50,Subassembly,R,1,369
+929,TI-M602,ML Mountain Tire,6,Miscellaneous Storage,L,3,385
+929,TI-M602,ML Mountain Tire,50,Subassembly,R,3,284
+930,TI-M823,HL Mountain Tire,6,Miscellaneous Storage,L,5,267
+930,TI-M823,HL Mountain Tire,50,Subassembly,R,5,232
+931,TI-R092,LL Road Tire,6,Miscellaneous Storage,L,6,236
+931,TI-R092,LL Road Tire,50,Subassembly,R,6,252
+932,TI-R628,ML Road Tire,6,Miscellaneous Storage,L,8,382
+932,TI-R628,ML Road Tire,50,Subassembly,R,7,192
+933,TI-R982,HL Road Tire,6,Miscellaneous Storage,L,10,299
+933,TI-R982,HL Road Tire,50,Subassembly,R,9,228
+934,TI-T723,Touring Tire,6,Miscellaneous Storage,L,11,233
+934,TI-T723,Touring Tire,50,Subassembly,R,11,249
+534,TO-2301,Top Tube,6,Miscellaneous Storage,L,12,379
+534,TO-2301,Top Tube,50,Subassembly,R,12,278
+535,TP-0923,Tension Pulley,6,Miscellaneous Storage,L,14,427
+535,TP-0923,Tension Pulley,50,Subassembly,R,14,409
+921,TT-M928,Mountain Tire Tube,6,Miscellaneous Storage,L,16,286
+921,TT-M928,Mountain Tire Tube,50,Subassembly,R,15,243
+922,TT-R982,Road Tire Tube,6,Miscellaneous Storage,L,17,264
+922,TT-R982,Road Tire Tube,50,Subassembly,R,17,241
+923,TT-T092,Touring Tire Tube,6,Miscellaneous Storage,L,18,262
+923,TT-T092,Touring Tire Tube,50,Subassembly,R,18,240
+866,VE-C304-L,"Classic Vest, L",7,Finished Goods Storage,N/A,0,252
+865,VE-C304-M,"Classic Vest, M",7,Finished Goods Storage,N/A,0,216
+864,VE-C304-S,"Classic Vest, S",7,Finished Goods Storage,N/A,0,180
+870,WB-H098,Water Bottle - 30 oz.,7,Finished Goods Storage,N/A,0,252

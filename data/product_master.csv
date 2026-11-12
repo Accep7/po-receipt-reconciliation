@@ -1,0 +1,433 @@
+product_id,sku,product_name,category,subcategory,source_type,is_finished_good,is_discontinued,safety_stock,reorder_point,standard_cost,list_price,on_hand_qty,stocked_locations,open_po_qty,next_po_due,primary_vendor_id,primary_vendor,lead_time_days,min_order_qty,max_order_qty,last_movement_date,last_sale_date,sold_90d,sold_365d
+1,AR-5381,Adjustable Race,,,Buy,0,0,1000,750,0.00,0.00,1085,3,0,,1580,"Litware, Inc.",17,1,5,2014-07-30,,0,0
+2,BA-8327,Bearing Ball,,,Buy,0,0,1000,750,0.00,0.00,1109,3,0,,1688,Wood Fitness,19,1,5,2014-07-30,,0,0
+994,BB-7421,LL Bottom Bracket,Components,Bottom Brackets,Make,1,0,500,375,23.97,53.99,814,3,0,,,,,,,2014-06-02,2014-05-01,0,251
+995,BB-8107,ML Bottom Bracket,Components,Bottom Brackets,Make,1,0,500,375,44.95,101.24,816,3,0,,,,,,,2014-06-02,,0,0
+996,BB-9108,HL Bottom Bracket,Components,Bottom Brackets,Make,1,0,500,375,53.94,121.49,970,3,0,,,,,,,2014-06-02,2014-05-01,0,360
+871,BC-M005,Mountain Bottle Cage,Accessories,Bottles and Cages,Buy,1,0,4,3,3.74,9.99,288,1,0,,1546,Green Lake Bike Company,45,500,2500,2014-06-30,2014-06-30,264,1819
+872,BC-R205,Road Bottle Cage,Accessories,Bottles and Cages,Buy,1,0,4,3,3.36,8.99,324,1,0,,1546,Green Lake Bike Company,45,500,2500,2014-06-27,2014-06-27,168,1516
+3,BE-2349,BB Ball Bearing,,,Make,0,0,800,600,0.00,0.00,1352,3,0,,,,,,,2014-06-02,,0,0
+4,BE-2908,Headset Ball Bearings,,,Buy,0,0,800,600,0.00,0.00,1322,3,0,,1650,American Bicycles and Wheels,17,1,5,2014-07-30,,0,0
+989,BK-M18B-40,"Mountain-500 Black, 40",Bikes,Mountain Bikes,Make,1,0,100,75,294.58,539.99,150,2,0,,,,,,,2014-05-18,2014-05-15,2,217
+990,BK-M18B-42,"Mountain-500 Black, 42",Bikes,Mountain Bikes,Make,1,0,100,75,294.58,539.99,153,2,0,,,,,,,2014-05-30,2014-05-27,7,261
+991,BK-M18B-44,"Mountain-500 Black, 44",Bikes,Mountain Bikes,Make,1,0,100,75,294.58,539.99,154,2,0,,,,,,,2014-05-30,2014-05-27,5,225
+992,BK-M18B-48,"Mountain-500 Black, 48",Bikes,Mountain Bikes,Make,1,0,100,75,294.58,539.99,164,2,0,,,,,,,2014-05-31,2014-05-28,7,318
+993,BK-M18B-52,"Mountain-500 Black, 52",Bikes,Mountain Bikes,Make,1,0,100,75,294.58,539.99,153,2,0,,,,,,,2014-05-29,2014-05-26,7,212
+984,BK-M18S-40,"Mountain-500 Silver, 40",Bikes,Mountain Bikes,Make,1,0,100,75,308.22,564.99,154,2,0,,,,,,,2014-05-31,2014-05-28,3,298
+985,BK-M18S-42,"Mountain-500 Silver, 42",Bikes,Mountain Bikes,Make,1,0,100,75,308.22,564.99,164,2,0,,,,,,,2014-06-01,2014-05-29,2,326
+986,BK-M18S-44,"Mountain-500 Silver, 44",Bikes,Mountain Bikes,Make,1,0,100,75,308.22,564.99,153,2,0,,,,,,,2014-05-30,2014-05-27,6,258
+987,BK-M18S-48,"Mountain-500 Silver, 48",Bikes,Mountain Bikes,Make,1,0,100,75,308.22,564.99,155,2,0,,,,,,,2014-06-01,2014-05-29,6,325
+988,BK-M18S-52,"Mountain-500 Silver, 52",Bikes,Mountain Bikes,Make,1,0,100,75,308.22,564.99,194,2,0,,,,,,,2014-05-30,2014-05-27,6,363
+980,BK-M38S-38,"Mountain-400-W Silver, 38",Bikes,Mountain Bikes,Make,1,0,100,75,419.78,769.49,150,2,0,,,,,,,2014-06-01,2014-05-29,14,338
+981,BK-M38S-40,"Mountain-400-W Silver, 40",Bikes,Mountain Bikes,Make,1,0,100,75,419.78,769.49,153,2,0,,,,,,,2014-05-29,2014-05-26,14,453
+982,BK-M38S-42,"Mountain-400-W Silver, 42",Bikes,Mountain Bikes,Make,1,0,100,75,419.78,769.49,154,2,0,,,,,,,2014-06-01,2014-05-29,21,309
+983,BK-M38S-46,"Mountain-400-W Silver, 46",Bikes,Mountain Bikes,Make,1,0,100,75,419.78,769.49,164,2,0,,,,,,,2014-05-29,2014-05-26,11,320
+785,BK-M47B-38,"Mountain-300 Black, 38",Bikes,Mountain Bikes,Make,1,1,100,75,598.44,1079.99,137,2,0,,,,,,,,,0,0
+786,BK-M47B-40,"Mountain-300 Black, 40",Bikes,Mountain Bikes,Make,1,1,100,75,598.44,1079.99,223,2,0,,,,,,,,,0,0
+787,BK-M47B-44,"Mountain-300 Black, 44",Bikes,Mountain Bikes,Make,1,1,100,75,598.44,1079.99,140,2,0,,,,,,,,,0,0
+788,BK-M47B-48,"Mountain-300 Black, 48",Bikes,Mountain Bikes,Make,1,1,100,75,598.44,1079.99,128,2,0,,,,,,,,,0,0
+782,BK-M68B-38,"Mountain-200 Black, 38",Bikes,Mountain Bikes,Make,1,0,100,75,1251.98,2294.99,188,2,0,,,,,,,2014-06-02,2014-05-30,42,1211
+783,BK-M68B-42,"Mountain-200 Black, 42",Bikes,Mountain Bikes,Make,1,0,100,75,1251.98,2294.99,148,2,0,,,,,,,2014-06-02,2014-05-30,51,1081
+784,BK-M68B-46,"Mountain-200 Black, 46",Bikes,Mountain Bikes,Make,1,0,100,75,1251.98,2294.99,137,2,0,,,,,,,2014-06-01,2014-05-29,42,887
+779,BK-M68S-38,"Mountain-200 Silver, 38",Bikes,Mountain Bikes,Make,1,0,100,75,1265.62,2319.99,137,2,0,,,,,,,2014-06-02,2014-05-30,54,977
+780,BK-M68S-42,"Mountain-200 Silver, 42",Bikes,Mountain Bikes,Make,1,0,100,75,1265.62,2319.99,223,2,0,,,,,,,2014-06-02,2014-05-30,45,867
+781,BK-M68S-46,"Mountain-200 Silver, 46",Bikes,Mountain Bikes,Make,1,0,100,75,1265.62,2319.99,140,2,0,,,,,,,2014-06-02,2014-05-30,36,865
+775,BK-M82B-38,"Mountain-100 Black, 38",Bikes,Mountain Bikes,Make,1,1,100,75,1898.09,3374.99,155,2,0,,,,,,,,,0,0
+776,BK-M82B-42,"Mountain-100 Black, 42",Bikes,Mountain Bikes,Make,1,1,100,75,1898.09,3374.99,194,2,0,,,,,,,,,0,0
+777,BK-M82B-44,"Mountain-100 Black, 44",Bikes,Mountain Bikes,Make,1,1,100,75,1898.09,3374.99,149,2,0,,,,,,,,,0,0
+778,BK-M82B-48,"Mountain-100 Black, 48",Bikes,Mountain Bikes,Make,1,1,100,75,1898.09,3374.99,153,2,0,,,,,,,,,0,0
+771,BK-M82S-38,"Mountain-100 Silver, 38",Bikes,Mountain Bikes,Make,1,1,100,75,1912.15,3399.99,149,2,0,,,,,,,,,0,0
+772,BK-M82S-42,"Mountain-100 Silver, 42",Bikes,Mountain Bikes,Make,1,1,100,75,1912.15,3399.99,153,2,0,,,,,,,,,0,0
+773,BK-M82S-44,"Mountain-100 Silver, 44",Bikes,Mountain Bikes,Make,1,1,100,75,1912.15,3399.99,158,2,0,,,,,,,,,0,0
+774,BK-M82S-48,"Mountain-100 Silver, 48",Bikes,Mountain Bikes,Make,1,1,100,75,1912.15,3399.99,164,2,0,,,,,,,,,0,0
+997,BK-R19B-44,"Road-750 Black, 44",Bikes,Road Bikes,Make,1,0,100,75,343.65,539.99,153,2,0,,,,,,,2014-06-02,2014-05-30,39,543
+998,BK-R19B-48,"Road-750 Black, 48",Bikes,Road Bikes,Make,1,0,100,75,343.65,539.99,155,2,0,,,,,,,2014-06-02,2014-05-30,25,1167
+999,BK-R19B-52,"Road-750 Black, 52",Bikes,Road Bikes,Make,1,0,100,75,343.65,539.99,194,2,0,,,,,,,2014-06-02,2014-05-30,43,1019
+977,BK-R19B-58,"Road-750 Black, 58",Bikes,Road Bikes,Make,1,0,100,75,343.65,539.99,153,2,0,,,,,,,2014-06-02,2014-05-30,36,685
+768,BK-R50B-44,"Road-650 Black, 44",Bikes,Road Bikes,Make,1,1,100,75,486.71,782.99,148,2,0,,,,,,,,,0,0
+769,BK-R50B-48,"Road-650 Black, 48",Bikes,Road Bikes,Make,1,1,100,75,486.71,782.99,133,2,0,,,,,,,2013-12-03,2013-11-30,0,1
+770,BK-R50B-52,"Road-650 Black, 52",Bikes,Road Bikes,Make,1,1,100,75,486.71,782.99,227,2,0,,,,,,,2014-01-03,2013-12-31,0,4
+765,BK-R50B-58,"Road-650 Black, 58",Bikes,Road Bikes,Make,1,1,100,75,486.71,782.99,134,2,0,,,,,,,2014-04-02,2014-03-30,0,4
+766,BK-R50B-60,"Road-650 Black, 60",Bikes,Road Bikes,Make,1,1,100,75,486.71,782.99,165,2,0,,,,,,,,,0,0
+767,BK-R50B-62,"Road-650 Black, 62",Bikes,Road Bikes,Make,1,1,100,75,486.71,782.99,188,2,0,,,,,,,,,0,0
+762,BK-R50R-44,"Road-650 Red, 44",Bikes,Road Bikes,Make,1,1,100,75,486.71,782.99,137,2,0,,,,,,,2014-04-02,2014-03-30,0,8
+763,BK-R50R-48,"Road-650 Red, 48",Bikes,Road Bikes,Make,1,1,100,75,486.71,782.99,223,2,0,,,,,,,2014-04-02,2014-03-30,0,2
+764,BK-R50R-52,"Road-650 Red, 52",Bikes,Road Bikes,Make,1,1,100,75,486.71,782.99,140,2,0,,,,,,,,,0,0
+759,BK-R50R-58,"Road-650 Red, 58",Bikes,Road Bikes,Make,1,1,100,75,486.71,782.99,163,2,0,,,,,,,,,0,0
+760,BK-R50R-60,"Road-650 Red, 60",Bikes,Road Bikes,Make,1,1,100,75,486.71,782.99,185,2,0,,,,,,,2014-04-02,2014-03-30,0,8
+761,BK-R50R-62,"Road-650 Red, 62",Bikes,Road Bikes,Make,1,1,100,75,486.71,782.99,148,2,0,,,,,,,2014-04-02,2014-03-30,0,5
+797,BK-R64Y-38,"Road-550-W Yellow, 38",Bikes,Road Bikes,Make,1,0,100,75,713.08,1120.49,148,2,0,,,,,,,2014-05-31,2014-05-28,17,674
+798,BK-R64Y-40,"Road-550-W Yellow, 40",Bikes,Road Bikes,Make,1,0,100,75,713.08,1120.49,133,2,0,,,,,,,2014-06-02,2014-05-30,20,571
+799,BK-R64Y-42,"Road-550-W Yellow, 42",Bikes,Road Bikes,Make,1,0,100,75,713.08,1120.49,227,2,0,,,,,,,2014-05-31,2014-05-28,27,513
+800,BK-R64Y-44,"Road-550-W Yellow, 44",Bikes,Road Bikes,Make,1,0,100,75,713.08,1120.49,129,2,0,,,,,,,2014-06-01,2014-05-29,21,411
+801,BK-R64Y-48,"Road-550-W Yellow, 48",Bikes,Road Bikes,Make,1,0,100,75,713.08,1120.49,134,2,0,,,,,,,2014-06-01,2014-05-29,19,701
+756,BK-R68R-44,"Road-450 Red, 44",Bikes,Road Bikes,Make,1,1,100,75,884.71,1457.99,129,2,0,,,,,,,,,0,0
+757,BK-R68R-48,"Road-450 Red, 48",Bikes,Road Bikes,Make,1,1,100,75,884.71,1457.99,134,2,0,,,,,,,,,0,0
+758,BK-R68R-52,"Road-450 Red, 52",Bikes,Road Bikes,Make,1,1,100,75,884.71,1457.99,165,2,0,,,,,,,,,0,0
+754,BK-R68R-58,"Road-450 Red, 58",Bikes,Road Bikes,Make,1,1,100,75,884.71,1457.99,148,2,0,,,,,,,,,0,0
+755,BK-R68R-60,"Road-450 Red, 60",Bikes,Road Bikes,Make,1,1,100,75,884.71,1457.99,137,2,0,,,,,,,,,0,0
+973,BK-R79Y-40,"Road-350-W Yellow, 40",Bikes,Road Bikes,Make,1,0,100,75,1082.51,1700.99,185,2,0,,,,,,,2014-06-01,2014-05-29,36,1096
+974,BK-R79Y-42,"Road-350-W Yellow, 42",Bikes,Road Bikes,Make,1,0,100,75,1082.51,1700.99,148,2,0,,,,,,,2014-06-01,2014-05-29,31,725
+975,BK-R79Y-44,"Road-350-W Yellow, 44",Bikes,Road Bikes,Make,1,0,100,75,1082.51,1700.99,133,2,0,,,,,,,2014-06-01,2014-05-29,28,423
+976,BK-R79Y-48,"Road-350-W Yellow, 48",Bikes,Road Bikes,Make,1,0,100,75,1082.51,1700.99,227,2,0,,,,,,,2014-05-30,2014-05-27,24,1197
+793,BK-R89B-44,"Road-250 Black, 44",Bikes,Road Bikes,Make,1,0,100,75,1554.95,2443.35,134,2,0,,,,,,,2014-06-01,2014-05-29,5,534
+794,BK-R89B-48,"Road-250 Black, 48",Bikes,Road Bikes,Make,1,0,100,75,1554.95,2443.35,165,2,0,,,,,,,2014-06-02,2014-05-30,9,508
+795,BK-R89B-52,"Road-250 Black, 52",Bikes,Road Bikes,Make,1,0,100,75,1554.95,2443.35,188,2,0,,,,,,,2014-05-30,2014-05-27,7,402
+796,BK-R89B-58,"Road-250 Black, 58",Bikes,Road Bikes,Make,1,0,100,75,1554.95,2443.35,148,2,0,,,,,,,2014-05-31,2014-05-28,9,328
+789,BK-R89R-44,"Road-250 Red, 44",Bikes,Road Bikes,Make,1,1,100,75,1518.79,2443.35,163,2,0,,,,,,,,,0,0
+790,BK-R89R-48,"Road-250 Red, 48",Bikes,Road Bikes,Make,1,1,100,75,1518.79,2443.35,185,2,0,,,,,,,2013-12-03,2013-11-30,0,3
+791,BK-R89R-52,"Road-250 Red, 52",Bikes,Road Bikes,Make,1,1,100,75,1518.79,2443.35,148,2,0,,,,,,,,,0,0
+792,BK-R89R-58,"Road-250 Red, 58",Bikes,Road Bikes,Make,1,0,100,75,1554.95,2443.35,227,2,0,,,,,,,2014-06-01,2014-05-29,10,328
+750,BK-R93R-44,"Road-150 Red, 44",Bikes,Road Bikes,Make,1,1,100,75,2171.29,3578.27,223,2,0,,,,,,,,,0,0
+751,BK-R93R-48,"Road-150 Red, 48",Bikes,Road Bikes,Make,1,1,100,75,2171.29,3578.27,140,2,0,,,,,,,,,0,0
+752,BK-R93R-52,"Road-150 Red, 52",Bikes,Road Bikes,Make,1,1,100,75,2171.29,3578.27,128,2,0,,,,,,,,,0,0
+753,BK-R93R-56,"Road-150 Red, 56",Bikes,Road Bikes,Make,1,1,100,75,2171.29,3578.27,163,2,0,,,,,,,,,0,0
+749,BK-R93R-62,"Road-150 Red, 62",Bikes,Road Bikes,Make,1,1,100,75,2171.29,3578.27,133,2,0,,,,,,,,,0,0
+978,BK-T18U-44,"Touring-3000 Blue, 44",Bikes,Touring Bikes,Make,1,0,100,75,461.44,742.35,163,2,0,,,,,,,2014-06-02,2014-05-30,6,209
+979,BK-T18U-50,"Touring-3000 Blue, 50",Bikes,Touring Bikes,Make,1,0,100,75,461.44,742.35,164,2,0,,,,,,,2014-05-28,2014-05-25,9,594
+958,BK-T18U-54,"Touring-3000 Blue, 54",Bikes,Touring Bikes,Make,1,0,100,75,461.44,742.35,163,2,0,,,,,,,2014-05-22,2014-05-19,4,482
+959,BK-T18U-58,"Touring-3000 Blue, 58",Bikes,Touring Bikes,Make,1,0,100,75,461.44,742.35,204,2,0,,,,,,,2014-06-01,2014-05-29,7,349
+960,BK-T18U-62,"Touring-3000 Blue, 62",Bikes,Touring Bikes,Make,1,0,100,75,461.44,742.35,159,2,0,,,,,,,2014-05-28,2014-05-25,5,224
+961,BK-T18Y-44,"Touring-3000 Yellow, 44",Bikes,Touring Bikes,Make,1,0,100,75,461.44,742.35,168,2,0,,,,,,,2014-06-02,2014-05-30,12,613
+962,BK-T18Y-50,"Touring-3000 Yellow, 50",Bikes,Touring Bikes,Make,1,0,100,75,461.44,742.35,174,2,0,,,,,,,2014-06-01,2014-05-29,4,487
+963,BK-T18Y-54,"Touring-3000 Yellow, 54",Bikes,Touring Bikes,Make,1,0,100,75,461.44,742.35,162,2,0,,,,,,,2014-05-14,2014-05-11,3,331
+964,BK-T18Y-58,"Touring-3000 Yellow, 58",Bikes,Touring Bikes,Make,1,0,100,75,461.44,742.35,197,2,0,,,,,,,2014-06-01,2014-05-29,2,201
+965,BK-T18Y-62,"Touring-3000 Yellow, 62",Bikes,Touring Bikes,Make,1,0,100,75,461.44,742.35,163,2,0,,,,,,,2014-05-31,2014-05-28,4,602
+970,BK-T44U-46,"Touring-2000 Blue, 46",Bikes,Touring Bikes,Make,1,0,100,75,755.15,1214.85,133,2,0,,,,,,,2014-06-01,2014-05-29,9,389
+971,BK-T44U-50,"Touring-2000 Blue, 50",Bikes,Touring Bikes,Make,1,0,100,75,755.15,1214.85,227,2,0,,,,,,,2014-06-01,2014-05-29,15,256
+972,BK-T44U-54,"Touring-2000 Blue, 54",Bikes,Touring Bikes,Make,1,0,100,75,755.15,1214.85,129,2,0,,,,,,,2014-06-02,2014-05-30,11,723
+953,BK-T44U-60,"Touring-2000 Blue, 60",Bikes,Touring Bikes,Make,1,0,100,75,755.15,1214.85,165,2,0,,,,,,,2014-06-02,2014-05-30,8,591
+966,BK-T79U-46,"Touring-1000 Blue, 46",Bikes,Touring Bikes,Make,1,0,100,75,1481.94,2384.07,185,2,0,,,,,,,2014-05-28,2014-05-25,13,750
+967,BK-T79U-50,"Touring-1000 Blue, 50",Bikes,Touring Bikes,Make,1,0,100,75,1481.94,2384.07,148,2,0,,,,,,,2014-06-02,2014-05-30,16,498
+968,BK-T79U-54,"Touring-1000 Blue, 54",Bikes,Touring Bikes,Make,1,0,100,75,1481.94,2384.07,133,2,0,,,,,,,2014-06-01,2014-05-29,24,304
+969,BK-T79U-60,"Touring-1000 Blue, 60",Bikes,Touring Bikes,Make,1,0,100,75,1481.94,2384.07,129,2,0,,,,,,,2014-06-01,2014-05-29,12,815
+954,BK-T79Y-46,"Touring-1000 Yellow, 46",Bikes,Touring Bikes,Make,1,0,100,75,1481.94,2384.07,148,2,0,,,,,,,2014-06-02,2014-05-30,22,745
+955,BK-T79Y-50,"Touring-1000 Yellow, 50",Bikes,Touring Bikes,Make,1,0,100,75,1481.94,2384.07,137,2,0,,,,,,,2014-05-28,2014-05-25,18,499
+956,BK-T79Y-54,"Touring-1000 Yellow, 54",Bikes,Touring Bikes,Make,1,0,100,75,1481.94,2384.07,75,2,0,,,,,,,2014-06-01,2014-05-29,18,313
+957,BK-T79Y-60,"Touring-1000 Yellow, 60",Bikes,Touring Bikes,Make,1,0,100,75,1481.94,2384.07,151,2,0,,,,,,,2014-05-28,2014-05-25,13,807
+316,BL-2036,Blade,,,Make,0,0,800,600,0.00,0.00,1361,3,0,,,,,,,2014-06-02,,0,0
+712,CA-1098,AWC Logo Cap,Clothing,Caps,Buy,1,0,4,3,6.92,8.99,288,1,0,,1636,Integrated Sport Products,45,100,1000,2014-06-30,2014-06-30,294,3756
+317,CA-5965,LL Crankarm,,,Buy,0,0,500,375,0.00,0.00,593,3,82,2014-08-13,1578,"Vision Cycles, Inc.",19,100,1000,2014-07-31,,0,0
+318,CA-6738,ML Crankarm,,,Buy,0,0,500,375,0.00,0.00,439,3,0,,1578,"Vision Cycles, Inc.",19,100,1000,2014-07-31,,0,0
+319,CA-7457,HL Crankarm,,,Buy,0,0,500,375,0.00,0.00,797,3,0,,1556,West Junction Cycles,19,100,1000,2014-07-31,,0,0
+320,CB-2903,Chainring Bolts,,,Buy,0,0,1000,750,0.00,0.00,1136,3,0,,1514,Training Systems,19,1,5,2014-07-31,,0,0
+952,CH-0234,Chain,Components,Chains,Buy,1,0,500,375,8.99,20.24,589,3,0,,1674,Varsity Sport Co.,19,20,100,2014-07-30,2014-05-01,0,487
+877,CL-9009,Bike Wash - Dissolver,Accessories,Cleaners,Buy,1,0,4,3,2.97,7.95,36,1,0,,1546,Green Lake Bike Company,45,100,500,2014-06-30,2014-06-30,125,2386
+321,CN-6137,Chainring Nut,,,Buy,0,0,1000,750,0.00,0.00,1750,3,0,,1514,Training Systems,19,1,5,2014-07-31,,0,0
+322,CR-7833,Chainring,,,Buy,0,0,1000,750,0.00,0.00,1684,3,0,,1602,Beaumont Bikes,17,20,100,2014-07-31,,0,0
+323,CR-9981,Crown Race,,,Buy,0,0,1000,750,0.00,0.00,1684,3,0,,1698,Business Equipment Center,17,1,5,2014-07-31,,0,0
+324,CS-2812,Chain Stays,,,Make,0,0,1000,750,0.00,0.00,1629,3,0,,,,,,,2014-06-02,,0,0
+949,CS-4759,LL Crankset,Components,Cranksets,Make,1,0,500,375,77.92,175.49,885,3,0,,,,,,,2014-06-02,2014-05-01,0,299
+950,CS-6583,ML Crankset,Components,Cranksets,Make,1,0,500,375,113.88,256.49,905,3,0,,,,,,,2014-06-02,2013-07-31,0,0
+951,CS-9183,HL Crankset,Components,Cranksets,Make,1,0,500,375,179.82,404.99,923,3,0,,,,,,,2014-06-02,2014-05-01,0,380
+325,DC-8732,Decal 1,,,Buy,0,0,1000,750,0.00,0.00,1750,3,0,,1590,SUPERSALES INC.,19,500,2000,2014-08-03,,0,0
+326,DC-9824,Decal 2,,,Buy,0,0,1000,750,0.00,0.00,1684,3,0,,1590,SUPERSALES INC.,19,500,2000,2014-08-03,,0,0
+327,DT-2377,Down Tube,,,Make,0,0,800,600,0.00,0.00,1364,3,0,,,,,,,2014-06-02,,0,0
+328,EC-M092,Mountain End Caps,,,Make,0,0,1000,750,0.00,0.00,1629,3,0,,,,,,,2014-06-02,,0,0
+329,EC-R098,Road End Caps,,,Make,0,0,1000,750,0.00,0.00,1601,3,0,,,,,,,2014-06-02,,0,0
+330,EC-T209,Touring End Caps,,,Make,0,0,1000,750,0.00,0.00,1571,3,0,,,,,,,2014-06-02,,0,0
+948,FB-9873,Front Brakes,Components,Brakes,Buy,1,0,500,375,47.29,106.50,767,2,0,,1576,Superior Bicycles,19,100,1000,2014-08-03,2014-05-01,0,496
+350,FC-3654,Fork Crown,,,Make,0,0,800,600,0.00,0.00,1341,3,0,,,,,,,2014-06-02,,0,0
+351,FC-3982,Front Derailleur Cage,,,Buy,0,0,800,600,0.00,0.00,605,3,82,2014-08-05,1544,Circuit Cycles,15,100,1000,2014-08-01,,0,0
+945,FD-2342,Front Derailleur,Components,Derailleurs,Make,1,0,500,375,40.62,91.49,853,3,0,,,,,,,2014-06-02,2014-05-01,0,517
+331,FE-3760,Fork End,,,Make,0,0,800,600,0.00,0.00,1405,3,0,,,,,,,2014-06-02,,0,0
+878,FE-6654,Fender Set - Mountain,Accessories,Fenders,Buy,1,0,4,3,8.22,21.98,108,1,0,,1546,Green Lake Bike Company,45,100,500,2014-06-30,2014-06-30,288,1896
+332,FH-2981,Freewheel,,,Buy,0,0,500,375,0.00,0.00,844,3,0,,1608,Sport Playground,19,100,1000,2014-08-03,,0,0
+802,FK-1639,LL Fork,Components,Forks,Make,1,1,500,375,65.81,148.22,863,3,0,,,,,,,2014-06-02,,0,0
+803,FK-5136,ML Fork,Components,Forks,Make,1,1,500,375,77.92,175.49,882,3,0,,,,,,,2014-06-02,,0,0
+804,FK-9939,HL Fork,Components,Forks,Make,1,1,500,375,101.89,229.49,901,3,0,,,,,,,2014-06-02,,0,0
+352,FL-2301,Front Derailleur Linkage,,,Buy,0,0,800,600,0.00,0.00,773,3,27,2014-08-10,1544,Circuit Cycles,15,100,1000,2014-08-01,,0,0
+943,FR-M21B-40,"LL Mountain Frame - Black, 40",Components,Mountain Frames,Make,1,0,500,375,136.79,249.79,719,6,0,,,,,,,2014-05-18,,0,0
+944,FR-M21S-40,"LL Mountain Frame - Silver, 40",Components,Mountain Frames,Make,1,0,500,375,144.59,264.05,682,6,0,,,,,,,2014-05-31,2014-05-01,0,270
+814,FR-M63B-38,"ML Mountain Frame - Black, 38",Components,Mountain Frames,Make,1,1,500,375,185.82,348.76,767,6,0,,,,,,,,,0,0
+942,FR-M63S-38,"ML Mountain Frame-W - Silver, 38",Components,Mountain Frames,Make,1,0,500,375,199.38,364.09,826,6,0,,,,,,,2014-06-01,,0,0
+747,FR-M94B-38,"HL Mountain Frame - Black, 38",Components,Mountain Frames,Make,1,0,500,375,739.04,1349.60,834,6,0,,,,,,,2014-06-02,2014-05-01,0,191
+748,FR-M94S-38,"HL Mountain Frame - Silver, 38",Components,Mountain Frames,Make,1,0,500,375,747.20,1364.50,738,6,0,,,,,,,2014-06-02,2014-05-01,0,335
+822,FR-R72Y-38,"ML Road Frame-W - Yellow, 38",Components,Road Frames,Make,1,0,500,375,360.94,594.83,796,6,0,,,,,,,2014-05-31,2014-05-01,0,256
+341,FW-1000,Flat Washer 1,,,Buy,0,0,1000,750,0.00,0.00,1103,3,0,,1614,"Reliance Fitness, Inc.",19,1,5,2014-08-03,,0,0
+342,FW-1200,Flat Washer 6,,,Buy,0,0,1000,750,0.00,0.00,1093,3,0,,1614,"Reliance Fitness, Inc.",19,1,5,2014-08-03,,0,0
+343,FW-1400,Flat Washer 2,,,Buy,0,0,1000,750,0.00,0.00,1673,3,0,,1614,"Reliance Fitness, Inc.",19,1,5,2014-08-01,,0,0
+344,FW-3400,Flat Washer 9,,,Buy,0,0,1000,750,0.00,0.00,1072,3,0,,1614,"Reliance Fitness, Inc.",19,1,5,2014-08-01,,0,0
+345,FW-3800,Flat Washer 4,,,Buy,0,0,1000,750,0.00,0.00,936,3,0,,1614,"Reliance Fitness, Inc.",19,1,5,2014-08-01,,0,0
+346,FW-5160,Flat Washer 3,,,Buy,0,0,1000,750,0.00,0.00,1702,3,0,,1614,"Reliance Fitness, Inc.",19,1,5,2014-08-01,,0,0
+347,FW-5800,Flat Washer 8,,,Buy,0,0,1000,750,0.00,0.00,896,3,0,,1622,Speed Corporation,19,1,5,2014-08-03,,0,0
+348,FW-7160,Flat Washer 5,,,Buy,0,0,1000,750,0.00,0.00,911,3,0,,1622,Speed Corporation,19,1,5,2014-08-03,,0,0
+349,FW-9160,Flat Washer 7,,,Buy,0,0,1000,750,0.00,0.00,926,3,0,,1614,"Reliance Fitness, Inc.",19,1,5,2014-08-03,,0,0
+815,FW-M423,LL Mountain Front Wheel,Components,Wheels,Make,1,1,500,375,26.97,60.75,722,2,0,,,,,,,2014-06-01,,0,0
+816,FW-M762,ML Mountain Front Wheel,Components,Wheels,Make,1,1,500,375,92.81,209.03,818,2,0,,,,,,,2014-06-02,,0,0
+817,FW-M928,HL Mountain Front Wheel,Components,Wheels,Make,1,1,500,375,133.30,300.22,831,2,0,,,,,,,,,0,0
+818,FW-R623,LL Road Front Wheel,Components,Wheels,Make,1,1,500,375,37.99,85.57,888,2,0,,,,,,,2014-06-02,,0,0
+819,FW-R762,ML Road Front Wheel,Components,Wheels,Make,1,1,500,375,110.28,248.39,793,2,0,,,,,,,2014-06-02,,0,0
+820,FW-R820,HL Road Front Wheel,Components,Wheels,Make,1,1,500,375,146.55,330.06,678,2,0,,,,,,,2014-06-02,,0,0
+821,FW-T905,Touring Front Wheel,Components,Wheels,Make,1,1,500,375,96.80,218.01,736,2,0,,,,,,,2014-06-02,,0,0
+863,GL-F110-L,"Full-Finger Gloves, L",Clothing,Gloves,Buy,1,1,4,3,15.67,37.99,144,1,0,,1676,Team Athletic Co.,25,500,5000,2014-04-30,2014-04-30,0,13
+862,GL-F110-M,"Full-Finger Gloves, M",Clothing,Gloves,Buy,1,1,4,3,15.67,37.99,108,1,0,,1676,Team Athletic Co.,25,500,5000,2014-04-30,2014-04-30,0,5
+861,GL-F110-S,"Full-Finger Gloves, S",Clothing,Gloves,Buy,1,1,4,3,15.67,37.99,72,1,0,,1676,Team Athletic Co.,25,500,5000,2014-04-30,2014-04-30,0,5
+860,GL-H102-L,"Half-Finger Gloves, L",Clothing,Gloves,Buy,1,0,4,3,9.16,24.49,36,1,0,,1676,Team Athletic Co.,15,500,5000,2014-06-30,2014-06-30,60,720
+859,GL-H102-M,"Half-Finger Gloves, M",Clothing,Gloves,Buy,1,0,4,3,9.16,24.49,0,1,0,,1676,Team Athletic Co.,15,500,5000,2014-06-30,2014-06-30,64,1615
+858,GL-H102-S,"Half-Finger Gloves, S",Clothing,Gloves,Buy,1,0,4,3,9.16,24.49,324,1,0,,1676,Team Athletic Co.,15,500,5000,2014-06-27,2014-06-27,74,1124
+355,GP-0982,Guide Pulley,,,Buy,0,0,800,600,0.00,0.00,822,3,0,,1508,"Compete Enterprises, Inc",15,100,1000,2014-07-27,,0,0
+356,GT-0820,LL Grip Tape,,,Buy,0,0,800,600,0.00,0.00,780,3,0,,1572,National Bike Association,16,20,100,2014-08-03,,0,0
+357,GT-1209,ML Grip Tape,,,Buy,0,0,800,600,0.00,0.00,736,3,0,,1572,National Bike Association,16,20,100,2014-08-03,,0,0
+358,GT-2908,HL Grip Tape,,,Buy,0,0,800,600,0.00,0.00,693,3,9,2014-08-12,1500,Morgan Bike Accessories,16,20,100,2014-08-03,,0,0
+808,HB-M243,LL Mountain Handlebars,Components,Handlebars,Make,1,0,500,375,19.78,44.54,859,3,0,,,,,,,2014-06-01,2014-05-01,0,251
+809,HB-M763,ML Mountain Handlebars,Components,Handlebars,Make,1,0,500,375,27.49,61.92,850,3,0,,,,,,,2014-05-04,2014-05-01,0,432
+810,HB-M918,HL Mountain Handlebars,Components,Handlebars,Make,1,0,500,375,53.40,120.27,840,3,0,,,,,,,2014-06-02,2014-05-01,0,124
+811,HB-R504,LL Road Handlebars,Components,Handlebars,Make,1,0,500,375,19.78,44.54,831,3,0,,,,,,,2014-06-02,2013-07-31,0,0
+812,HB-R720,ML Road Handlebars,Components,Handlebars,Make,1,0,500,375,27.49,61.92,822,3,0,,,,,,,2014-06-02,,0,0
+813,HB-R956,HL Road Handlebars,Components,Handlebars,Make,1,0,500,375,53.40,120.27,811,3,0,,,,,,,2014-06-02,2014-05-01,0,164
+946,HB-T721,LL Touring Handlebars,Components,Handlebars,Make,1,0,500,375,20.46,46.09,802,3,0,,,,,,,2014-06-02,2013-07-31,0,0
+947,HB-T928,HL Touring Handlebars,Components,Handlebars,Make,1,0,500,375,40.66,91.57,792,3,0,,,,,,,2014-06-02,2014-05-01,0,116
+359,HJ-1213,Thin-Jam Hex Nut 9,,,Buy,0,0,1000,750,0.00,0.00,1103,3,0,,1496,Advanced Bicycles,17,1,5,2014-07-19,,0,0
+360,HJ-1220,Thin-Jam Hex Nut 10,,,Buy,0,0,1000,750,0.00,0.00,1084,3,0,,1496,Advanced Bicycles,17,1,5,2014-07-19,,0,0
+361,HJ-1420,Thin-Jam Hex Nut 1,,,Buy,0,0,1000,750,0.00,0.00,1631,3,0,,1554,WestAmerica Bicycle Co.,19,1,5,2014-07-25,,0,0
+362,HJ-1428,Thin-Jam Hex Nut 2,,,Buy,0,0,1000,750,0.00,0.00,1026,3,0,,1554,WestAmerica Bicycle Co.,19,1,5,2014-07-25,,0,0
+363,HJ-3410,Thin-Jam Hex Nut 15,,,Buy,0,0,1000,750,0.00,0.00,1761,3,0,,1554,WestAmerica Bicycle Co.,19,1,5,2014-07-25,,0,0
+364,HJ-3416,Thin-Jam Hex Nut 16,,,Buy,0,0,1000,750,0.00,0.00,1052,3,0,,1554,WestAmerica Bicycle Co.,19,1,5,2014-07-30,,0,0
+365,HJ-3816,Thin-Jam Hex Nut 5,,,Buy,0,0,1000,750,0.00,0.00,1721,3,0,,1554,WestAmerica Bicycle Co.,19,1,5,2014-07-30,,0,0
+366,HJ-3824,Thin-Jam Hex Nut 6,,,Buy,0,0,1000,750,0.00,0.00,1029,3,0,,1554,WestAmerica Bicycle Co.,19,1,5,2014-07-19,,0,0
+367,HJ-5161,Thin-Jam Hex Nut 3,,,Buy,0,0,1000,750,0.00,0.00,1901,3,0,,1554,WestAmerica Bicycle Co.,19,1,5,2014-07-19,,0,0
+368,HJ-5162,Thin-Jam Hex Nut 4,,,Buy,0,0,1000,750,0.00,0.00,1103,3,0,,1554,WestAmerica Bicycle Co.,19,1,5,2014-07-19,,0,0
+369,HJ-5811,Thin-Jam Hex Nut 13,,,Buy,0,0,1000,750,0.00,0.00,1084,3,0,,1554,WestAmerica Bicycle Co.,19,1,5,2014-07-19,,0,0
+370,HJ-5818,Thin-Jam Hex Nut 14,,,Buy,0,0,1000,750,0.00,0.00,883,3,0,,1496,Advanced Bicycles,17,1,5,2014-07-25,,0,0
+371,HJ-7161,Thin-Jam Hex Nut 7,,,Buy,0,0,1000,750,0.00,0.00,1781,3,0,,1496,Advanced Bicycles,17,1,5,2014-07-25,,0,0
+372,HJ-7162,Thin-Jam Hex Nut 8,,,Buy,0,0,1000,750,0.00,0.00,897,3,0,,1496,Advanced Bicycles,17,1,5,2014-07-25,,0,0
+373,HJ-9080,Thin-Jam Hex Nut 12,,,Buy,0,0,1000,750,0.00,0.00,906,3,0,,1496,Advanced Bicycles,17,1,5,2014-07-30,,0,0
+374,HJ-9161,Thin-Jam Hex Nut 11,,,Buy,0,0,1000,750,0.00,0.00,916,3,0,,1496,Advanced Bicycles,17,1,5,2014-07-30,,0,0
+708,HL-U509,"Sport-100 Helmet, Black",Accessories,Helmets,Buy,1,0,4,3,13.09,34.99,324,1,5,2014-09-22,1520,G & K Bicycle Corp.,30,4,200,2014-06-30,2014-06-30,281,3314
+711,HL-U509-B,"Sport-100 Helmet, Blue",Accessories,Helmets,Buy,1,0,4,3,13.09,34.99,216,1,280,2014-07-02,1520,G & K Bicycle Corp.,45,50,750,2014-06-30,2014-06-30,286,3331
+707,HL-U509-R,"Sport-100 Helmet, Red",Accessories,Helmets,Buy,1,0,4,3,13.09,34.99,288,1,5,2014-03-13,1520,G & K Bicycle Corp.,30,4,200,2014-06-30,2014-06-30,264,3237
+375,HN-1024,Hex Nut 5,,,Buy,0,0,1000,750,0.00,0.00,925,3,0,,1536,Cruger Bike Company,15,1,5,2014-08-03,,0,0
+376,HN-1032,Hex Nut 6,,,Buy,0,0,1000,750,0.00,0.00,1781,3,0,,1536,Cruger Bike Company,15,1,5,2014-08-03,,0,0
+377,HN-1213,Hex Nut 16,,,Buy,0,0,1000,750,0.00,0.00,941,3,0,,1536,Cruger Bike Company,15,1,5,2014-08-03,,0,0
+378,HN-1220,Hex Nut 17,,,Buy,0,0,1000,750,0.00,0.00,926,3,0,,1536,Cruger Bike Company,15,1,5,2014-08-03,,0,0
+379,HN-1224,Hex Nut 7,,,Buy,0,0,1000,750,0.00,0.00,1911,3,0,,1536,Cruger Bike Company,15,1,5,2014-07-10,,0,0
+380,HN-1420,Hex Nut 8,,,Buy,0,0,1000,750,0.00,0.00,770,3,0,,1536,Cruger Bike Company,15,1,5,2014-07-16,,0,0
+381,HN-1428,Hex Nut 9,,,Buy,0,0,1000,750,0.00,0.00,789,3,0,,1536,Cruger Bike Company,15,1,5,2014-07-16,,0,0
+382,HN-3410,Hex Nut 22,,,Buy,0,0,1000,750,0.00,0.00,808,3,0,,1562,Norstan Bike Hut,16,1,5,2014-07-22,,0,0
+383,HN-3416,Hex Nut 23,,,Buy,0,0,1000,750,0.00,0.00,1901,3,0,,1562,Norstan Bike Hut,16,1,5,2014-07-22,,0,0
+384,HN-3816,Hex Nut 12,,,Buy,0,0,1000,750,0.00,0.00,820,3,0,,1562,Norstan Bike Hut,16,1,5,2014-07-22,,0,0
+385,HN-3824,Hex Nut 13,,,Buy,0,0,1000,750,0.00,0.00,1778,3,0,,1562,Norstan Bike Hut,16,1,5,2014-07-22,,0,0
+386,HN-4402,Hex Nut 1,,,Buy,0,0,1000,750,0.00,0.00,725,3,0,,1536,Cruger Bike Company,15,1,5,2014-07-27,,0,0
+387,HN-5161,Hex Nut 10,,,Buy,0,0,1000,750,0.00,0.00,1888,3,0,,1536,Cruger Bike Company,15,1,5,2014-07-27,,0,0
+388,HN-5162,Hex Nut 11,,,Buy,0,0,1000,750,0.00,0.00,798,3,0,,1536,Cruger Bike Company,15,1,5,2014-07-27,,0,0
+389,HN-5400,Hex Nut 2,,,Buy,0,0,1000,750,0.00,0.00,1808,3,0,,1536,Cruger Bike Company,15,1,5,2014-08-01,,0,0
+390,HN-5811,Hex Nut 20,,,Buy,0,0,1000,750,0.00,0.00,798,3,0,,1536,Cruger Bike Company,15,1,5,2014-08-01,,0,0
+391,HN-5818,Hex Nut 21,,,Buy,0,0,1000,750,0.00,0.00,809,3,0,,1536,Cruger Bike Company,15,1,5,2014-08-01,,0,0
+392,HN-6320,Hex Nut 3,,,Buy,0,0,1000,750,0.00,0.00,818,3,0,,1536,Cruger Bike Company,15,1,5,2014-08-01,,0,0
+393,HN-7161,Hex Nut 14,,,Buy,0,0,1000,750,0.00,0.00,1880,3,0,,1536,Cruger Bike Company,15,1,5,2014-08-01,,0,0
+394,HN-7162,Hex Nut 15,,,Buy,0,0,1000,750,0.00,0.00,911,3,0,,1536,Cruger Bike Company,15,1,5,2014-08-03,,0,0
+395,HN-8320,Hex Nut 4,,,Buy,0,0,1000,750,0.00,0.00,784,3,0,,1536,Cruger Bike Company,15,1,5,2014-08-03,,0,0
+396,HN-9161,Hex Nut 18,,,Buy,0,0,1000,750,0.00,0.00,1824,3,0,,1536,Cruger Bike Company,15,1,5,2014-08-03,,0,0
+397,HN-9168,Hex Nut 19,,,Buy,0,0,1000,750,0.00,0.00,1652,3,0,,1536,Cruger Bike Company,15,1,5,2014-08-03,,0,0
+805,HS-0296,LL Headset,Components,Headsets,Make,1,1,500,375,15.18,34.20,761,3,0,,,,,,,2014-06-02,,0,0
+806,HS-2451,ML Headset,Components,Headsets,Make,1,1,500,375,45.42,102.29,772,3,0,,,,,,,2014-06-02,,0,0
+807,HS-3479,HL Headset,Components,Headsets,Make,1,1,500,375,55.38,124.73,782,3,0,,,,,,,2014-06-02,,0,0
+398,HT-2981,Handlebar Tube,,,Make,0,0,800,600,0.00,0.00,1326,3,0,,,,,,,2014-06-02,,0,0
+399,HT-8019,Head Tube,,,Make,0,0,800,600,0.00,0.00,1308,3,0,,,,,,,2014-06-02,,0,0
+400,HU-6280,LL Hub,,,Make,0,0,500,375,0.00,0.00,790,3,0,,,,,,,2014-06-02,,0,0
+401,HU-8998,HL Hub,,,Make,0,0,500,375,0.00,0.00,797,3,0,,,,,,,2014-06-02,,0,0
+880,HY-1023-70,Hydration Pack - 70 oz.,Accessories,Hydration Packs,Buy,1,0,4,3,20.57,54.99,108,1,0,,1546,Green Lake Bike Company,45,500,1500,2014-06-30,2014-06-30,93,1933
+402,KW-4091,Keyed Washer,,,Buy,0,0,1000,750,0.00,0.00,990,3,0,,1648,Wide World Importers,15,1,5,2014-08-01,,0,0
+403,LE-1000,External Lock Washer 3,,,Buy,0,0,1000,750,0.00,0.00,981,3,0,,1686,Pro Sport Industries,19,1,5,2014-07-31,,0,0
+404,LE-1200,External Lock Washer 4,,,Buy,0,0,1000,750,0.00,0.00,972,3,0,,1686,Pro Sport Industries,19,1,5,2014-07-31,,0,0
+405,LE-1201,External Lock Washer 9,,,Buy,0,0,1000,750,0.00,0.00,963,3,0,,1672,Expert Bike Co,15,1,5,2014-08-01,,0,0
+406,LE-1400,External Lock Washer 5,,,Buy,0,0,1000,750,0.00,0.00,952,3,0,,1672,Expert Bike Co,15,1,5,2014-08-01,,0,0
+407,LE-3800,External Lock Washer 7,,,Buy,0,0,1000,750,0.00,0.00,1672,3,0,,1672,Expert Bike Co,15,1,5,2014-08-01,,0,0
+408,LE-5160,External Lock Washer 6,,,Buy,0,0,1000,750,0.00,0.00,1057,3,0,,1672,Expert Bike Co,15,1,5,2014-07-29,,0,0
+409,LE-6000,External Lock Washer 1,,,Buy,0,0,1000,750,0.00,0.00,1046,3,0,,1672,Expert Bike Co,15,1,5,2014-07-29,,0,0
+410,LE-7160,External Lock Washer 8,,,Buy,0,0,1000,750,0.00,0.00,1037,3,0,,1616,Aurora Bike Center,17,1,5,2014-08-03,,0,0
+411,LE-8000,External Lock Washer 2,,,Buy,0,0,1000,750,0.00,0.00,1614,3,0,,1616,Aurora Bike Center,17,1,5,2014-08-03,,0,0
+412,LI-1000,Internal Lock Washer 3,,,Buy,0,0,1000,750,0.00,0.00,776,3,0,,1616,Aurora Bike Center,17,1,5,2014-08-03,,0,0
+413,LI-1200,Internal Lock Washer 4,,,Buy,0,0,1000,750,0.00,0.00,1703,3,0,,1616,Aurora Bike Center,17,1,5,2014-08-03,,0,0
+414,LI-1201,Internal Lock Washer 9,,,Buy,0,0,1000,750,0.00,0.00,1119,3,0,,1686,Pro Sport Industries,19,1,5,2014-07-21,,0,0
+415,LI-1400,Internal Lock Washer 5,,,Buy,0,0,1000,750,0.00,0.00,1104,3,0,,1686,Pro Sport Industries,19,1,5,2014-07-21,,0,0
+416,LI-3800,Internal Lock Washer 7,,,Buy,0,0,1000,750,0.00,0.00,1090,3,0,,1686,Pro Sport Industries,19,1,5,2014-07-21,,0,0
+417,LI-5160,Internal Lock Washer 6,,,Buy,0,0,1000,750,0.00,0.00,1715,3,0,,1686,Pro Sport Industries,19,1,5,2014-07-26,,0,0
+418,LI-5800,Internal Lock Washer 10,,,Buy,0,0,1000,750,0.00,0.00,919,3,0,,1686,Pro Sport Industries,19,1,5,2014-07-26,,0,0
+419,LI-6000,Internal Lock Washer 1,,,Buy,0,0,1000,750,0.00,0.00,914,3,0,,1686,Pro Sport Industries,19,1,5,2014-07-26,,0,0
+420,LI-7160,Internal Lock Washer 8,,,Buy,0,0,1000,750,0.00,0.00,909,3,0,,1686,Pro Sport Industries,19,1,5,2014-07-26,,0,0
+421,LI-8000,Internal Lock Washer 2,,,Buy,0,0,1000,750,0.00,0.00,905,3,0,,1686,Pro Sport Industries,19,1,5,2014-07-26,,0,0
+715,LJ-0192-L,"Long-Sleeve Logo Jersey, L",Clothing,Jerseys,Buy,1,0,4,3,38.49,49.99,216,1,0,,1636,Integrated Sport Products,45,100,1000,2014-06-30,2014-06-30,57,2204
+714,LJ-0192-M,"Long-Sleeve Logo Jersey, M",Clothing,Jerseys,Buy,1,0,4,3,38.49,49.99,180,1,0,,1636,Integrated Sport Products,45,100,1000,2014-06-30,2014-06-30,67,1309
+713,LJ-0192-S,"Long-Sleeve Logo Jersey, S",Clothing,Jerseys,Buy,1,0,4,3,38.49,49.99,144,1,0,,1636,Integrated Sport Products,45,100,1000,2014-06-30,2014-06-30,62,394
+716,LJ-0192-X,"Long-Sleeve Logo Jersey, XL",Clothing,Jerseys,Buy,1,0,4,3,38.49,49.99,252,1,0,,1636,Integrated Sport Products,45,100,1000,2014-06-30,2014-06-30,50,916
+422,LJ-1213,Thin-Jam Lock Nut 9,,,Buy,0,0,1000,750,0.00,0.00,1632,3,0,,1666,Leaf River Terrain,16,1,5,2014-07-29,,0,0
+423,LJ-1220,Thin-Jam Lock Nut 10,,,Buy,0,0,1000,750,0.00,0.00,1628,3,0,,1666,Leaf River Terrain,16,1,5,2014-07-29,,0,0
+424,LJ-1420,Thin-Jam Lock Nut 1,,,Buy,0,0,1000,750,0.00,0.00,1623,3,0,,1666,Leaf River Terrain,16,1,5,2014-08-03,,0,0
+425,LJ-1428,Thin-Jam Lock Nut 2,,,Buy,0,0,1000,750,0.00,0.00,1618,3,0,,1666,Leaf River Terrain,16,1,5,2014-08-03,,0,0
+426,LJ-3410,Thin-Jam Lock Nut 15,,,Buy,0,0,1000,750,0.00,0.00,1613,3,0,,1666,Leaf River Terrain,16,1,5,2014-08-03,,0,0
+427,LJ-3416,Thin-Jam Lock Nut 16,,,Buy,0,0,1000,750,0.00,0.00,1608,3,0,,1492,Australia Bike Retailer,17,1,5,2014-07-23,,0,0
+428,LJ-3816,Thin-Jam Lock Nut 5,,,Buy,0,0,1000,750,0.00,0.00,1604,3,0,,1492,Australia Bike Retailer,17,1,5,2014-07-23,,0,0
+429,LJ-3824,Thin-Jam Lock Nut 6,,,Buy,0,0,1000,750,0.00,0.00,1599,3,0,,1534,Ready Rentals,19,1,5,2014-07-28,,0,0
+430,LJ-5161,Thin-Jam Lock Nut 3,,,Buy,0,0,1000,750,0.00,0.00,1594,3,0,,1534,Ready Rentals,19,1,5,2014-07-28,,0,0
+431,LJ-5162,Thin-Jam Lock Nut 4,,,Buy,0,0,1000,750,0.00,0.00,1604,3,0,,1534,Ready Rentals,19,1,5,2014-07-28,,0,0
+432,LJ-5811,Thin-Jam Lock Nut 13,,,Buy,0,0,1000,750,0.00,0.00,1613,3,0,,1534,Ready Rentals,19,1,5,2014-07-28,,0,0
+433,LJ-5818,Thin-Jam Lock Nut 14,,,Buy,0,0,1000,750,0.00,0.00,1623,3,0,,1534,Ready Rentals,19,1,5,2014-08-02,,0,0
+434,LJ-7161,Thin-Jam Lock Nut 7,,,Buy,0,0,1000,750,0.00,0.00,1632,3,0,,1534,Ready Rentals,19,1,5,2014-08-02,,0,0
+435,LJ-7162,Thin-Jam Lock Nut 8,,,Buy,0,0,1000,750,0.00,0.00,1642,3,0,,1534,Ready Rentals,19,1,5,2014-08-02,,0,0
+436,LJ-9080,Thin-Jam Lock Nut 12,,,Buy,0,0,1000,750,0.00,0.00,1652,3,0,,1534,Ready Rentals,19,1,5,2014-07-31,,0,0
+437,LJ-9161,Thin-Jam Lock Nut 11,,,Buy,0,0,1000,750,0.00,0.00,1661,3,0,,1666,Leaf River Terrain,16,1,5,2014-07-31,,0,0
+438,LN-1024,Lock Nut 5,,,Buy,0,0,1000,750,0.00,0.00,1671,3,0,,1540,Bergeron Off-Roads,17,1,5,2014-07-15,,0,0
+439,LN-1032,Lock Nut 6,,,Buy,0,0,1000,750,0.00,0.00,1680,3,0,,1540,Bergeron Off-Roads,17,1,5,2014-07-15,,0,0
+440,LN-1213,Lock Nut 16,,,Buy,0,0,1000,750,0.00,0.00,1690,3,0,,1656,Mountain Works,16,1,5,2014-07-21,,0,0
+441,LN-1220,Lock Nut 17,,,Buy,0,0,1000,750,0.00,0.00,1676,3,0,,1656,Mountain Works,16,1,5,2014-07-21,,0,0
+442,LN-1224,Lock Nut 7,,,Buy,0,0,1000,750,0.00,0.00,1661,3,0,,1656,Mountain Works,16,1,5,2014-07-21,,0,0
+443,LN-1420,Lock Nut 8,,,Buy,0,0,1000,750,0.00,0.00,1647,3,0,,1656,Mountain Works,16,1,5,2014-07-26,,0,0
+444,LN-1428,Lock Nut 9,,,Buy,0,0,1000,750,0.00,0.00,1632,3,0,,1656,Mountain Works,16,1,5,2014-07-26,,0,0
+445,LN-3410,Lock Nut 22,,,Buy,0,0,1000,750,0.00,0.00,1618,3,0,,1656,Mountain Works,16,1,5,2014-07-31,,0,0
+446,LN-3416,Lock Nut 23,,,Buy,0,0,1000,750,0.00,0.00,1604,3,0,,1656,Mountain Works,16,1,5,2014-07-31,,0,0
+447,LN-3816,Lock Nut 12,,,Buy,0,0,1000,750,0.00,0.00,1589,3,0,,1656,Mountain Works,16,1,5,2014-07-31,,0,0
+448,LN-3824,Lock Nut 13,,,Buy,0,0,1000,750,0.00,0.00,1575,3,0,,1656,Mountain Works,16,1,5,2014-07-31,,0,0
+449,LN-4400,Lock Nut 1,,,Buy,0,0,1000,750,0.00,0.00,1560,3,0,,1656,Mountain Works,16,1,5,2014-07-18,,0,0
+450,LN-5161,Lock Nut 10,,,Buy,0,0,1000,750,0.00,0.00,1546,3,0,,1540,Bergeron Off-Roads,17,1,5,2014-07-24,,0,0
+451,LN-5162,Lock Nut 11,,,Buy,0,0,1000,750,0.00,0.00,1556,3,0,,1540,Bergeron Off-Roads,17,1,5,2014-07-24,,0,0
+452,LN-5400,Lock Nut 2,,,Buy,0,0,1000,750,0.00,0.00,1565,3,0,,1540,Bergeron Off-Roads,17,1,5,2014-07-24,,0,0
+453,LN-5811,Lock Nut 20,,,Buy,0,0,1000,750,0.00,0.00,1575,3,0,,1540,Bergeron Off-Roads,17,1,5,2014-07-24,,0,0
+454,LN-5818,Lock Nut 21,,,Buy,0,0,1000,750,0.00,0.00,1584,3,0,,1540,Bergeron Off-Roads,17,1,5,2014-07-24,,0,0
+455,LN-6320,Lock Nut 3,,,Buy,0,0,1000,750,0.00,0.00,1594,3,0,,1540,Bergeron Off-Roads,17,1,5,2014-07-29,,0,0
+456,LN-7161,Lock Nut 14,,,Buy,0,0,1000,750,0.00,0.00,1604,3,0,,1540,Bergeron Off-Roads,17,1,5,2014-07-29,,0,0
+457,LN-7162,Lock Nut 15,,,Buy,0,0,1000,750,0.00,0.00,1613,3,0,,1540,Bergeron Off-Roads,17,1,5,2014-07-29,,0,0
+458,LN-8320,Lock Nut 4,,,Buy,0,0,1000,750,0.00,0.00,1623,3,0,,1540,Bergeron Off-Roads,17,1,5,2014-07-29,,0,0
+459,LN-9080,Lock Nut 19,,,Buy,0,0,1000,750,0.00,0.00,1632,3,0,,1540,Bergeron Off-Roads,17,1,5,2014-07-29,,0,0
+460,LN-9161,Lock Nut 18,,,Buy,0,0,1000,750,0.00,0.00,1642,3,0,,1540,Bergeron Off-Roads,17,1,5,2014-07-29,,0,0
+843,LO-C100,Cable Lock,Accessories,Locks,Buy,1,1,4,3,10.31,25.00,252,1,0,,1518,International Trek Center,10,50,200,2013-09-30,2013-09-30,0,1
+461,LR-2398,Lock Ring,,,Buy,0,0,1000,750,0.00,0.00,1652,3,0,,1540,Bergeron Off-Roads,17,1,5,2014-07-09,,0,0
+462,LR-8520,Lower Head Race,,,Buy,0,0,1000,750,0.00,0.00,701,3,0,,1510,International,18,1,5,2014-08-02,,0,0
+847,LT-H902,Headlights - Dual-Beam,Accessories,Lights,Buy,1,1,4,3,14.43,34.99,180,1,0,,1518,International Trek Center,30,150,500,,,0,0
+848,LT-H903,Headlights - Weatherproof,Accessories,Lights,Buy,1,1,4,3,18.56,44.99,216,1,0,,1518,International Trek Center,45,50,300,,,0,0
+846,LT-T990,Taillights - Battery-Powered,Accessories,Lights,Buy,1,1,4,3,5.77,13.99,144,1,0,,1518,International Trek Center,30,150,500,,,0,0
+463,LW-1000,Lock Washer 4,,,Buy,0,0,1000,750,0.00,0.00,1685,3,0,,1582,Inner City Bikes,18,1,5,2014-07-28,,0,0
+464,LW-1200,Lock Washer 5,,,Buy,0,0,1000,750,0.00,0.00,1690,3,0,,1582,Inner City Bikes,18,1,5,2014-07-28,,0,0
+465,LW-1201,Lock Washer 10,,,Buy,0,0,1000,750,0.00,0.00,1695,3,0,,1582,Inner City Bikes,18,1,5,2014-08-02,,0,0
+466,LW-1400,Lock Washer 6,,,Buy,0,0,1000,750,0.00,0.00,1700,3,0,,1582,Inner City Bikes,18,1,5,2014-08-02,,0,0
+467,LW-3400,Lock Washer 13,,,Buy,0,0,1000,750,0.00,0.00,1704,3,0,,1582,Inner City Bikes,18,1,5,2014-08-02,,0,0
+468,LW-3800,Lock Washer 8,,,Buy,0,0,1000,750,0.00,0.00,1709,3,0,,1582,Inner City Bikes,18,1,5,2014-07-23,,0,0
+469,LW-4000,Lock Washer 1,,,Buy,0,0,1000,750,0.00,0.00,1714,3,0,,1582,Inner City Bikes,18,1,5,2014-07-23,,0,0
+470,LW-5160,Lock Washer 7,,,Buy,0,0,1000,750,0.00,0.00,1719,3,0,,1582,Inner City Bikes,18,1,5,2014-07-23,,0,0
+471,LW-5800,Lock Washer 12,,,Buy,0,0,1000,750,0.00,0.00,1724,3,0,,1582,Inner City Bikes,18,1,5,2014-07-23,,0,0
+472,LW-6000,Lock Washer 2,,,Buy,0,0,1000,750,0.00,0.00,1728,3,0,,1582,Inner City Bikes,18,1,5,2014-07-23,,0,0
+473,LW-7160,Lock Washer 9,,,Buy,0,0,1000,750,0.00,0.00,1733,3,0,,1582,Inner City Bikes,18,1,5,2014-07-23,,0,0
+474,LW-8000,Lock Washer 3,,,Buy,0,0,1000,750,0.00,0.00,1738,3,0,,1582,Inner City Bikes,18,1,5,2014-07-23,,0,0
+475,LW-9160,Lock Washer 11,,,Buy,0,0,1000,750,0.00,0.00,1743,3,0,,1582,Inner City Bikes,18,1,5,2014-07-23,,0,0
+476,MA-7075,Metal Angle,,,Buy,0,0,1000,750,0.00,0.00,1083,3,0,,1568,"Custom Frames, Inc.",15,100,1000,2014-07-10,,0,0
+477,MB-2024,Metal Bar 1,,,Buy,0,0,1000,750,0.00,0.00,1079,3,0,,1568,"Custom Frames, Inc.",15,100,1000,2014-07-10,,0,0
+478,MB-6061,Metal Bar 2,,,Buy,0,0,1000,750,0.00,0.00,1687,3,0,,1568,"Custom Frames, Inc.",15,100,1000,2014-07-16,,0,0
+479,MP-2066,Metal Plate 2,,,Buy,0,0,1000,750,0.00,0.00,1029,3,0,,1568,"Custom Frames, Inc.",15,100,1000,2014-07-16,,0,0
+480,MP-2503,Metal Plate 1,,,Buy,0,0,1000,750,0.00,0.00,1661,3,0,,1568,"Custom Frames, Inc.",15,100,1000,2014-07-16,,0,0
+481,MP-4960,Metal Plate 3,,,Buy,0,0,1000,750,0.00,0.00,997,3,0,,1568,"Custom Frames, Inc.",15,100,1000,2014-07-22,,0,0
+482,MS-0253,Metal Sheet 2,,,Buy,0,0,1000,750,0.00,0.00,924,3,0,,1568,"Custom Frames, Inc.",15,100,1000,2014-07-22,,0,0
+483,MS-1256,Metal Sheet 3,,,Buy,0,0,1000,750,0.00,0.00,1681,3,0,,1568,"Custom Frames, Inc.",15,100,1000,2014-07-27,,0,0
+484,MS-1981,Metal Sheet 7,,,Buy,0,0,1000,750,0.00,0.00,997,3,0,,1568,"Custom Frames, Inc.",15,100,1000,2014-07-27,,0,0
+485,MS-2259,Metal Sheet 4,,,Buy,0,0,1000,750,0.00,0.00,924,3,0,,1568,"Custom Frames, Inc.",15,100,1000,2014-07-27,,0,0
+486,MS-2341,Metal Sheet 5,,,Buy,0,0,1000,750,0.00,0.00,1661,3,0,,1568,"Custom Frames, Inc.",15,100,1000,2014-07-27,,0,0
+487,MS-2348,Metal Sheet 6,,,Buy,0,0,1000,750,0.00,0.00,992,3,0,,1568,"Custom Frames, Inc.",15,100,1000,2014-08-01,,0,0
+488,MS-6061,Metal Sheet 1,,,Buy,0,0,1000,750,0.00,0.00,935,3,0,,1568,"Custom Frames, Inc.",15,100,1000,2014-08-01,,0,0
+489,MT-1000,Metal Tread Plate,,,Buy,0,0,1000,750,0.00,0.00,1837,3,0,,1568,"Custom Frames, Inc.",15,100,1000,2014-08-01,,0,0
+490,NI-4127,LL Nipple,,,Buy,0,0,1000,750,0.00,0.00,1780,3,0,,1662,Northern Bike Travel,16,1,5,2014-08-03,,0,0
+491,NI-9522,HL Nipple,,,Buy,0,0,1000,750,0.00,0.00,922,3,0,,1592,Lindell,16,1,5,2014-08-02,,0,0
+492,PA-187B,Paint - Black,,,Buy,0,0,60,45,0.00,0.00,47,3,0,,1584,Trey Research,16,20,100,2014-08-02,,0,0
+493,PA-361R,Paint - Red,,,Buy,0,0,60,45,0.00,0.00,93,3,0,,1584,Trey Research,16,20,100,2014-08-02,,0,0
+494,PA-529S,Paint - Silver,,,Buy,0,0,60,45,0.00,0.00,65,3,0,,1584,Trey Research,16,20,100,2014-08-02,,0,0
+495,PA-632U,Paint - Blue,,,Buy,0,0,60,45,0.00,0.00,109,3,0,,1584,Trey Research,16,20,100,2014-08-02,,0,0
+496,PA-823Y,Paint - Yellow,,,Buy,0,0,60,45,0.00,0.00,99,3,0,,1584,Trey Research,16,20,100,2014-08-02,,0,0
+842,PA-T100,"Touring-Panniers, Large",Accessories,Panniers,Buy,1,1,4,3,51.56,125.00,72,1,0,,1518,International Trek Center,120,100,600,,,0,0
+497,PB-6109,Pinch Bolt,,,Buy,0,0,1000,750,0.00,0.00,973,3,0,,1566,Burnett Road Warriors,17,1,5,2014-07-31,,0,0
+935,PD-M282,LL Mountain Pedal,Components,Pedals,Buy,1,0,500,375,17.98,40.49,512,3,0,,1506,Greenwood Athletic Company,18,100,1000,2014-08-01,2014-05-01,0,258
+936,PD-M340,ML Mountain Pedal,Components,Pedals,Buy,1,0,500,375,27.57,62.09,507,3,0,,1506,Greenwood Athletic Company,18,100,1000,2014-08-01,2014-05-01,0,211
+937,PD-M562,HL Mountain Pedal,Components,Pedals,Buy,1,0,500,375,35.96,80.99,503,3,0,,1638,Inline Accessories,18,100,1000,2014-08-02,2014-05-01,0,515
+938,PD-R347,LL Road Pedal,Components,Pedals,Buy,1,0,500,375,17.98,40.49,498,3,82,2014-08-07,1586,Mitchell Sports,16,100,1000,2014-08-02,2014-05-01,0,571
+939,PD-R563,ML Road Pedal,Components,Pedals,Buy,1,0,500,375,27.57,62.09,494,3,27,2014-08-12,1586,Mitchell Sports,16,100,1000,2014-08-02,2014-05-01,0,435
+940,PD-R853,HL Road Pedal,Components,Pedals,Buy,1,0,500,375,35.96,80.99,906,3,27,2014-08-05,1508,"Compete Enterprises, Inc",15,100,1000,2014-07-27,2014-05-01,0,450
+941,PD-T852,Touring Pedal,Components,Pedals,Buy,1,0,500,375,35.96,80.99,885,3,0,,1628,Bicycle Specialists,17,100,1000,2014-07-31,2014-05-01,0,47
+873,PK-7098,Patch Kit/8 Patches,Accessories,Tires and Tubes,Buy,1,0,4,3,0.86,2.29,180,1,0,,1546,Green Lake Bike Company,45,1500,15000,2014-06-30,2014-06-30,413,3262
+844,PU-0452,Minipump,Accessories,Pumps,Buy,1,1,4,3,8.25,19.99,288,1,0,,1518,International Trek Center,25,150,500,,,0,0
+845,PU-M044,Mountain Pump,Accessories,Pumps,Buy,1,1,4,3,10.31,24.99,324,1,0,,1518,International Trek Center,25,150,500,,,0,0
+504,RA-2345,Cup-Shaped Race,,,Buy,0,0,1000,750,0.00,0.00,1084,3,0,,1690,Bloomington Multisport,17,1,5,2014-07-31,,0,0
+505,RA-7490,Cone-Shaped Race,,,Buy,0,0,1000,750,0.00,0.00,970,3,0,,1612,"Midwest Sport, Inc.",16,1,5,2014-08-02,,0,0
+876,RA-H123,Hitch Rack - 4-Bike,Accessories,Bike Racks,Buy,1,0,4,3,44.88,120.00,0,1,0,,1546,Green Lake Bike Company,45,100,500,2014-06-30,2014-06-30,47,2146
+907,RB-9231,Rear Brakes,Components,Brakes,Buy,1,0,500,375,47.29,106.50,723,3,0,,1576,Superior Bicycles,19,100,1000,2014-08-03,2014-05-01,0,121
+679,RC-0291,Rear Derailleur Cage,,,Buy,0,0,500,375,0.00,0.00,421,3,0,,1694,"Compete, Inc.",15,100,1000,2014-07-31,,0,0
+894,RD-2308,Rear Derailleur,Components,Derailleurs,Make,1,0,500,375,53.93,121.46,847,3,0,,,,,,,2014-06-02,2014-05-01,0,227
+506,RF-9198,Reflector,,,Buy,0,0,1000,750,0.00,0.00,827,3,0,,1504,Chicago Rent-All,15,20,100,2014-07-31,,0,0
+507,RM-M464,LL Mountain Rim,,,Buy,0,0,800,600,0.00,0.00,1215,2,82,2014-08-10,1530,Comfort Road Bicycles,15,100,1000,2014-08-01,,0,0
+508,RM-M692,ML Mountain Rim,,,Buy,0,0,800,600,0.00,0.00,1231,2,27,2014-08-15,1530,Comfort Road Bicycles,15,100,1000,2014-08-01,,0,0
+509,RM-M823,HL Mountain Rim,,,Buy,0,0,800,600,0.00,0.00,1247,2,0,,1680,Jackson Authority,16,100,1000,2014-08-02,,0,0
+510,RM-R436,LL Road Rim,,,Buy,0,0,800,600,0.00,0.00,722,2,82,2014-08-11,1526,International Bicycles,18,100,1000,2014-08-02,,0,0
+511,RM-R600,ML Road Rim,,,Buy,0,0,800,600,0.00,0.00,740,2,27,2014-08-16,1526,International Bicycles,18,100,1000,2014-08-02,,0,0
+512,RM-R800,HL Road Rim,,,Buy,0,0,800,600,0.00,0.00,615,2,82,2014-08-08,1646,Electronic Bike Repair & Supplies,15,100,1000,2014-07-30,,0,0
+513,RM-T801,Touring Rim,,,Buy,0,0,800,600,0.00,0.00,1364,2,82,2014-08-13,1682,"Premier Sport, Inc.",19,100,1000,2014-08-03,,0,0
+823,RW-M423,LL Mountain Rear Wheel,Components,Wheels,Make,1,1,500,375,38.96,87.75,681,2,0,,,,,,,2014-06-01,,0,0
+824,RW-M762,ML Mountain Rear Wheel,Components,Wheels,Make,1,1,500,375,104.80,236.03,812,2,0,,,,,,,2014-06-02,2013-07-31,0,0
+825,RW-M928,HL Mountain Rear Wheel,Components,Wheels,Make,1,1,500,375,145.28,327.22,783,2,0,,,,,,,,,0,0
+826,RW-R623,LL Road Rear Wheel,Components,Wheels,Make,1,1,500,375,49.98,112.57,799,2,0,,,,,,,2014-06-02,2013-09-30,0,1
+827,RW-R762,ML Road Rear Wheel,Components,Wheels,Make,1,1,500,375,122.27,275.39,837,2,0,,,,,,,2014-06-02,,0,0
+828,RW-R820,HL Road Rear Wheel,Components,Wheels,Make,1,1,500,375,158.53,357.06,716,2,0,,,,,,,2014-06-02,,0,0
+829,RW-T905,Touring Rear Wheel,Components,Wheels,Make,1,1,500,375,108.78,245.01,741,2,0,,,,,,,2014-06-02,,0,0
+514,SA-M198,LL Mountain Seat Assembly,,,Make,0,0,500,375,98.77,133.34,797,3,0,,,,,,,2014-06-01,,0,0
+515,SA-M237,ML Mountain Seat Assembly,,,Make,0,0,500,375,108.99,147.14,802,3,0,,,,,,,,,0,0
+516,SA-M687,HL Mountain Seat Assembly,,,Make,0,0,500,375,145.87,196.92,807,3,0,,,,,,,2014-06-02,,0,0
+517,SA-R127,LL Road Seat Assembly,,,Make,0,0,500,375,98.77,133.34,812,3,0,,,,,,,2014-06-02,,0,0
+518,SA-R430,ML Road Seat Assembly,,,Make,0,0,500,375,108.99,147.14,816,3,0,,,,,,,2014-06-02,,0,0
+519,SA-R522,HL Road Seat Assembly,,,Make,0,0,500,375,145.87,196.92,821,3,0,,,,,,,2014-06-02,,0,0
+520,SA-T467,LL Touring Seat Assembly,,,Make,0,0,500,375,98.77,133.34,826,3,0,,,,,,,2014-06-02,,0,0
+521,SA-T612,ML Touring Seat Assembly,,,Make,0,0,500,375,108.99,147.14,831,3,0,,,,,,,2014-06-02,,0,0
+522,SA-T872,HL Touring Seat Assembly,,,Make,0,0,500,375,145.87,196.92,836,3,0,,,,,,,2014-06-02,,0,0
+857,SB-M891-L,"Men's Bib-Shorts, L",Clothing,Bib-Shorts,Buy,1,1,4,3,37.12,89.99,144,1,0,,1594,Fitness Association,60,500,5000,,,0,0
+856,SB-M891-M,"Men's Bib-Shorts, M",Clothing,Bib-Shorts,Buy,1,1,4,3,37.12,89.99,108,1,0,,1594,Fitness Association,60,500,5000,2014-04-30,2014-04-30,0,6
+855,SB-M891-S,"Men's Bib-Shorts, S",Clothing,Bib-Shorts,Buy,1,1,4,3,37.12,89.99,72,1,0,,1594,Fitness Association,60,500,5000,2014-02-28,2014-02-28,0,2
+523,SD-2342,LL Spindle/Axle,,,Buy,0,0,500,375,0.00,0.00,512,3,0,,1620,Lakewood Bicycle,16,100,1000,2014-08-02,,0,0
+524,SD-9872,HL Spindle/Axle,,,Buy,0,0,500,375,0.00,0.00,459,3,0,,1626,Hill Bicycle Center,18,100,1000,2014-08-02,,0,0
+908,SE-M236,LL Mountain Seat/Saddle,Components,Saddles,Buy,1,0,500,375,12.04,27.12,809,3,82,2014-08-15,1570,First Rate Bicycles,15,100,1000,2014-08-01,2014-05-01,0,212
+909,SE-M798,ML Mountain Seat/Saddle,Components,Saddles,Buy,1,0,500,375,17.38,39.14,422,3,0,,1570,First Rate Bicycles,15,100,1000,2014-08-01,2014-05-01,0,326
+910,SE-M940,HL Mountain Seat/Saddle,Components,Saddles,Buy,1,0,500,375,23.37,52.64,355,3,0,,1610,Hybrid Bicycle Center,18,100,1000,2014-08-02,2014-05-01,0,323
+911,SE-R581,LL Road Seat/Saddle,Components,Saddles,Buy,1,0,500,375,12.04,27.12,906,3,0,,1542,Hill's Bicycle Service,18,100,1000,2014-08-02,2013-07-31,0,0
+912,SE-R908,ML Road Seat/Saddle,Components,Saddles,Buy,1,0,500,375,17.38,39.14,901,3,0,,1542,Hill's Bicycle Service,18,100,1000,2014-08-02,,0,0
+913,SE-R995,HL Road Seat/Saddle,Components,Saddles,Buy,1,0,500,375,23.37,52.64,467,3,0,,1570,First Rate Bicycles,15,100,1000,2014-08-01,2014-05-01,0,18
+914,SE-T312,LL Touring Seat/Saddle,Components,Saddles,Buy,1,0,500,375,12.04,27.12,801,3,0,,1672,Expert Bike Co,15,100,1000,2014-07-31,2013-07-31,0,0
+915,SE-T762,ML Touring Seat/Saddle,Components,Saddles,Buy,1,0,500,375,17.38,39.14,402,3,0,,1672,Expert Bike Co,15,100,1000,2014-07-31,2014-05-01,0,36
+916,SE-T924,HL Touring Seat/Saddle,Components,Saddles,Buy,1,0,500,375,23.37,52.64,989,3,0,,1672,Expert Bike Co,15,100,1000,2014-07-22,2014-05-01,0,261
+525,SH-4562,LL Shell,,,Buy,0,0,800,600,0.00,0.00,1263,2,82,2014-08-05,1600,Federal Sport,15,100,1000,2014-08-01,,0,0
+526,SH-9312,HL Shell,,,Buy,0,0,800,600,0.00,0.00,1211,2,82,2014-08-10,1522,First National Sport Co.,15,100,1000,2014-08-01,,0,0
+850,SH-M897-L,"Men's Sports Shorts, L",Clothing,Shorts,Buy,1,1,4,3,24.75,59.99,144,1,0,,1594,Fitness Association,45,5000,10000,,,0,0
+849,SH-M897-M,"Men's Sports Shorts, M",Clothing,Shorts,Buy,1,1,4,3,24.75,59.99,108,1,0,,1594,Fitness Association,45,5000,10000,2013-07-31,2013-07-31,0,0
+841,SH-M897-S,"Men's Sports Shorts, S",Clothing,Shorts,Buy,1,1,4,3,24.75,59.99,288,1,0,,1636,Integrated Sport Products,60,75,500,,,0,0
+851,SH-M897-X,"Men's Sports Shorts, XL",Clothing,Shorts,Buy,1,1,4,3,24.75,59.99,180,1,0,,1594,Fitness Association,45,5000,10000,,,0,0
+869,SH-W890-L,"Women's Mountain Shorts, L",Clothing,Shorts,Buy,1,0,4,3,26.18,69.99,288,1,0,,1676,Team Athletic Co.,25,1000,7500,2014-06-30,2014-06-30,49,2277
+868,SH-W890-M,"Women's Mountain Shorts, M",Clothing,Shorts,Buy,1,0,4,3,26.18,69.99,252,1,0,,1676,Team Athletic Co.,25,1000,7500,2014-06-28,2014-06-28,54,850
+867,SH-W890-S,"Women's Mountain Shorts, S",Clothing,Shorts,Buy,1,0,4,3,26.18,69.99,216,1,0,,1676,Team Athletic Co.,25,1000,7500,2014-06-30,2014-06-30,41,2302
+883,SJ-0194-L,"Short-Sleeve Classic Jersey, L",Clothing,Jerseys,Buy,1,0,4,3,41.57,53.99,36,1,0,,1636,Integrated Sport Products,30,5000,10000,2014-06-28,2014-06-28,49,1958
+882,SJ-0194-M,"Short-Sleeve Classic Jersey, M",Clothing,Jerseys,Buy,1,0,4,3,41.57,53.99,0,1,0,,1636,Integrated Sport Products,30,5000,10000,2014-06-29,2014-06-29,59,358
+881,SJ-0194-S,"Short-Sleeve Classic Jersey, S",Clothing,Jerseys,Buy,1,0,4,3,41.57,53.99,324,1,0,,1636,Integrated Sport Products,30,5000,10000,2014-06-30,2014-06-30,39,1284
+884,SJ-0194-X,"Short-Sleeve Classic Jersey, XL",Clothing,Jerseys,Buy,1,0,4,3,41.57,53.99,72,1,0,,1636,Integrated Sport Products,30,5000,10000,2014-06-30,2014-06-30,64,2644
+527,SK-9283,Spokes,,,Buy,0,0,1000,750,0.00,0.00,1590,2,82,2014-08-16,1644,International Sport Assoc.,18,100,1000,2014-08-02,,0,0
+528,SL-0931,Seat Lug,,,Buy,0,0,1000,750,0.00,0.00,1653,2,0,,1618,Metro Sport Equipment,16,1,5,2014-08-02,,0,0
+529,SM-9087,Stem,,,Make,0,0,500,375,0.00,0.00,796,2,0,,,,,,,2014-06-02,,0,0
+710,SO-B909-L,"Mountain Bike Socks, L",Clothing,Socks,Buy,1,1,4,3,3.40,9.50,216,1,0,,1574,Jeff's Sporting Goods,12,100,500,,,0,0
+709,SO-B909-M,"Mountain Bike Socks, M",Clothing,Socks,Buy,1,1,4,3,3.40,9.50,180,1,0,,1574,Jeff's Sporting Goods,12,100,500,,,0,0
+875,SO-R809-L,"Racing Socks, L",Clothing,Socks,Buy,1,0,4,3,3.36,8.99,288,1,0,,1574,Jeff's Sporting Goods,25,1500,15000,2014-06-29,2014-06-29,37,1719
+874,SO-R809-M,"Racing Socks, M",Clothing,Socks,Buy,1,0,4,3,3.36,8.99,252,1,0,,1574,Jeff's Sporting Goods,25,1500,15000,2014-06-30,2014-06-30,38,1088
+530,SP-2981,Seat Post,,,Buy,0,0,500,375,0.00,0.00,780,2,0,,1494,Allenson Cycles,17,100,1000,2014-07-30,,0,0
+531,SR-2098,Steerer,,,Make,0,0,500,375,0.00,0.00,801,2,0,,,,,,,2014-06-02,,0,0
+532,SS-2985,Seat Stays,,,Make,0,0,800,600,0.00,0.00,1257,2,0,,,,,,,2014-06-02,,0,0
+879,ST-1401,All-Purpose Bike Stand,Accessories,Bike Stands,Buy,1,0,4,3,59.47,159.00,144,1,0,,1546,Green Lake Bike Company,45,100,500,2014-06-30,2014-06-30,21,223
+533,ST-9828,Seat Tube,,,Make,0,0,500,375,0.00,0.00,831,2,0,,,,,,,2014-06-02,,0,0
+854,TG-W091-L,"Women's Tights, L",Clothing,Tights,Buy,1,1,4,3,30.93,74.99,36,1,0,,1594,Fitness Association,60,500,8000,2014-03-30,2014-03-30,0,5
+853,TG-W091-M,"Women's Tights, M",Clothing,Tights,Buy,1,1,4,3,30.93,74.99,0,1,0,,1594,Fitness Association,60,500,8000,,,0,0
+852,TG-W091-S,"Women's Tights, S",Clothing,Tights,Buy,1,1,4,3,30.93,74.99,324,1,0,,1594,Fitness Association,60,500,8000,2014-04-30,2014-04-30,0,6
+928,TI-M267,LL Mountain Tire,Accessories,Tires and Tubes,Buy,1,0,500,375,9.35,24.99,609,2,0,,1538,Vista Road Bikes,19,100,1000,2014-08-03,2014-06-30,124,778
+929,TI-M602,ML Mountain Tire,Accessories,Tires and Tubes,Buy,1,0,500,375,11.22,29.99,669,2,0,,1538,Vista Road Bikes,19,100,1000,2014-08-03,2014-06-30,162,1054
+930,TI-M823,HL Mountain Tire,Accessories,Tires and Tubes,Buy,1,0,500,375,13.09,35.00,499,2,0,,1498,"Trikes, Inc.",19,100,1000,2014-08-03,2014-06-30,180,1250
+931,TI-R092,LL Road Tire,Accessories,Tires and Tubes,Buy,1,0,500,375,8.04,21.49,488,2,82,2014-08-12,1588,Signature Cycles,19,100,1000,2014-08-03,2014-06-30,139,936
+932,TI-R628,ML Road Tire,Accessories,Tires and Tubes,Buy,1,0,500,375,9.35,24.99,574,2,27,2014-08-17,1588,Signature Cycles,19,100,1000,2014-08-03,2014-06-30,129,833
+933,TI-R982,HL Road Tire,Accessories,Tires and Tubes,Buy,1,0,500,375,12.19,32.60,527,2,82,2014-08-08,1652,Victory Bikes,19,100,1000,2014-07-30,2014-06-30,101,740
+934,TI-T723,Touring Tire,Accessories,Tires and Tubes,Buy,1,0,500,375,10.84,28.99,482,2,27,2014-08-13,1652,Victory Bikes,19,100,1000,2014-07-30,2014-06-27,121,853
+534,TO-2301,Top Tube,,,Make,0,0,500,375,0.00,0.00,657,2,0,,,,,,,2014-06-02,,0,0
+535,TP-0923,Tension Pulley,,,Buy,0,0,800,600,0.00,0.00,836,2,0,,1508,"Compete Enterprises, Inc",15,100,1000,2014-08-01,,0,0
+921,TT-M928,Mountain Tire Tube,Accessories,Tires and Tubes,Buy,1,0,500,375,1.87,4.99,529,2,0,,1498,"Trikes, Inc.",19,100,1000,2014-07-30,2014-06-30,429,2780
+922,TT-R982,Road Tire Tube,Accessories,Tires and Tubes,Buy,1,0,500,375,1.49,3.99,505,2,0,,1652,Victory Bikes,19,100,1000,2014-07-30,2014-06-30,349,2125
+923,TT-T092,Touring Tire Tube,Accessories,Tires and Tubes,Buy,1,0,500,375,1.87,4.99,502,2,0,,1652,Victory Bikes,19,100,1000,2014-07-30,2014-06-30,205,1366
+866,VE-C304-L,"Classic Vest, L",Clothing,Vests,Buy,1,0,4,3,23.75,63.50,252,1,0,,1676,Team Athletic Co.,35,1000,7500,2014-06-30,2014-06-30,30,181
+865,VE-C304-M,"Classic Vest, M",Clothing,Vests,Buy,1,0,4,3,23.75,63.50,216,1,0,,1676,Team Athletic Co.,35,1000,7500,2014-06-29,2014-06-29,30,1475
+864,VE-C304-S,"Classic Vest, S",Clothing,Vests,Buy,1,0,4,3,23.75,63.50,180,1,0,,1676,Team Athletic Co.,35,1000,7500,2014-06-30,2014-06-30,20,2933
+870,WB-H098,Water Bottle - 30 oz.,Accessories,Bottles and Cages,Buy,1,0,4,3,1.87,4.99,252,1,0,,1546,Green Lake Bike Company,45,500,2500,2014-06-30,2014-06-30,520,5482
