@@ -4,6 +4,9 @@
     when it was due, and what the system recorded as received / rejected.
 
     AdventureWorks data ends in 2014, so "today" is fixed at @AsOf.
+
+    As-of snapshot: the sample data books a receipt even when the vendor ships after @AsOf.
+    Those lines are shown as they stood on @AsOf: still open (Approved), nothing received.
 */
 SET NOCOUNT ON;
 
@@ -16,11 +19,12 @@ SELECT
     CONVERT(char(10), h.OrderDate, 23)                  AS order_date,
     CONVERT(char(10), d.DueDate, 23)                    AS due_date,
     CONVERT(char(10), h.ShipDate, 23)                   AS vendor_ship_date,
-    CASE h.Status
-        WHEN 1 THEN 'Pending'
-        WHEN 2 THEN 'Approved'
-        WHEN 3 THEN 'Rejected'
-        WHEN 4 THEN 'Complete'
+    CASE
+        WHEN h.Status = 1         THEN 'Pending'
+        WHEN h.ShipDate > @AsOf   THEN 'Approved'           -- not shipped yet on @AsOf
+        WHEN h.Status = 2         THEN 'Approved'
+        WHEN h.Status = 3         THEN 'Rejected'
+        WHEN h.Status = 4         THEN 'Complete'
     END                                                 AS po_status,
     v.BusinessEntityID                                  AS vendor_id,
     v.Name                                              AS vendor_name,
@@ -28,9 +32,9 @@ SELECT
     p.ProductNumber                                     AS sku,
     p.Name                                              AS product_name,
     d.OrderQty                                          AS ordered_qty,
-    CAST(d.ReceivedQty AS int)                          AS erp_received_qty,
-    CAST(d.RejectedQty AS int)                          AS erp_rejected_qty,
-    CAST(d.StockedQty  AS int)                          AS erp_stocked_qty,
+    CASE WHEN h.ShipDate > @AsOf THEN 0 ELSE CAST(d.ReceivedQty AS int) END AS erp_received_qty,
+    CASE WHEN h.ShipDate > @AsOf THEN 0 ELSE CAST(d.RejectedQty AS int) END AS erp_rejected_qty,
+    CASE WHEN h.ShipDate > @AsOf THEN 0 ELSE CAST(d.StockedQty  AS int) END AS erp_stocked_qty,
     CAST(d.UnitPrice AS decimal(12, 2))                 AS unit_price,
     CAST(d.OrderQty * d.UnitPrice AS decimal(12, 2))    AS line_value
 FROM Purchasing.PurchaseOrderHeader AS h

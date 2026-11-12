@@ -13,16 +13,20 @@ WITH onhand AS (
     FROM Production.ProductInventory
     GROUP BY ProductID
 ),
-open_po AS (                                    -- ordered but not yet received
-    SELECT d.ProductID,
-           SUM(d.OrderQty - CAST(d.ReceivedQty AS int)) AS qty,
-           MIN(d.DueDate)                               AS next_due
-    FROM Purchasing.PurchaseOrderHeader AS h
-    JOIN Purchasing.PurchaseOrderDetail AS d ON d.PurchaseOrderID = h.PurchaseOrderID
-    WHERE h.Status IN (1, 2)                    -- Pending, Approved
-      AND h.OrderDate <= @AsOf
-      AND d.OrderQty > d.ReceivedQty
-    GROUP BY d.ProductID
+open_po AS (                                    -- ordered but not yet received on @AsOf
+    SELECT x.ProductID,
+           SUM(x.outstanding) AS qty,
+           MIN(x.DueDate)     AS next_due
+    FROM (
+        SELECT d.ProductID, d.DueDate,
+               d.OrderQty - CASE WHEN h.ShipDate > @AsOf THEN 0 ELSE CAST(d.ReceivedQty AS int) END AS outstanding
+        FROM Purchasing.PurchaseOrderHeader AS h
+        JOIN Purchasing.PurchaseOrderDetail AS d ON d.PurchaseOrderID = h.PurchaseOrderID
+        WHERE h.OrderDate <= @AsOf
+          AND (h.Status IN (1, 2) OR h.ShipDate > @AsOf)   -- Pending/Approved, or not shipped yet on @AsOf
+    ) AS x
+    WHERE x.outstanding > 0
+    GROUP BY x.ProductID
 ),
 movement AS (                                   -- S = sale, W = work order, P = purchase receipt
     SELECT ProductID,
