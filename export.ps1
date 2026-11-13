@@ -9,16 +9,25 @@
     Uses Windows authentication and only the .NET SqlClient built into Windows,
     so no extra PowerShell modules are needed.
 
+    -CopyTo also copies each CSV into another folder. Point it at a folder synced by
+    Google Drive for desktop and the Sheet's import picks up fresh data with no manual upload.
+
 .EXAMPLE
     powershell -ExecutionPolicy Bypass -File .\export.ps1
     powershell -ExecutionPolicy Bypass -File .\export.ps1 -Server "MYPC\SQLEXPRESS"
+    powershell -ExecutionPolicy Bypass -File .\export.ps1 -CopyTo "G:\My Drive\po-recon-csv"
 #>
 param(
     [string]$Server   = '.\SQLEXPRESS',
     [string]$Database = 'AdventureWorks2022',
     [string]$SqlDir   = (Join-Path $PSScriptRoot 'sql'),
-    [string]$OutDir   = (Join-Path $PSScriptRoot 'data')
+    [string]$OutDir   = (Join-Path $PSScriptRoot 'data'),
+    [string]$CopyTo   = ''
 )
+
+if ($CopyTo -and -not (Test-Path $CopyTo -PathType Container)) {
+    throw "CopyTo folder not found: $CopyTo"
+}
 
 $ErrorActionPreference = 'Stop'
 $invariant = [Globalization.CultureInfo]::InvariantCulture
@@ -58,8 +67,10 @@ try {
         $path = Join-Path $OutDir "$name.csv"
         [IO.File]::WriteAllLines($path, $lines, $utf8NoBom)
         '{0,-30} {1,6} rows  ->  data\{2}.csv' -f $file.Name, $table.Rows.Count, $name
+        if ($CopyTo) { Copy-Item $path (Join-Path $CopyTo "$name.csv") -Force }
     }
 }
 finally {
     $connection.Close()
 }
+if ($CopyTo) { "Copied to $CopyTo" }

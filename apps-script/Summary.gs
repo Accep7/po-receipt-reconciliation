@@ -9,6 +9,18 @@ function buildSummaryRows_(recon, inventory) {
   const row = (label, value, note) => rows.push([label, value, note || '']);
   const pct = (part, whole) => (whole ? `${Math.round((part / whole) * 1000) / 10}%` : '');
 
+  if (recon && recon.tracking) {
+    const t = recon.tracking;
+    section('Work queue (Exceptions tab)');
+    row('Open exceptions', t.open);
+    row('  high', t.openBySeverity.High);
+    row('  medium', t.openBySeverity.Medium);
+    row('  low', t.openBySeverity.Low);
+    row('New since last run', t.firstRun ? '' : t.newThisRun, t.firstRun ? 'first tracked run' : '');
+    row('Cleared since last run', t.firstRun ? '' : t.clearedSinceLastRun, 'no longer detected, e.g. fixed at the source');
+    row("Marked resolved / won't fix, still detected", t.closedStillDetected);
+  }
+
   if (recon) {
     const m = recon.matchCounts;
     const ok = recon.byStatus.OK || 0;
@@ -31,13 +43,13 @@ function buildSummaryRows_(recon, inventory) {
         recon.byIssue[b].count - recon.byIssue[a].count)
       .forEach(label => {
         const t = recon.byIssue[label];
-        row(label, t.count, `${t.severity}` + (t.value ? ` · value ${t.value.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}` : ''));
+        row(label, t.count, `${t.severity}` + (t.value ? ` · value ${money_(t.value)}` : ''));
       });
 
     if (recon.topVendors.length) {
       section('Vendors with most high/medium exceptions');
       recon.topVendors.forEach(([name, count, value]) =>
-        row(name, count, `value ${value.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`));
+        row(name, count, `value ${money_(value)}`));
     }
   }
 

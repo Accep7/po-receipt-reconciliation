@@ -40,6 +40,7 @@ function writeTable_(sheetName, headers, rows, opts) {
   if (sheet.getFilter()) sheet.getFilter().remove();
   sheet.clear();
   sheet.clearConditionalFormatRules();
+  sheet.getRange(1, 1, sheet.getMaxRows(), sheet.getMaxColumns()).clearDataValidations();
 
   const numRows = rows.length + 1;
   const numCols = headers.length;

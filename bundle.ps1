@@ -2,6 +2,7 @@
 .SYNOPSIS
     Joins apps-script\*.gs into one file, dist\Code.gs, and copies it to the clipboard,
     ready to paste into the Apps Script editor (Extensions > Apps Script > Code.gs).
+    The manifest (apps-script\appsscript.json) is pasted separately, only when it changes.
 
 .EXAMPLE
     powershell -ExecutionPolicy Bypass -File .\bundle.ps1
@@ -9,13 +10,18 @@
 $ErrorActionPreference = 'Stop'
 $src  = Join-Path $PSScriptRoot 'apps-script'
 $dist = Join-Path $PSScriptRoot 'dist'
-New-Item -ItemType Directory -Force $dist | Out-Null
 
-$order = 'Menu', 'Settings', 'Import', 'Reconcile', 'InventoryRisk', 'Summary', 'Matching', 'SheetIO', 'Utils'
+$order = 'Menu', 'Schedule', 'Settings', 'Import', 'Reconcile', 'Tracking', 'InventoryRisk',
+         'Summary', 'Report', 'Matching', 'SheetIO', 'Utils'
+
+# Fail before writing anything if a module exists that the bundle would leave out.
+$missing = Get-ChildItem $src -Filter *.gs | Where-Object { $order -notcontains $_.BaseName }
+if ($missing) { throw "Add to `$order in bundle.ps1: $($missing.Name -join ', ')" }
+
+New-Item -ItemType Directory -Force $dist | Out-Null
 $parts = foreach ($name in $order) {
-    $file = Join-Path $src "$name.gs"
     "// ===== $name.gs " + ('=' * (70 - $name.Length))
-    [IO.File]::ReadAllText($file).TrimEnd()
+    [IO.File]::ReadAllText((Join-Path $src "$name.gs")).TrimEnd()
     ''
 }
 $header = "// Bundled from apps-script/*.gs by bundle.ps1 on $(Get-Date -Format 'yyyy-MM-dd HH:mm'). Edit the source files, not this one.`r`n"

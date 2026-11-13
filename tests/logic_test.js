@@ -9,9 +9,9 @@ const root = new URL('../', import.meta.url);
 const read = path => Deno.readTextFileSync(new URL(path, root));
 
 const gs = new Function(
-  ['Utils.gs', 'Matching.gs', 'Reconcile.gs', 'InventoryRisk.gs', 'Summary.gs']
+  ['Utils.gs', 'Matching.gs', 'Reconcile.gs', 'InventoryRisk.gs', 'Summary.gs', 'Tracking.gs', 'Report.gs']
     .map(f => read(`apps-script/${f}`)).join('\n') +
-  '\nreturn { matchSku_, normalizeSku_, editDistance_, reconcile_, assessInventory_, buildSummaryRows_ };',
+  '\nreturn { matchSku_, normalizeSku_, editDistance_, reconcile_, assessInventory_, buildSummaryRows_, mergeTracking_, buildReport_, toCsv_, parseEmails_ };',
 )();
 
 // Same typing rules as Import.gs.
@@ -56,7 +56,7 @@ Deno.test('All .gs files load together (Apps Script shares one global scope)', (
   const files = [...Deno.readDirSync(new URL('apps-script/', root))].filter(f => f.name.endsWith('.gs'));
   // Throws on a syntax error or on the same const declared in two files.
   new Function(files.map(f => read(`apps-script/${f.name}`)).join('\n'));
-  assert(files.length >= 9, 'expected all modules');
+  assert(files.length >= 12, 'expected all modules');
 });
 
 Deno.test('SKU matching: tolerant but not reckless', () => {
@@ -186,4 +186,64 @@ Deno.test('Inventory risk runs on the sample data and explains every flag', () =
 
   const rows = gs.buildSummaryRows_(null, result.stats);
   assert(rows.some(r => r[0] === 'Products checked'), 'summary has an inventory section');
+});
+
+Deno.test('Exception keys are unique, so tracked comments never land on the wrong row', () => {
+  const result = gs.reconcile_(csv('data/po_lines.csv'), csv('data/warehouse_receipts.csv'), settings);
+  const keys = result.exceptions.map(e => e.key);
+  assert(keys.every(Boolean), 'every exception has a key');
+  assert(new Set(keys).size === keys.length, `${keys.length - new Set(keys).size} duplicate keys`);
+});
+
+Deno.test('Tracking keeps status/owner/comment across runs and counts new and cleared', () => {
+  const exc = (key, severity, value) => ({ key, severity, value_impact: value, type: 'COUNT_MISMATCH' });
+  const run1 = gs.mergeTracking_([exc('A', 'High', 10), exc('B', 'Medium', 5), exc('C', 'Low', 0)], new Map(), '2026-11-13');
+  assert(run1.stats.firstRun && run1.rows.every(r => r.status === 'Open' && r.first_seen === '2026-11-13'), 'first run: all open');
+
+  // People work the queue between runs.
+  const previous = new Map([
+    ['A', { status: 'In progress', owner: 'AK', comment: 'Asked vendor', first_seen: '2026-11-13' }],
+    ['B', { status: 'Resolved', owner: 'MT', comment: 'ERP corrected', first_seen: '2026-11-13' }],
+    ['C', { status: 'Open', owner: '', comment: '', first_seen: '2026-11-13' }],
+  ]);
+  // Next run: A and B still detected, C fixed at the source, D is new.
+  const run2 = gs.mergeTracking_([exc('B', 'Medium', 5), exc('A', 'High', 10), exc('D', 'High', 99)], previous, '2026-11-14');
+  const byKey = Object.fromEntries(run2.rows.map(r => [r.key, r]));
+
+  assert(byKey.A.status === 'In progress' && byKey.A.owner === 'AK' && byKey.A.comment === 'Asked vendor', 'A keeps its notes');
+  assert(byKey.A.first_seen === '2026-11-13' && byKey.D.first_seen === '2026-11-14', 'first_seen kept / set');
+  assert(byKey.D.status === 'Open', 'new exception starts Open');
+  assert(run2.stats.newThisRun === 1 && run2.stats.clearedSinceLastRun === 1, 'one new, one cleared');
+  assert(run2.stats.closedStillDetected === 1 && run2.stats.open === 2, 'B is closed, A and D open');
+  assert(run2.rows.map(r => r.key).join('') === 'DAB', 'open first, by severity and value; closed last');
+
+  const bad = gs.mergeTracking_([exc('A', 'High', 1)], new Map([['A', { status: 'Done??', owner: '', comment: '' }]]), 'x');
+  assert(bad.rows[0].status === 'Open', 'unknown status falls back to Open');
+});
+
+Deno.test('Report email: escaped, honest about truncation, attachment CSV quoted', () => {
+  const recon = {
+    poLines: 10, byStatus: { OK: 7 },
+    tracking: { open: 3, openBySeverity: { High: 3, Medium: 0, Low: 0 }, newThisRun: 1, clearedSinceLastRun: 2, closedStillDetected: 0, firstRun: false },
+  };
+  const openHigh = [1, 2, 3].map(i => ({
+    issue: 'Count differs from ERP', po_id: 100 + i, po_line_id: i, vendor: 'Trikes, Inc. & <Sons>',
+    sku: 'FW-7160', qty_diff: -1, value_impact: 1234.5, detail: 'Warehouse counted 2, ERP shows 3', owner: '',
+  }));
+  const r = gs.buildReport_({
+    asOfDate: '2014-08-03', runDate: '2026-11-13 07:00', sheetUrl: 'https://docs.google.com/spreadsheets/d/x',
+    recon, inventory: { byRisk: { High: 1, Medium: 2, Low: 0 } }, openHigh, highRisk: [], maxRows: 2,
+  });
+  assert(r.subject === 'PO reconciliation as of 2014-08-03: 3 high-priority exceptions, 1 new', `subject: ${r.subject}`);
+  assert(r.html.includes('Trikes, Inc. &amp; &lt;Sons&gt;') && !r.html.includes('<Sons>'), 'vendor names are escaped');
+  assert(r.html.includes('top 2 of 3 by value'), 'says when the list is cut');
+  assert(r.html.includes('1,234.50'), 'money formatted');
+
+  const csvText = gs.toCsv_(['vendor', 'detail'], [{ vendor: 'Trikes, Inc.', detail: 'said "short"' }]);
+  assert(csvText === 'vendor,detail\r\n"Trikes, Inc.","said ""short"""', `csv: ${csvText}`);
+
+  assert(gs.parseEmails_('a@x.com; b@y.co.jp,  c@z.com').length === 3, 'emails split on , ; and spaces');
+  let threw = false;
+  try { gs.parseEmails_('not-an-address'); } catch (_) { threw = true; }
+  assert(threw, 'bad address rejected');
 });

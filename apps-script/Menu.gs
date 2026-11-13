@@ -1,8 +1,9 @@
 /**
- * Menu.gs — the "PO Reconciliation" menu and the run wrapper.
+ * Menu.gs — the "PO Reconciliation" menu, the full pipeline, and the run wrapper.
  *
  * Every run takes a document lock, so two people pressing the button at the same time
- * can't overwrite each other's results (the other person gets a "try again" message).
+ * can't overwrite each other's results (the other person gets a "try again" message),
+ * and every run is recorded on the Run Log tab.
  */
 
 function onOpen() {
@@ -13,29 +14,40 @@ function onOpen() {
     .addItem('1. Import CSVs from Drive', 'menuImport')
     .addItem('2. Reconcile POs vs receipts', 'menuReconcile')
     .addItem('3. Check inventory risk', 'menuInventory')
+    .addItem('4. Create report email draft', 'menuReport')
     .addSeparator()
+    .addItem('Turn on daily run', 'enableDailyRun')
+    .addItem('Turn off daily run', 'disableDailyRun')
     .addItem('Set up Settings tab', 'setupSettings')
     .addToUi();
 }
 
+/** Import -> reconcile -> inventory -> summary -> (optional) report draft. */
+function runPipeline_(source) {
+  const settings = getSettings_();
+  const imported = importCsvs_();
+  console.log(imported.join('\n'));
+  const recon = runReconciliation_();
+  const inventory = runInventoryRisk_();
+  writeSummary_();
+  if (source === 'Menu') arrangeTabs_();
+
+  const wantDraft = settings.reportMode === 'Every run' ||
+    (settings.reportMode === 'Scheduled runs only' && source === 'Schedule');
+  const draft = wantDraft ? ' ' + createReportDraft_() : '';
+  return `${recon} ${inventory}${draft}`;
+}
+
 function runAll() {
-  runSafely_('Importing and checking…', () => {
-    const imported = importCsvs_();
-    const recon = runReconciliation_();
-    const inventory = runInventoryRisk_();
-    writeSummary_();
-    arrangeTabs_();
-    console.log(imported.join('\n'));
-    return `${recon} ${inventory}`;
-  });
+  runSafely_('Run everything', () => runPipeline_('Menu'));
 }
 
 function menuImport() {
-  runSafely_('Importing CSVs…', () => importCsvs_().join(' · '));
+  runSafely_('Import CSVs', () => importCsvs_().join(' · '));
 }
 
 function menuReconcile() {
-  runSafely_('Reconciling…', () => {
+  runSafely_('Reconcile', () => {
     const msg = runReconciliation_();
     writeSummary_();
     return msg;
@@ -43,29 +55,37 @@ function menuReconcile() {
 }
 
 function menuInventory() {
-  runSafely_('Checking inventory…', () => {
+  runSafely_('Inventory risk', () => {
     const msg = runInventoryRisk_();
     writeSummary_();
     return msg;
   });
 }
 
-/** Lock, progress toast, friendly error message instead of a stack trace. */
-function runSafely_(startMessage, fn) {
+function menuReport() {
+  runSafely_('Report draft', () => createReportDraft_());
+}
+
+/** Lock, progress toast, Run Log entry, and a readable error message instead of a stack trace. */
+function runSafely_(action, fn) {
   const ss = SpreadsheetApp.getActive();
+  const started = Date.now();
   const lock = LockService.getDocumentLock();
   if (!lock.tryLock(30 * 1000)) {
     SpreadsheetApp.getUi().alert('Someone else is running the tool right now. Please try again in a minute.');
     return;
   }
   try {
-    ss.toast(startMessage, 'PO Reconciliation', -1);
-    const message = fn();
-    ss.toast(message || 'Done.', 'PO Reconciliation', 10);
+    ss.toast(`${action}…`, 'PO Reconciliation', -1);
+    const message = fn() || 'Done.';
+    logRun_('Menu', action, 'OK', message, started);
+    ss.toast(message, 'PO Reconciliation', 10);
   } catch (e) {
-    ss.toast('Stopped with an error.', 'PO Reconciliation', 3);
+    const message = e && e.message ? e.message : String(e);
+    logRun_('Menu', action, 'Error', message, started);
     console.error(e && e.stack ? e.stack : e);
-    SpreadsheetApp.getUi().alert('The run stopped:\n\n' + (e && e.message ? e.message : e));
+    ss.toast('Stopped with an error.', 'PO Reconciliation', 3);
+    SpreadsheetApp.getUi().alert('The run stopped:\n\n' + message);
   } finally {
     lock.releaseLock();
   }
@@ -74,7 +94,7 @@ function runSafely_(startMessage, fn) {
 /** Puts the tabs people read first in front and the raw data at the back. */
 function arrangeTabs_() {
   const ss = SpreadsheetApp.getActive();
-  const order = ['Summary', 'Exceptions', 'Inventory Risk', 'Reconciliation', 'Receipt Matching', 'Settings']
+  const order = ['Summary', 'Exceptions', 'Inventory Risk', 'Reconciliation', 'Receipt Matching', 'Settings', RUN_LOG_SHEET]
     .concat(Object.keys(CSV_TABS).map(f => CSV_TABS[f]));
   let position = 1;
   order.forEach(name => {

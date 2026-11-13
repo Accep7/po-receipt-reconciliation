@@ -210,9 +210,14 @@ function suggestLine_(r, byNormSku, windowDays) {
   return free[0].rec;
 }
 
+/**
+ * Every exception carries a stable key (issue type + PO line, or + receipt), so status,
+ * owner and comments typed into the Exceptions tab survive the next run. See Tracking.gs.
+ */
 function lineException_(type, l, detail, qtyDiff, receiptIds, severity) {
   const def = ISSUES[type];
   return {
+    key: `${type}|L${l.po_line_id}` + (type === 'SKU_CORRECTED' ? `|${(receiptIds || []).join(',')}` : ''),
     severity: severity || def.severity,
     type,
     issue: def.label,
@@ -232,6 +237,7 @@ function lineException_(type, l, detail, qtyDiff, receiptIds, severity) {
 function receiptException_(type, r, detail, qty, suggestedLine) {
   const def = ISSUES[type];
   return {
+    key: `${type}|R${r.receipt_id}`,
     severity: def.severity,
     type,
     issue: def.label,
@@ -312,16 +318,41 @@ function runReconciliation_() {
     duplicate: ['#fce8e6', '#a50e0e'], unmatched: ['#fce8e6', '#a50e0e'],
   });
 
-  const excHeaders = ['severity', 'issue', 'po_id', 'po_line_id', 'vendor', 'sku', 'product',
-    'qty_diff', 'value_impact', 'detail', 'receipt_ids', 'action'];
-  const exc = writeTable_('Exceptions', excHeaders, result.exceptions.map(o => excHeaders.map(h => o[h])), {
-    textColumns: ['po_id', 'sku', 'receipt_ids'],
-    formats: { value_impact: '#,##0.00' },
-  });
-  colorSeverity_(exc, 1, result.exceptions.length);
+  writeExceptions_(result);
 
   saveStats_('recon', result.stats);
   const s = result.stats;
-  return `Reconciled ${s.poLines} PO lines and ${s.receipts} receipts: ` +
-    `${s.bySeverity.High} high, ${s.bySeverity.Medium} medium, ${s.bySeverity.Low} low exceptions.`;
+  const t = s.tracking;
+  return `Reconciled ${s.poLines} PO lines and ${s.receipts} receipts: ${t.open} open exceptions ` +
+    `(${t.openBySeverity.High} high), ${t.newThisRun} new, ${t.clearedSinceLastRun} cleared since last run.`;
+}
+
+/** Writes the Exceptions work queue, keeping status / owner / comment from the previous run. */
+function writeExceptions_(result) {
+  const ss = SpreadsheetApp.getActive();
+  const today = Utilities.formatDate(new Date(), ss.getSpreadsheetTimeZone(), 'yyyy-MM-dd');
+  const tracked = mergeTracking_(result.exceptions, readTracking_(), today);
+  result.stats.tracking = tracked.stats;
+
+  const headers = ['severity', 'status', 'owner', 'issue', 'po_id', 'po_line_id', 'vendor', 'sku', 'product',
+    'qty_diff', 'value_impact', 'detail', 'receipt_ids', 'action', 'comment', 'first_seen', 'key'];
+  const n = tracked.rows.length;
+  const sheet = writeTable_('Exceptions', headers, tracked.rows.map(o => headers.map(h => o[h])), {
+    textColumns: ['po_id', 'sku', 'receipt_ids', 'owner', 'comment', 'key'],
+    formats: { value_impact: '#,##0.00', first_seen: 'yyyy-mm-dd' },
+  });
+  const col = h => headers.indexOf(h) + 1;
+  colorSeverity_(sheet, col('severity'), n);
+  colorText_(sheet, col('status'), n, {
+    'In progress': ['#e8f0fe', '#174ea6'], Resolved: ['#e6f4ea', '#137333'], "Won't fix": ['#f1f3f4', '#5f6368'],
+  });
+  if (n) {
+    sheet.getRange(2, col('status'), n, 1).setDataValidation(
+      SpreadsheetApp.newDataValidation().requireValueInList(TRACK_STATUSES, true).setAllowInvalid(false).build());
+  }
+  // Yellow headers = the columns people type into; everything else is rewritten each run.
+  ['status', 'owner', 'comment'].forEach(h => sheet.getRange(1, col(h)).setBackground('#fff2cc'));
+  sheet.setColumnWidth(col('owner'), 110);
+  sheet.setColumnWidth(col('comment'), 260);
+  sheet.hideColumns(col('key'));
 }
