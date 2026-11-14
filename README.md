@@ -72,8 +72,8 @@ Google Sheet + Apps Script       import → reconcile → inventory risk → sum
 - **One shared queue instead of copies.** Notes are keyed to each exception, so a rerun never wipes them,
   and sub-teams filter by owner instead of keeping separate sheets that drift apart.
 - **One run at a time:** every run takes a document lock, so two people pressing the button can't overwrite each other.
-- **Drafts, not sends, and least privilege.** The report uses the Gmail API's `gmail.compose` scope (create drafts only),
-  Drive is read-only, and the spreadsheet scope is limited to this one file.
+- **Drafts, not sends, and least privilege.** The script only creates Gmail drafts, using the `gmail.compose` scope
+  (it can't read the mailbox), Drive is read-only, and the spreadsheet scope is limited to this one file.
 - **Logic is testable outside Google:** matching, checks, tracking and the email body are pure functions that run under Deno.
 
 ## In production, I would change

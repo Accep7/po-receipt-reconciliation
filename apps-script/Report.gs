@@ -2,8 +2,8 @@
  * Report.gs — the email report, created as a Gmail draft.
  *
  * Drafts, not sends: a person reads the numbers before they go to a vendor or a manager.
- * Uses the Gmail advanced service with the narrow gmail.compose scope (create drafts only),
- * instead of GmailApp, which would need full access to the mailbox.
+ * Uses the Gmail advanced service with the gmail.compose scope (drafts and sending, no reading;
+ * this script only creates drafts) instead of GmailApp, which would need full access to the mailbox.
  */
 
 const EXCEPTION_CSV_HEADERS = ['severity', 'status', 'owner', 'issue', 'po_id', 'po_line_id', 'vendor', 'sku',
