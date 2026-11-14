@@ -62,7 +62,7 @@ function buildSummaryRows_(recon, inventory) {
     Object.keys(inventory.byFlag)
       .sort((a, b) => inventory.byFlag[b] - inventory.byFlag[a])
       .forEach(flag => row(`  ${flag}`, inventory.byFlag[flag]));
-    row('Value of slow / discontinued stock', inventory.slowStockValue, 'at standard cost');
+    row('Value of slow / discontinued stock', money_(inventory.slowStockValue), 'at standard cost');
   }
   return rows;
 }
@@ -85,9 +85,12 @@ function writeSummary_() {
   sheet.getRange(2, 1).setFontColor('#5f6368');
   if (!rows.length) return;
 
+  // Values are written as plain text: the layout changes between versions, and a number landing
+  // in a cell that once held a date would otherwise show up as a date (1464 -> 1904-01-01).
   const start = 4;
-  sheet.getRange(start, 1, rows.length, 3)
-    .setValues(rows.map(r => [r[0], r[1] === null ? '' : r[1], r[2]]));
+  const range = sheet.getRange(start, 1, rows.length, 3);
+  range.setNumberFormat('@');
+  range.setValues(rows.map(r => [r[0], r[1] === null ? '' : String(r[1]), r[2]]));
   sheet.getRange(start, 2, rows.length, 1).setHorizontalAlignment('right');
   rows.forEach((r, i) => {
     if (r[1] === null) {

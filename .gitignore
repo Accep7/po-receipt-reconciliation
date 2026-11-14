@@ -10,3 +10,6 @@ desktop.ini
 
 # Built by bundle.ps1
 dist/
+
+# Private notes
+docs/resume-lines.md

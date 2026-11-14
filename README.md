@@ -7,6 +7,25 @@ keeps a shared work queue of the issues, and drafts a daily email report.
 > Personal portfolio project, built with AI assistance (Claude). The data is Microsoft's
 > AdventureWorks sample database; the warehouse receiving log is **simulated** (see below).
 
+## Screenshots
+
+**Summary**: one page with the work queue, matching results and exceptions by type.
+
+![Summary tab](docs/images/summary.png)
+
+**Exceptions**: the shared work queue. Severity, value and suggested action are filled in by the script;
+status, owner and comment (yellow headers) are filled in by people and kept on every rerun.
+
+![Exceptions tab](docs/images/exceptions.png)
+
+**Inventory Risk**: stockout and slow-stock flags per product, with planning parameters and stock by location.
+
+![Inventory Risk tab](docs/images/inventory-risk.png)
+
+**Email report**: created as a Gmail draft for a person to review and send (sample data shown).
+
+![Report email draft](docs/images/email-report.png)
+
 ## What it does
 
 | Check | Example |
@@ -56,6 +75,15 @@ Google Sheet + Apps Script       import → reconcile → inventory risk → sum
 - **Drafts, not sends, and least privilege.** The report uses the Gmail API's `gmail.compose` scope (create drafts only),
   Drive is read-only, and the spreadsheet scope is limited to this one file.
 - **Logic is testable outside Google:** matching, checks, tracking and the email body are pure functions that run under Deno.
+
+## In production, I would change
+
+- **Source:** read the ERP / WMS directly (or a scheduled database export) instead of a fixed 2014 snapshot,
+  and run `export.ps1` from Windows Task Scheduler just before the Sheet's daily run.
+- **Scale:** Apps Script runs are capped at 6 minutes. At tens of thousands of lines I'd move the matching
+  into SQL or BigQuery and keep the Sheet as the work queue and report.
+- **Receipts:** take the receiving log from handheld scans so typos become rare, and keep the fuzzy matching as a safety net.
+- **Access:** protect the generated columns so only status, owner and comment are editable.
 
 ## Simulated data
 
